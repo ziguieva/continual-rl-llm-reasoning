@@ -1,251 +1,173 @@
-# Continual & Data-Efficient Reinforcement Learning for LLM Reasoning
+# Continual & Data-Efficient RL for LLM Reasoning
 
-A local research project investigating **continual learning**, **reinforcement learning**, and **experience replay** for sequential reasoning adaptation in small language models.
+Research project on **continual learning for language model reasoning**, with a focus on catastrophic forgetting and experience replay.
 
-The project studies whether a language model can learn new mathematical and programming tasks while preserving previously acquired reasoning capabilities.
+The project investigates whether a small language model can sequentially learn mathematical and programming tasks while preserving previously acquired capabilities.
 
-The experiments are conducted with **Qwen2.5-0.5B-Instruct**, LoRA adapters, supervised fine-tuning, and GRPO-style optimization with verifiable rewards.
+## Overview
 
----
+The experiments use:
 
-## Research Question
+- **Qwen2.5-0.5B-Instruct**
+- LoRA parameter-efficient fine-tuning
+- Supervised Fine-Tuning (SFT)
+- GRPO-style reinforcement learning
+- Verifiable correctness rewards
+- Experience replay
+- Retrospective continual-learning evaluation
 
-The main question investigated in this project is:
-
-> **Can experience replay reduce catastrophic forgetting when a small language model is sequentially trained on mathematical reasoning and programming tasks?**
-
-A secondary question investigates whether an adaptive replay mechanism can provide a better trade-off between learning new tasks and retaining previous capabilities.
-
----
+All experiments were conducted locally on Apple Silicon with PyTorch MPS.
 
 ## Continual Learning Sequence
 
-The model is trained sequentially across four reasoning domains:
-
 | Stage | Domain | Dataset |
 |---|---|---|
-| Stage 0 | Applied mathematics | GSM8K |
-| Stage 1 | Advanced algebra | MATH |
-| Stage 2 | Competition mathematics | MATH |
-| Stage 3 | Python programming | MBPP |
+| 0 | Applied Mathematics | GSM8K |
+| 1 | Advanced Algebra | MATH |
+| 2 | Competition Mathematics | MATH |
+| 3 | Python Programming | MBPP |
 
-Stage 0 is shared by all continual-learning strategies.
+Three continual-learning strategies are compared:
 
-The following three strategies are then compared:
+- **No Replay**
+- **Fixed Replay**
+- **Adaptive Replay**
 
-- **No Replay** — training only on the current task.
-- **Fixed Replay** — 20% of the training groups are sampled from previous tasks.
-- **Adaptive Replay** — replay allocation is determined using estimates of previous-task performance.
+Fixed Replay uses a 20% replay ratio.
 
----
+## Validation Benchmark
 
-## Model
+The retrospective validation benchmark contains **440 problems**:
 
-Base model:
-
-```text
-Qwen/Qwen2.5-0.5B-Instruct
-
-Training uses parameter-efficient fine-tuning with LoRA.
-The complete workflow was executed locally on Apple Silicon using PyTorch MPS.
-Training Method
-The project combines:
-- Supervised Fine-Tuning (SFT)
-- Group Relative Policy Optimization (GRPO)
-- Verifiable rewards
-- Experience replay
-- Continual-learning evaluation
-- Retrospective forgetting analysis
-For the final continual-learning experiments, the reinforcement-learning reward is correctness-only:
-reward = 1 if the answer is correct
-reward = 0 otherwise
-
-Mathematical answers are evaluated using deterministic answer verification.
-Programming solutions are evaluated using executable MBPP unit tests inside an isolated Docker sandbox.
-Experimental Budget
-Each continual-learning stage uses:
-40 training groups
-×
-4 generated responses per group
-=
-160 generations per stage
-
-For replay strategies:
-32 current-task groups
-+
-8 replay groups
-=
-40 total groups
-
-This corresponds to a replay ratio of:
-20%
-
-Validation Benchmark
-The retrospective validation benchmark contains 440 problems:
-Domain	Validation examples
-GSM8K	150
-Advanced Algebra	100
-Competition Mathematics	100
-MBPP	90
-Total	440
-
+| Domain | Examples |
+|---|---:|
+| GSM8K | 150 |
+| Advanced Algebra | 100 |
+| Competition Mathematics | 100 |
+| MBPP | 90 |
+| **Total** | **440** |
 
 Validation examples are not used for training.
-A separate 714-example independent test set remains closed and is not used in the reported model-selection experiments.
-Final Results
-Final retrospective validation results for seed 42:
-Strategy	GSM8K	Algebra	Competition	MBPP	Average	Forgetting	BWT
-No Replay	47.33%	15.00%	8.00%	24.44%	23.69%	2.33	-1.89
-Fixed Replay	48.00%	17.00%	17.00%	22.22%	26.06%	0.00	+2.00
-Adaptive Replay	46.67%	17.00%	12.00%	24.44%	25.03%	1.00	-0.44
 
+The independent test benchmark remains untouched during model selection.
 
-Main Result
-The strongest configuration observed in the seed-42 experiment is:
-Fixed Replay
+## Main Results
 
-with a final average validation accuracy of:
-26.06%
+Final retrospective validation results for **seed 42**:
 
-compared with:
-23.69% — No Replay
-25.03% — Adaptive Replay
+| Strategy | GSM8K | Algebra | Competition | MBPP | Average | Forgetting | BWT |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| No Replay | 47.33% | 15.00% | 8.00% | 24.44% | 23.69% | 2.33 | -1.89 |
+| **Fixed Replay** | **48.00%** | **17.00%** | **17.00% | 22.22% | **26.06%** | **0.00** | **+2.00** |
+| Adaptive Replay | 46.67% | **17.00%** | 12.00% | **24.44%** | 25.03% | 1.00 | -0.44 |
 
-Fixed Replay also reduces average measured forgetting from:
-2.33 percentage points
+### Key Finding
 
-to:
-0.00 percentage points
+**Fixed Replay provides the strongest overall result in the seed-42 experiment.**
 
-and produces positive backward transfer:
-+2.00 percentage points
+It achieves:
 
-The results therefore support experience replay as an effective mechanism for reducing forgetting in this continual reasoning setting.
-The current Adaptive Replay controller does not yet demonstrate a clear advantage over Fixed Replay.
-Figures
-Final Average Accuracy
+- **26.06%** final average accuracy
+- **0.00** average measured forgetting
+- **+2.00** percentage points of backward transfer
 
-Fixed Replay obtains the highest overall final accuracy.
-Final Accuracy by Domain
+Compared with No Replay, Fixed Replay improves final average accuracy by **2.37 percentage points** while providing substantially better retention of previous reasoning tasks.
 
-Fixed Replay performs particularly well on previously learned mathematical domains, while No Replay and Adaptive Replay obtain slightly stronger MBPP performance.
-Average Forgetting
+The current Adaptive Replay strategy also improves over No Replay, but does not outperform Fixed Replay.
 
-Fixed Replay reduces measured average forgetting to zero in the seed-42 experiment.
-Backward Transfer
+## Training Budget
 
-Fixed Replay is the only evaluated strategy with positive average backward transfer.
-Project Structure
+Each continual-learning stage uses:
+
+```text
+40 training groups
+× 4 generations
+= 160 generations
+```
+
+Replay strategies use:
+
+```text
+32 current-task groups
++ 8 replay groups
+= 40 groups
+```
+
+The final reinforcement-learning reward is correctness-only:
+
+```text
+reward = 1 if correct
+reward = 0 otherwise
+```
+
+Mathematical answers are evaluated using deterministic verification.
+
+MBPP solutions are evaluated with executable unit tests inside an isolated Docker environment.
+
+## Repository Structure
+
+```text
 continual-rl-llm-reasoning/
-│
 ├── data/
-│   └── benchmark_v2_v1/
-│
 ├── experiments/
-│   ├── benchmark construction
-│   ├── baseline evaluation
-│   ├── supervised fine-tuning
-│   ├── GRPO experiments
-│   ├── continual-learning experiments
-│   └── final analysis
-│
-├── src/
-│
 ├── results/
-│   └── continual_rl_v2/
-│       └── seed_42/
-│           └── final_analysis/
-│
+├── src/
 ├── paper/
-│   └── continual_rl_reasoning_report.pdf
-│
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
-Model checkpoints and local virtual environments are intentionally excluded from the repository.
-Final Research Report
-The complete report describing the methodology, continual-learning setup, results, limitations, and conclusions is available here:
-[**Read the full research report (PDF)**](paper/continual_rl_reasoning_report.pdf)
-Installation
+Model checkpoints, virtual environments and private benchmark grading keys are excluded from the repository.
+
+## Installation
+
 Clone the repository:
+
+```bash
 git clone https://github.com/ziguieva/continual-rl-llm-reasoning.git
 cd continual-rl-llm-reasoning
+```
 
-Create a Python virtual environment:
+Create a virtual environment:
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
 Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
-Final Analysis
-The final continual-learning analysis can be reproduced from previously generated evaluation results with:
+## Final Analysis
+
+The final analysis can be regenerated from the saved evaluation results with:
+
+```bash
 python experiments/55_analyze_continual.py
+```
 
-This script generates:
-final_results.csv
-continual_accuracy_matrix.csv
-final_metrics.json
-accuracy_matrices.json
-01_final_average_accuracy.png
-02_final_domain_accuracy.png
-03_average_forgetting.png
-04_backward_transfer.png
-trajectory_no_replay.png
-trajectory_fixed_replay.png
-trajectory_adaptive_replay.png
+This step does not require model training.
 
-No model training is required for this analysis step.
-Metrics
-Forgetting
-For domain \(d\):
-F_d = max historical accuracy on d - final accuracy on d
+## Limitations
 
-Lower values indicate better retention.
-Backward Transfer
-For domain \(d\):
-BWT_d = final accuracy - accuracy immediately after learning domain d
+- Final continual-learning results currently use one random seed: **42**.
+- The base model is relatively small: **Qwen2.5-0.5B-Instruct**.
+- The first Adaptive Replay controller produced replay allocations very close to Fixed Replay.
+- Replay methods use the same total training-group budget as No Replay but fewer current-task examples.
+- The independent test set is intentionally kept closed during model selection.
 
-Positive values indicate that subsequent training improved performance on an earlier task.
-Limitations
-The current results should be interpreted with several limitations:
-1. The final continual-learning comparison currently reports one random seed (seed 42).
-2. Qwen2.5-0.5B has limited absolute performance on advanced mathematical reasoning.
-3. The first adaptive replay controller used small training-only probes.
-4. The adaptive controller produced replay allocations that were effectively identical to Fixed Replay in the seed-42 experiment.
-5. Replay methods use the same total training-group budget as No Replay but fewer current-task examples.
-6. The independent 714-example test set remains intentionally closed.
-Therefore, the results demonstrate an experimental trend rather than statistical superiority across random seeds.
-Future Work
-Potential extensions include:
-- Multi-seed evaluation
-- Improved adaptive replay allocation
-- Larger language models
-- More robust forgetting estimators
-- Uncertainty-aware replay
-- Better plasticity-retention control
-- Evaluation on BBH
-- Evaluation on HumanEval+
-- Final evaluation on the untouched independent test benchmark
-A possible adaptive replay priority function is:
-priority =
-    α × forgetting
-  + β × current weakness
-  + γ × uncertainty
+## Conclusion
 
-This could allow replay to focus more effectively on capabilities that are both weak and at risk of being forgotten.
-Conclusion
-This project studies continual reasoning adaptation under a constrained computational budget.
-The main experimental finding is:
-Experience replay mitigates forgetting during sequential reasoning adaptation in the studied setting.
+The experiments support the use of **experience replay to mitigate forgetting during sequential reasoning adaptation**.
 
-For seed 42, Fixed Replay provides the strongest observed balance between new-task learning and retention:
-Final Average Accuracy : 26.06%
-Average Forgetting     : 0.00 pts
-Backward Transfer      : +2.00 pts
+For seed 42, Fixed Replay provides the best observed balance between learning new tasks and retaining previous capabilities.
 
-Adaptive Replay also improves over No Replay, but its advantage over a simple fixed replay policy remains to be demonstrated.
-Author
-Evan Jean-Christ Zigui
+## Author
+
+**Evan Jean-Christ Zigui**
+
 Engineering research project — 2026
