@@ -61,6 +61,23 @@ Final retrospective validation results for **seed 42**:
 | **Fixed Replay** | **48.00%** | **17.00%** | **17.00% | 22.22% | **26.06%** | **0.00** | **+2.00** |
 | Adaptive Replay | 46.67% | **17.00%** | 12.00% | **24.44%** | 25.03% | 1.00 | -0.44 |
 
+## Model Weights
+
+The final LoRA adapters are available on Hugging Face:
+
+**Hugging Face:**  
+https://huggingface.co/evanghost225/continual-rl-qwen2.5-0.5b
+
+Available adapters:
+
+- `sft_stage0` — common supervised fine-tuning initialization
+- `no_replay` — continual training without replay
+- `fixed_replay` — continual training with 20% fixed replay
+- `adaptive_replay` — continual training with adaptive replay allocation
+
+The repository contains LoRA adapters only.  
+The base model is `Qwen/Qwen2.5-0.5B-Instruct`.
+
 ### Key Finding
 
 **Fixed Replay provides the strongest overall result in the seed-42 experiment.**
