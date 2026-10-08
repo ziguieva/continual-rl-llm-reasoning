@@ -62,3 +62,5 @@ data/benchmark_v2_v1/grading/
 !paper/
 !paper/continual_rl_reasoning_report.pdf
 EOF
+# Local adapters already published on Hugging Face
+release_adapters/
