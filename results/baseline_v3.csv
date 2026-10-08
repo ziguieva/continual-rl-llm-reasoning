@@ -1,0 +1,104 @@
+domain,question,expected,predicted,correct,extraction_method,format_error,token_count,truncated,full_response
+maths,28 + 17,45,45,True,explicit,False,7,False,REPONSE: 45
+maths,9 * 8,72,72,True,explicit,False,7,False,REPONSE: 72
+maths,144 / 12,12,12,True,explicit,False,7,False,REPONSE: 12
+maths,(35 - 11) * 2,48,40,False,explicit,False,7,False,REPONSE: 40
+algebre,3x + 5 = 20. Trouve x.,5,5,True,explicit,False,169,False,"D'accord, je vais résoudre ce problème étape par étape :
+
+1) Commencez par simplifier le problème :
+   3x + 5 = 20
+
+2) Réduisez les termes qui ne contiennent pas x :
+   3x = 20 - 5
+   3x = 15
+
+3) Divisez tous les termes par 3 pour résoudre l'équation :
+   x = 15 ÷ 3
+   x = 5
+
+4) Vérifiez votre solution :
+   Si vous remplissez 5 dans la première équation (3x + 5 = 20), cela devrait donner 20, donc votre solution est correcte.
+
+RESPONSE: 5"
+algebre,2x - 7 = 11. Trouve x.,9,9,True,explicit,False,189,False,"D'accord, je vais résoudre ce problème étape par étape :
+
+1) Commencez par simplifier le problème :
+   2x - 7 = 11
+
+2) Adder 7 à chaque côté pour isoler la variable :
+   2x - 7 + 7 = 11 + 7
+   2x = 18
+
+3) Diviser chaque côté par 2 pour résoudre l'equation :
+   2x ÷ 2 = 18 ÷ 2
+   x = 9
+
+4) Parcourir les solutions trouvées, il y a deux possibles : x = 9 ou x = -5 (mais nous ne pouvons pas avoir un nombre négatif dans cette équation)
+
+5) Résumer :
+   La solution est x = 9
+
+RESPONSE: 9"
+algebre,5(x + 2) = 35. Trouve x.,5,,False,not_found,True,143,False,"D'accord, let's solve this step by step:
+
+1. Start with the given equation:
+   \[ 5(x + 2) = 35 \]
+
+2. Distribute the 5 on the left side:
+   \[ 5x + 10 = 35 \]
+
+3. Subtract 10 from both sides to isolate the term with \( x \):
+   \[ 5x = 25 \]
+
+4. Divide both sides by 5 to solve for \( x \):
+   \[ x = 5 \]
+
+So, the solution is \( x = 5 \).
+
+Therefore, the answer is <entier> 5."
+algebre,x/4 + 6 = 10. Trouve x.,16,,False,not_found,True,256,True,"D'accord, je vais résoudre ce problème étape par étape :
+
+1) Ici, nous avons une équation : 
+   x/4 + 6 = 10
+
+2) Pour résoudre cette équation, nous devons faire la même chose que dans les problèmes d'égalité :
+   - On doit isoler le terme x sur l'autre côté de l'équation.
+   - Nous pouvons faire cela en multipliant tous les termes à droite de l'équation par 4.
+
+3) Commencez par multiplier tout le nombre 4 par 6 :
+   4 * 6 = 24
+
+4) Ainsi, notre équation se transforme en :
+   x/4 + 24 = 10
+
+5) Pour isoler le terme x, vous devez faire la même chose que précédemment :
+   - On fait la somme des deux côtés de l'équation.
+   - Cela donne : x/4 = 10 - 24
+
+6) Simplifiez la droite de l'équation :
+   10 - 24 = -14
+
+7) Donc,"
+code,Quel est le résultat Python : print(2**4 + 1),17,17,True,fallback,False,99,False,"Le résultat de la commande `print(2**4 + 1)` dans Python est 17.
+
+Raisonnement :
+- La notation exponentielle `2**4` signifie que nous allons calculer 2 à la puissance de 4.
+- Cela donne 16 (2^4).
+- Ensuite, nous ajoutons 1 à ce résultat, ce qui donne 17.
+
+Donc, le résultat final est 17."
+code,Quel est le résultat Python : print(10 // 3),3,,False,not_found,True,30,False,Le résultat de la division entière de 10 par 3 est 3. C'est donc la réponse à l'exercice.
+code,"Quel est le résultat Python : print(sum([2, 5, 8]))",15,15,True,explicit,False,132,False,"Raisonnement :
+1. Le programme `print(sum([2, 5, 8]))` utilise la fonction `sum()` pour calculer l'addition des nombres 2, 5 et 8.
+2. La fonction `sum()` prend deux arguments (les nombres à addir) et retourne leur somme.
+3. Dans ce cas, nous avons trois nombres : 2, 5 et 8.
+4. Lorsque nous appelons `sum()`, elle effectue les opérations de addition sur ces nombres.
+5. Cela donne 15 comme résultat.
+
+RESPONSE: 15"
+code,"Quel est le résultat Python : print(len([4, 7, 9]))",3,3,True,explicit,False,85,False,"Raisonnement :
+1) Le programme `print(len([4, 7, 9]))` utilise la fonction `len()` qui retourne le nombre d'éléments dans un ensemble.
+2) Dans l'ensemble `[4, 7, 9]`, il y a 3 éléments.
+3) Par conséquent, `len()` retournera 3.
+
+RESPONSE: 3"

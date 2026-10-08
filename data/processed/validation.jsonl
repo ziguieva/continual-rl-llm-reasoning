@@ -1,0 +1,90 @@
+{"id": "maths_validation_0005", "domain": "maths", "question": "Calcule : 42 * 19", "answer": 798}
+{"id": "algebre_validation_0030", "domain": "algebre", "question": "Résous l'équation : 14x + 15 = 421", "answer": 29}
+{"id": "maths_validation_0026", "domain": "maths", "question": "Calcule : (77 - 16) * 5", "answer": 305}
+{"id": "maths_validation_0023", "domain": "maths", "question": "Calcule : 17 + 33", "answer": 50}
+{"id": "algebre_validation_0003", "domain": "algebre", "question": "Résous l'équation : 8x - 4 = 140", "answer": 18}
+{"id": "code_validation_0009", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(8**3 + 3)", "answer": 515}
+{"id": "maths_validation_0015", "domain": "maths", "question": "Calcule : 390 / 13", "answer": 30}
+{"id": "maths_validation_0024", "domain": "maths", "question": "Calcule : 200 + 151", "answer": 351}
+{"id": "algebre_validation_0023", "domain": "algebre", "question": "Résous l'équation : 11x + 18 = 216", "answer": 18}
+{"id": "algebre_validation_0004", "domain": "algebre", "question": "Résous l'équation : 8x - 18 = 166", "answer": 23}
+{"id": "maths_validation_0017", "domain": "maths", "question": "Calcule : 19 * 6", "answer": 114}
+{"id": "maths_validation_0025", "domain": "maths", "question": "Calcule : 228 + 69", "answer": 297}
+{"id": "code_validation_0010", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(7**3 + 4)", "answer": 347}
+{"id": "maths_validation_0016", "domain": "maths", "question": "Calcule : 56 - 3", "answer": 53}
+{"id": "algebre_validation_0008", "domain": "algebre", "question": "Résous l'équation : x/6 + 19 = 36", "answer": 102}
+{"id": "code_validation_0016", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(161 // 20)", "answer": 8}
+{"id": "maths_validation_0027", "domain": "maths", "question": "Calcule : 186 / 6", "answer": 31}
+{"id": "maths_validation_0014", "domain": "maths", "question": "Calcule : (45 - 10) * 7", "answer": 245}
+{"id": "code_validation_0013", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(8**3 + 18)", "answer": 530}
+{"id": "code_validation_0025", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(6**3 + 8)", "answer": 224}
+{"id": "algebre_validation_0027", "domain": "algebre", "question": "Résous l'équation : 3x - 17 = 46", "answer": 21}
+{"id": "algebre_validation_0013", "domain": "algebre", "question": "Résous l'équation : 8x + 4 = 196", "answer": 24}
+{"id": "maths_validation_0006", "domain": "maths", "question": "Calcule : 239 - 114", "answer": 125}
+{"id": "algebre_validation_0009", "domain": "algebre", "question": "Résous l'équation : 11x + 2 = 332", "answer": 30}
+{"id": "code_validation_0019", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(56 % 19 + 5)", "answer": 23}
+{"id": "algebre_validation_0010", "domain": "algebre", "question": "Résous l'équation : x/15 + 12 = 20", "answer": 120}
+{"id": "algebre_validation_0001", "domain": "algebre", "question": "Résous l'équation : x/11 + 13 = 27", "answer": 154}
+{"id": "code_validation_0026", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([42, 12, 52, 86, 13, 24, 18, 62, 42, 32]))", "answer": 10}
+{"id": "code_validation_0011", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([68, 81, 93, 80]))", "answer": 4}
+{"id": "code_validation_0001", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([36, 80, 88, 79, 16, 17, 13, 51, 48, 44]))", "answer": 10}
+{"id": "algebre_validation_0017", "domain": "algebre", "question": "Résous l'équation : x/9 + 3 = 5", "answer": 18}
+{"id": "code_validation_0002", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(135 % 4 + 9)", "answer": 12}
+{"id": "algebre_validation_0015", "domain": "algebre", "question": "Résous l'équation : x/8 + 4 = 19", "answer": 120}
+{"id": "maths_validation_0020", "domain": "maths", "question": "Calcule : 92 - 53", "answer": 39}
+{"id": "code_validation_0005", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([17, 9]))", "answer": 2}
+{"id": "maths_validation_0013", "domain": "maths", "question": "Calcule : 22 * 19", "answer": 418}
+{"id": "code_validation_0004", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(140 % 14 + 9)", "answer": 9}
+{"id": "code_validation_0012", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([59, 10, 89]))", "answer": 158}
+{"id": "algebre_validation_0020", "domain": "algebre", "question": "Résous l'équation : x/15 + 16 = 24", "answer": 120}
+{"id": "maths_validation_0029", "domain": "maths", "question": "Calcule : 95 - 90", "answer": 5}
+{"id": "maths_validation_0011", "domain": "maths", "question": "Calcule : (74 - 28) * 10", "answer": 460}
+{"id": "maths_validation_0008", "domain": "maths", "question": "Calcule : 68 + 220", "answer": 288}
+{"id": "maths_validation_0002", "domain": "maths", "question": "Calcule : (74 - 72) * 2", "answer": 4}
+{"id": "maths_validation_0030", "domain": "maths", "question": "Calcule : (62 - 6) * 5", "answer": 280}
+{"id": "algebre_validation_0011", "domain": "algebre", "question": "Résous l'équation : 11x - 5 = 270", "answer": 25}
+{"id": "maths_validation_0007", "domain": "maths", "question": "Calcule : 44 * 17", "answer": 748}
+{"id": "maths_validation_0003", "domain": "maths", "question": "Calcule : (79 - 7) * 10", "answer": 720}
+{"id": "maths_validation_0004", "domain": "maths", "question": "Calcule : 82 - 61", "answer": 21}
+{"id": "code_validation_0023", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(8**3 + 6)", "answer": 518}
+{"id": "algebre_validation_0014", "domain": "algebre", "question": "Résous l'équation : 12x + 2 = 122", "answer": 10}
+{"id": "code_validation_0022", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(81 // 19)", "answer": 4}
+{"id": "code_validation_0007", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([20, 26, 43]))", "answer": 89}
+{"id": "code_validation_0028", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([38, 73, 87]))", "answer": 198}
+{"id": "algebre_validation_0026", "domain": "algebre", "question": "Résous l'équation : 4x + 9 = 37", "answer": 7}
+{"id": "code_validation_0008", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(5**2 + 15)", "answer": 40}
+{"id": "algebre_validation_0007", "domain": "algebre", "question": "Résous l'équation : x/8 + 2 = 19", "answer": 136}
+{"id": "code_validation_0017", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(177 // 13)", "answer": 13}
+{"id": "maths_validation_0022", "domain": "maths", "question": "Calcule : (72 - 20) * 5", "answer": 260}
+{"id": "code_validation_0029", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(116 % 16 + 10)", "answer": 14}
+{"id": "code_validation_0024", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(3**2 + 18)", "answer": 27}
+{"id": "maths_validation_0021", "domain": "maths", "question": "Calcule : 101 + 226", "answer": 327}
+{"id": "maths_validation_0018", "domain": "maths", "question": "Calcule : (57 - 54) * 7", "answer": 21}
+{"id": "algebre_validation_0002", "domain": "algebre", "question": "Résous l'équation : 9x + 3 = 102", "answer": 11}
+{"id": "code_validation_0018", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(84 % 9 + 10)", "answer": 13}
+{"id": "algebre_validation_0025", "domain": "algebre", "question": "Résous l'équation : 11x - 13 = 75", "answer": 8}
+{"id": "maths_validation_0028", "domain": "maths", "question": "Calcule : 141 + 70", "answer": 211}
+{"id": "algebre_validation_0021", "domain": "algebre", "question": "Résous l'équation : 14x + 9 = 275", "answer": 19}
+{"id": "maths_validation_0009", "domain": "maths", "question": "Calcule : 119 - 37", "answer": 82}
+{"id": "algebre_validation_0016", "domain": "algebre", "question": "Résous l'équation : 7x + 14 = 42", "answer": 4}
+{"id": "code_validation_0015", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(32 % 4 + 5)", "answer": 5}
+{"id": "code_validation_0020", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([89, 57, 45, 58]))", "answer": 4}
+{"id": "maths_validation_0001", "domain": "maths", "question": "Calcule : 22 + 159", "answer": 181}
+{"id": "algebre_validation_0012", "domain": "algebre", "question": "Résous l'équation : 13(x + 13) = 286", "answer": 9}
+{"id": "code_validation_0030", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(14 % 18 + 10)", "answer": 24}
+{"id": "algebre_validation_0029", "domain": "algebre", "question": "Résous l'équation : x/6 + 2 = 12", "answer": 60}
+{"id": "algebre_validation_0018", "domain": "algebre", "question": "Résous l'équation : 10(x + 17) = 470", "answer": 30}
+{"id": "algebre_validation_0006", "domain": "algebre", "question": "Résous l'équation : x/3 + 16 = 30", "answer": 42}
+{"id": "code_validation_0006", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(7**2 + 15)", "answer": 64}
+{"id": "algebre_validation_0022", "domain": "algebre", "question": "Résous l'équation : 14x + 7 = 301", "answer": 21}
+{"id": "maths_validation_0012", "domain": "maths", "question": "Calcule : 203 + 22", "answer": 225}
+{"id": "maths_validation_0010", "domain": "maths", "question": "Calcule : 160 - 149", "answer": 11}
+{"id": "algebre_validation_0028", "domain": "algebre", "question": "Résous l'équation : 9(x + 17) = 333", "answer": 20}
+{"id": "algebre_validation_0019", "domain": "algebre", "question": "Résous l'équation : x/4 + 8 = 22", "answer": 56}
+{"id": "algebre_validation_0024", "domain": "algebre", "question": "Résous l'équation : 6(x + 11) = 90", "answer": 4}
+{"id": "code_validation_0027", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([27, 44, 78, 19, 41, 92, 41, 94, 45]))", "answer": 9}
+{"id": "algebre_validation_0005", "domain": "algebre", "question": "Résous l'équation : 4x + 1 = 49", "answer": 12}
+{"id": "code_validation_0021", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(41 // 8)", "answer": 5}
+{"id": "code_validation_0014", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(6**4 + 7)", "answer": 1303}
+{"id": "maths_validation_0019", "domain": "maths", "question": "Calcule : (30 - 3) * 9", "answer": 243}
+{"id": "code_validation_0003", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(7**4 + 14)", "answer": 2415}

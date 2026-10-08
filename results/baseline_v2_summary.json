@@ -1,0 +1,30 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "device": "mps",
+    "max_new_tokens": 160,
+    "domains": {
+        "maths": {
+            "correct": 2,
+            "total": 4,
+            "accuracy": 50.0,
+            "format_errors": 2
+        },
+        "algebre": {
+            "correct": 2,
+            "total": 4,
+            "accuracy": 50.0,
+            "format_errors": 2
+        },
+        "code": {
+            "correct": 1,
+            "total": 4,
+            "accuracy": 25.0,
+            "format_errors": 3
+        }
+    },
+    "global": {
+        "correct": 5,
+        "total": 12,
+        "accuracy": 41.666666666666664
+    }
+}

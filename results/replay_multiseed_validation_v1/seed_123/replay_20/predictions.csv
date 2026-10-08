@@ -1,0 +1,374 @@
+id,seed,ratio,domain,subtype,question,expected,prediction,status,strict_correct,format_ok,end_to_end,conclusion_correct,tokens,truncated,response
+maths_validation_0005,123,20,maths,multiplication,Calcule : 42 * 19,798,798,correct,True,True,True,True,28,False,"On calcule de la droite.
+42 * 19 = 798.
+REPONSE: 798"
+algebre_validation_0030,123,20,algebre,equation_addition,Résous l'équation : 14x + 15 = 421,29,31,incorrect,False,True,False,False,51,False,"On soustrait 15 des deux côtés.
+14x = 421 - 15 = 406
+On divise par 14.
+x = 31
+REPONSE: 31"
+maths_validation_0026,123,20,maths,operations_combinees,Calcule : (77 - 16) * 5,305,305,correct,True,True,True,True,41,False,"On calcule de droite à gauche.
+(77 - 16) = 61
+61 * 5 = 305
+REPONSE: 305"
+maths_validation_0023,123,20,maths,addition,Calcule : 17 + 33,50,50,correct,True,True,True,True,27,False,"On calcule de droite à gauche.
+17 + 33 = 50
+REPONSE: 50"
+algebre_validation_0003,123,20,algebre,equation_soustraction,Résous l'équation : 8x - 4 = 140,18,18,correct,True,True,True,True,46,False,"On ajoute 4 des deux côtés.
+8x = 140 + 4 = 144
+On divise par 8.
+x = 18
+REPONSE: 18"
+code_validation_0009,123,20,code,puissance,"Quel est le résultat de ce programme Python ?
+print(8**3 + 3)",515,515,correct,True,True,True,True,64,False,"L'opérateur ** (exponentiel) a lieu avant les puissances.
+8**3 = 8*8*8 = 512
+8**3 + 3 = 512 + 3 = 515
+REPONSE: 515"
+maths_validation_0015,123,20,maths,division,Calcule : 390 / 13,30,30,correct,True,True,True,True,25,False,"On divise 390 by 13.
+On trouve 30.
+REPONSE: 30"
+maths_validation_0024,123,20,maths,addition,Calcule : 200 + 151,351,351,correct,True,True,True,True,31,False,"On calcule de droite à gauche.
+200 + 151 = 351
+REPONSE: 351"
+algebre_validation_0023,123,20,algebre,equation_addition,Résous l'équation : 11x + 18 = 216,18,18,correct,True,True,True,True,51,False,"On soustrait 18 des deux côtés.
+11x = 216 - 18 = 198
+On divise par 11.
+x = 18
+REPONSE: 18"
+algebre_validation_0004,123,20,algebre,equation_soustraction,Résous l'équation : 8x - 18 = 166,23,23,correct,True,True,True,True,48,False,"On ajoute 18 des deux côtés.
+8x = 166 + 18 = 184
+On divise par 8.
+x = 23
+REPONSE: 23"
+maths_validation_0017,123,20,maths,multiplication,Calcule : 19 * 6,114,114,correct,True,True,True,True,30,False,"On multiplie 19 by 6.
+19 * 6 = 114
+REPONSE: 114"
+maths_validation_0025,123,20,maths,addition,Calcule : 228 + 69,297,297,correct,True,True,True,True,30,False,"On calcule de droite à gauche.
+228 + 69 = 297
+REPONSE: 297"
+code_validation_0010,123,20,code,puissance,"Quel est le résultat de ce programme Python ?
+print(7**3 + 4)",347,,missing,False,False,False,False,13,False,"L'exécution du programme est une erreur.
+nombre."
+maths_validation_0016,123,20,maths,soustraction,Calcule : 56 - 3,53,53,correct,True,True,True,True,22,False,"On calcule de droite à gauche.
+On trouve 53.
+REPONSE: 53"
+algebre_validation_0008,123,20,algebre,equation_fraction,Résous l'équation : x/6 + 19 = 36,102,102,correct,True,True,True,True,50,False,"On soustrait 19 des deux côtés.
+x/6 = 17
+On multiplie par 6.
+x = 17 * 6 = 102
+REPONSE: 102"
+code_validation_0016,123,20,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(161 // 20)",8,8,correct,True,True,True,True,31,False,"L'opérateur // réalise une division entière.
+161 // 20 = 8
+REPONSE: 8"
+maths_validation_0027,123,20,maths,division,Calcule : 186 / 6,31,31,correct,True,True,True,True,30,False,"On divise 186 by 6.
+186 ÷ 6 = 31.
+REPONSE: 31"
+maths_validation_0014,123,20,maths,operations_combinees,Calcule : (45 - 10) * 7,245,245,correct,True,True,True,True,30,False,"On calcule de droite à gauche.
+(35) * 7 = 245
+REPONSE: 245"
+code_validation_0013,123,20,code,puissance,"Quel est le résultat de ce programme Python ?
+print(8**3 + 18)",530,530,correct,True,True,True,True,66,False,"L'opérateur ** (exponentiel) a lieu avant les puissances.
+8**3 = 8*8*8 = 512
+8**3 + 18 = 512 + 18 = 530
+REPONSE: 530"
+code_validation_0025,123,20,code,puissance,"Quel est le résultat de ce programme Python ?
+print(6**3 + 8)",224,224,correct,True,True,True,True,50,False,"L'opérateur ** (exponentiel) exécute la fonction exponentielle.
+6**3 = 216
+8 + 216 = 224
+REPONSE: 224"
+algebre_validation_0027,123,20,algebre,equation_soustraction,Résous l'équation : 3x - 17 = 46,21,21,correct,True,True,True,True,46,False,"On ajoute 17 des deux côtés.
+3x = 46 + 17 = 63
+On divise par 3.
+x = 21
+REPONSE: 21"
+algebre_validation_0013,123,20,algebre,equation_addition,Résous l'équation : 8x + 4 = 196,24,24,correct,True,True,True,True,47,False,"On soustrait 4 des deux côtés.
+8x = 196 - 4 = 192
+On divise par 8.
+x = 24
+REPONSE: 24"
+maths_validation_0006,123,20,maths,soustraction,Calcule : 239 - 114,125,125,correct,True,True,True,True,29,False,"On effectue la soustraction.
+239 - 114 = 125
+REPONSE: 125"
+algebre_validation_0009,123,20,algebre,equation_addition,Résous l'équation : 11x + 2 = 332,30,30,correct,True,True,True,True,49,False,"On soustrait 2 des deux côtés.
+11x = 332 - 2 = 330
+On divise par 11.
+x = 30
+REPONSE: 30"
+code_validation_0019,123,20,code,modulo,"Quel est le résultat de ce programme Python ?
+print(56 % 19 + 5)",23,12,incorrect,False,True,False,False,43,False,"L'opérateur % calcule le reste de la division entière.
+56 % 19 = 7
+7 + 5 = 12
+REPONSE: 12"
+algebre_validation_0010,123,20,algebre,equation_fraction,Résous l'équation : x/15 + 12 = 20,120,120,correct,True,True,True,True,51,False,"On soustrait 12 des deux côtés.
+x/15 = 8
+On multiplie par 15.
+x = 8 * 15 = 120
+REPONSE: 120"
+algebre_validation_0001,123,20,algebre,equation_fraction,Résous l'équation : x/11 + 13 = 27,154,44,incorrect,False,True,False,False,49,False,"On soustrait 13 des deux côtés.
+x/11 = 4
+On multiplie par 11.
+x = 4 * 11 = 44
+REPONSE: 44"
+code_validation_0026,123,20,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([42, 12, 52, 86, 13, 24, 18, 62, 42, 32]))",10,10,correct,True,True,True,True,29,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10"
+code_validation_0011,123,20,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([68, 81, 93, 80]))",4,4,correct,True,True,True,True,27,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 4 éléments.
+REPONSE: 4"
+code_validation_0001,123,20,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([36, 80, 88, 79, 16, 17, 13, 51, 48, 44]))",10,10,correct,True,True,True,True,29,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10"
+algebre_validation_0017,123,20,algebre,equation_fraction,Résous l'équation : x/9 + 3 = 5,18,18,correct,True,True,True,True,45,False,"On soustrait 3 des deux côtés.
+x/9 = 2
+On multiplie par 9.
+x = 2 * 9 = 18
+REPONSE: 18"
+code_validation_0002,123,20,code,modulo,"Quel est le résultat de ce programme Python ?
+print(135 % 4 + 9)",12,12,correct,True,True,True,True,43,False,"L'opérateur % calcule le reste de la division entière.
+135 % 4 = 3
+3 + 9 = 12
+REPONSE: 12"
+algebre_validation_0015,123,20,algebre,equation_fraction,Résous l'équation : x/8 + 4 = 19,120,120,correct,True,True,True,True,49,False,"On soustrait 4 des deux côtés.
+x/8 = 15
+On multiplie par 8.
+x = 15 * 8 = 120
+REPONSE: 120"
+maths_validation_0020,123,20,maths,soustraction,Calcule : 92 - 53,39,145,incorrect,False,True,False,False,32,False,"On calcule de la droite.
+On ajoute 92 + 53 = 145.
+REPONSE: 145"
+code_validation_0005,123,20,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([17, 9]))",2,2,correct,True,True,True,True,68,False,"L'opérateur [] suggère l'exécution d'une liste.
+La fonction len() retourne la longueur de la liste.
+Le programme print(len([17, 9])) exécute len([17, 9]).
+La fonction len() renvoie 2.
+REPONSE: 2"
+maths_validation_0013,123,20,maths,multiplication,Calcule : 22 * 19,418,418,correct,True,True,True,True,28,False,"On calcule de la droite.
+22 * 19 = 418.
+REPONSE: 418"
+code_validation_0004,123,20,code,modulo,"Quel est le résultat de ce programme Python ?
+print(140 % 14 + 9)",9,17,incorrect,False,True,False,False,44,False,"L'opérateur % calcule le reste de la division entière.
+140 % 14 = 8
+8 + 9 = 17
+REPONSE: 17"
+code_validation_0012,123,20,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([59, 10, 89]))",158,158,correct,True,True,True,True,36,False,"La fonction sum() additionne les éléments de la liste.
+59 + 10 + 89 = 158
+REPONSE: 158"
+algebre_validation_0020,123,20,algebre,equation_fraction,Résous l'équation : x/15 + 16 = 24,120,120,correct,True,True,True,True,51,False,"On soustrait 16 des deux côtés.
+x/15 = 8
+On multiplie par 15.
+x = 8 * 15 = 120
+REPONSE: 120"
+maths_validation_0029,123,20,maths,soustraction,Calcule : 95 - 90,5,5,correct,True,True,True,True,20,False,"On calcule de droite à gauche.
+On trouve 5.
+REPONSE: 5"
+maths_validation_0011,123,20,maths,operations_combinees,Calcule : (74 - 28) * 10,460,460,correct,True,True,True,True,40,False,"On calcule comme suit: (74 - 28) = 46 et 46 * 10 = 460.
+REPONSE: 460"
+maths_validation_0008,123,20,maths,addition,Calcule : 68 + 220,288,288,correct,True,True,True,True,30,False,"On calcule de droite à gauche.
+68 + 220 = 288
+REPONSE: 288"
+maths_validation_0002,123,20,maths,operations_combinees,Calcule : (74 - 72) * 2,4,4,correct,True,True,True,True,35,False,"On calcule de droite à gauche.
+(74 - 72) = 2
+2 * 2 = 4
+REPONSE: 4"
+maths_validation_0030,123,20,maths,operations_combinees,Calcule : (62 - 6) * 5,280,280,correct,True,True,True,True,40,False,"On calcule de droite à gauche.
+(62 - 6) = 56
+56 * 5 = 280
+REPONSE: 280"
+algebre_validation_0011,123,20,algebre,equation_soustraction,Résous l'équation : 11x - 5 = 270,25,25,correct,True,True,True,True,48,False,"On ajoute 5 des deux côtés.
+11x = 270 + 5 = 275
+On divise par 11.
+x = 25
+REPONSE: 25"
+maths_validation_0007,123,20,maths,multiplication,Calcule : 44 * 17,748,748,correct,True,True,True,True,28,False,"On calcule de la droite.
+44 * 17 = 748.
+REPONSE: 748"
+maths_validation_0003,123,20,maths,operations_combinees,Calcule : (79 - 7) * 10,720,720,correct,True,True,True,True,39,False,"On calcule comme suit: (79 - 7) = 72 et 72 * 10 = 720.
+REPONSE: 720"
+maths_validation_0004,123,20,maths,soustraction,Calcule : 82 - 61,21,21,correct,True,True,True,True,22,False,"On calcule de droite à gauche.
+On trouve 21.
+REPONSE: 21"
+code_validation_0023,123,20,code,puissance,"Quel est le résultat de ce programme Python ?
+print(8**3 + 6)",518,518,correct,True,True,True,True,64,False,"L'opérateur ** (exponentiel) a lieu avant les puissances.
+8**3 = 8*8*8 = 512
+8**3 + 6 = 512 + 6 = 518
+REPONSE: 518"
+algebre_validation_0014,123,20,algebre,equation_addition,Résous l'équation : 12x + 2 = 122,10,10,correct,True,True,True,True,41,False,"On soustrait 2 des deux côtés.
+12x = 120
+On divise par 12.
+x = 10
+REPONSE: 10"
+code_validation_0022,123,20,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(81 // 19)",4,4,correct,True,True,True,True,30,False,"L'opérateur // réalise une division entière.
+81 // 19 = 4
+REPONSE: 4"
+code_validation_0007,123,20,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([20, 26, 43]))",89,89,correct,True,True,True,True,34,False,"La fonction sum() additionne les éléments de la liste.
+20 + 26 + 43 = 89
+REPONSE: 89"
+code_validation_0028,123,20,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([38, 73, 87]))",198,198,correct,True,True,True,True,36,False,"La fonction sum() additionne les éléments de la liste.
+38 + 73 + 87 = 198
+REPONSE: 198"
+algebre_validation_0026,123,20,algebre,equation_addition,Résous l'équation : 4x + 9 = 37,7,7,correct,True,True,True,True,43,False,"On soustrait 9 des deux côtés.
+4x = 37 - 9 = 28
+On divise par 4.
+x = 7
+REPONSE: 7"
+code_validation_0008,123,20,code,puissance,"Quel est le résultat de ce programme Python ?
+print(5**2 + 15)",40,,missing,False,False,False,False,13,False,"L'exécution du programme est une erreur.
+nombre."
+algebre_validation_0007,123,20,algebre,equation_fraction,Résous l'équation : x/8 + 2 = 19,136,136,correct,True,True,True,True,49,False,"On soustrait 2 des deux côtés.
+x/8 = 17
+On multiplie par 8.
+x = 17 * 8 = 136
+REPONSE: 136"
+code_validation_0017,123,20,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(177 // 13)",13,13,correct,True,True,True,True,33,False,"L'opérateur // réalise une division entière.
+177 // 13 = 13
+REPONSE: 13"
+maths_validation_0022,123,20,maths,operations_combinees,Calcule : (72 - 20) * 5,260,260,correct,True,True,True,True,41,False,"On calcule de droite à gauche.
+(72 - 20) = 52
+52 * 5 = 260
+REPONSE: 260"
+code_validation_0029,123,20,code,modulo,"Quel est le résultat de ce programme Python ?
+print(116 % 16 + 10)",14,18,incorrect,False,True,False,False,45,False,"L'opérateur % calcule le reste de la division entière.
+116 % 16 = 8
+8 + 10 = 18
+REPONSE: 18"
+code_validation_0024,123,20,code,puissance,"Quel est le résultat de ce programme Python ?
+print(3**2 + 18)",27,27,correct,True,True,True,True,32,False,"L'exécution du programme est :
+3**2 = 9
+9 + 18 = 27
+REPONSE: 27"
+maths_validation_0021,123,20,maths,addition,Calcule : 101 + 226,327,327,correct,True,True,True,True,31,False,"On calcule de droite à gauche.
+101 + 226 = 327
+REPONSE: 327"
+maths_validation_0018,123,20,maths,operations_combinees,Calcule : (57 - 54) * 7,21,21,correct,True,True,True,True,37,False,"On calcule de droite à gauche.
+(57 - 54) = 3
+3 * 7 = 21
+REPONSE: 21"
+algebre_validation_0002,123,20,algebre,equation_addition,Résous l'équation : 9x + 3 = 102,11,11,correct,True,True,True,True,46,False,"On soustrait 3 des deux côtés.
+9x = 102 - 3 = 99
+On divise par 9.
+X = 11
+REPONSE: 11"
+code_validation_0018,123,20,code,modulo,"Quel est le résultat de ce programme Python ?
+print(84 % 9 + 10)",13,16,incorrect,False,True,False,False,43,False,"L'opérateur % calcule le reste de la division entière.
+84 % 9 = 6
+6 + 10 = 16
+REPONSE: 16"
+algebre_validation_0025,123,20,algebre,equation_soustraction,Résous l'équation : 11x - 13 = 75,8,8,correct,True,True,True,True,46,False,"On ajoute 13 des deux côtés.
+11x = 75 + 13 = 88
+On divise par 11.
+x = 8
+REPONSE: 8"
+maths_validation_0028,123,20,maths,addition,Calcule : 141 + 70,211,211,correct,True,True,True,True,30,False,"On calcule de droite à gauche.
+141 + 70 = 211
+REPONSE: 211"
+algebre_validation_0021,123,20,algebre,equation_addition,Résous l'équation : 14x + 9 = 275,19,19,correct,True,True,True,True,49,False,"On soustrait 9 des deux côtés.
+14x = 275 - 9 = 266
+On divise par 14.
+x = 19
+REPONSE: 19"
+maths_validation_0009,123,20,maths,soustraction,Calcule : 119 - 37,82,82,correct,True,True,True,True,26,False,"On effectue la soustraction.
+119 - 37 = 82
+REPONSE: 82"
+algebre_validation_0016,123,20,algebre,equation_addition,Résous l'équation : 7x + 14 = 42,4,4,correct,True,True,True,True,45,False,"On soustrait 14 des deux côtés.
+7x = 42 - 14 = 30
+On divise par 7.
+x = 4
+REPONSE: 4"
+code_validation_0015,123,20,code,modulo,"Quel est le résultat de ce programme Python ?
+print(32 % 4 + 5)",5,5,correct,True,True,True,True,40,False,"L'opérateur % calcule le reste de la division entière.
+32 % 4 = 0
+0 + 5 = 5
+REPONSE: 5"
+code_validation_0020,123,20,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([89, 57, 45, 58]))",4,4,correct,True,True,True,True,27,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 4 éléments.
+REPONSE: 4"
+maths_validation_0001,123,20,maths,addition,Calcule : 22 + 159,181,181,correct,True,True,True,True,30,False,"On calcule de droite à gauche.
+22 + 159 = 181
+REPONSE: 181"
+algebre_validation_0012,123,20,algebre,distributivite,Résous l'équation : 13(x + 13) = 286,9,9,correct,True,True,True,True,49,False,"On divise les deux côtés par 13.
+x + 13 = 22
+On soustrait 13.
+x = 22 - 13 = 9
+REPONSE: 9"
+code_validation_0030,123,20,code,modulo,"Quel est le résultat de ce programme Python ?
+print(14 % 18 + 10)",24,12,incorrect,False,True,False,False,44,False,"L'opérateur % calcule le reste de la division entière.
+14 % 18 = 2
+2 + 10 = 12
+REPONSE: 12"
+algebre_validation_0029,123,20,algebre,equation_fraction,Résous l'équation : x/6 + 2 = 12,60,60,correct,True,True,True,True,47,False,"On soustrait 2 des deux côtés.
+x/6 = 10
+On multiplie par 6.
+x = 10 * 6 = 60
+REPONSE: 60"
+algebre_validation_0018,123,20,algebre,distributivite,Résous l'équation : 10(x + 17) = 470,30,30,correct,True,True,True,True,51,False,"On divise les deux côtés par 10.
+x + 17 = 47
+On soustrait 17.
+x = 47 - 17 = 30
+REPONSE: 30"
+algebre_validation_0006,123,20,algebre,equation_fraction,Résous l'équation : x/3 + 16 = 30,42,12,incorrect,False,True,False,False,46,False,"On soustrait 16 des deux côtés.
+x/3 = 4
+On multiplie par 3.
+x = 4 * 3 = 12
+REPONSE: 12"
+code_validation_0006,123,20,code,puissance,"Quel est le résultat de ce programme Python ?
+print(7**2 + 15)",64,,missing,False,False,False,False,13,False,"L'exécution du programme est une erreur.
+nombre."
+algebre_validation_0022,123,20,algebre,equation_addition,Résous l'équation : 14x + 7 = 301,21,21,correct,True,True,True,True,49,False,"On soustrait 7 des deux côtés.
+14x = 301 - 7 = 294
+On divise par 14.
+x = 21
+REPONSE: 21"
+maths_validation_0012,123,20,maths,addition,Calcule : 203 + 22,225,225,correct,True,True,True,True,31,False,"On calcule de la gauche à droite.
+203 + 22 = 225.
+REPONSE: 225"
+maths_validation_0010,123,20,maths,soustraction,Calcule : 160 - 149,11,11,correct,True,True,True,True,32,False,"On calcule de droite à gauche.
+On trouve 160 - 149 = 11.
+REPONSE: 11"
+algebre_validation_0028,123,20,algebre,distributivite,Résous l'équation : 9(x + 17) = 333,20,20,correct,True,True,True,True,50,False,"On divise les deux côtés par 9.
+x + 17 = 37
+On soustrait 17.
+x = 37 - 17 = 20
+REPONSE: 20"
+algebre_validation_0019,123,20,algebre,equation_fraction,Résous l'équation : x/4 + 8 = 22,56,56,correct,True,True,True,True,47,False,"On soustrait 8 des deux côtés.
+x/4 = 14
+On multiplie par 4.
+x = 14 * 4 = 56
+REPONSE: 56"
+algebre_validation_0024,123,20,algebre,distributivite,Résous l'équation : 6(x + 11) = 90,4,4,correct,True,True,True,True,48,False,"On divise les deux côtés par 6.
+x + 11 = 15
+On soustrait 11.
+x = 15 - 11 = 4
+REPONSE: 4"
+code_validation_0027,123,20,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([27, 44, 78, 19, 41, 92, 41, 94, 45]))",9,10,incorrect,False,True,False,False,29,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10"
+algebre_validation_0005,123,20,algebre,equation_addition,Résous l'équation : 4x + 1 = 49,12,12,correct,True,True,True,True,45,False,"On soustrait 1 des deux côtés.
+4x = 49 - 1 = 48
+On divise par 4.
+x = 12
+REPONSE: 12"
+code_validation_0021,123,20,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(41 // 8)",5,5,correct,True,True,True,True,29,False,"L'opérateur // réalise une division entière.
+41 // 8 = 5
+REPONSE: 5"
+code_validation_0014,123,20,code,puissance,"Quel est le résultat de ce programme Python ?
+print(6**4 + 7)",1303,1303,correct,True,True,True,True,49,False,"L'opérateur ** (exponentiel) calcule le produit.
+6**4 = 1296
+6**4 + 7 = 1303
+REPONSE: 1303"
+maths_validation_0019,123,20,maths,operations_combinees,Calcule : (30 - 3) * 9,243,243,correct,True,True,True,True,27,False,"On calcule comme suit: (27 * 9) = 243.
+REPONSE: 243"
+code_validation_0003,123,20,code,puissance,"Quel est le résultat de ce programme Python ?
+print(7**4 + 14)",2415,,missing,False,False,False,False,13,False,"L'exécution du programme est une erreur.
+nombre."

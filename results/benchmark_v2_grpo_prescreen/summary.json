@@ -1,0 +1,34 @@
+{
+  "partition": "train",
+  "groups": 24,
+  "generations": 96,
+  "correct_generations": 22,
+  "correctness_signal_groups": 11,
+  "no_correct_groups": 12,
+  "all_correct_groups": 1,
+  "format_only_signal_groups": 6,
+  "truncated_generations": 6,
+  "correct_per_group": {
+    "0": 12,
+    "1": 6,
+    "4": 1,
+    "2": 3,
+    "3": 2
+  },
+  "candidate_ids": [
+    "v2_gsm8k_main_train_01580",
+    "v2_gsm8k_main_train_03156",
+    "v2_gsm8k_main_train_01329",
+    "v2_gsm8k_main_train_00175",
+    "v2_gsm8k_main_train_03711",
+    "v2_gsm8k_main_train_02868",
+    "v2_gsm8k_main_train_06889",
+    "v2_gsm8k_main_train_04000",
+    "v2_gsm8k_main_train_04748",
+    "v2_gsm8k_main_train_00024",
+    "v2_gsm8k_main_train_01521"
+  ],
+  "training_performed": false,
+  "validation_evaluated": false,
+  "test_evaluated": false
+}

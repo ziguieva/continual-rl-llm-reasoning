@@ -1,0 +1,31 @@
+id,domain,question,expected,base_prediction,grpo_prediction,base_correct,grpo_correct,base_tokens,grpo_tokens,base_response,grpo_response
+maths_validation_0005,maths,Calcule : 42 * 19,798,806,806,False,False,8,8,REPONSE: 806,REPONSE: 806
+maths_validation_0026,maths,Calcule : (77 - 16) * 5,305,430,430,False,False,8,8,REPONSE: 430,REPONSE: 430
+maths_validation_0023,maths,Calcule : 17 + 33,50,20,40,False,False,3,7,20,REPONSE: 40
+maths_validation_0015,maths,Calcule : 390 / 13,30,30,30,True,True,7,7,REPONSE: 30,REPONSE: 30
+maths_validation_0024,maths,Calcule : 200 + 151,351,351,351,True,True,8,8,REPONSE: 351,REPONSE: 351
+maths_validation_0017,maths,Calcule : 19 * 6,114,,114,False,True,11,8,REPMESSEMENT: 114,REPONSE: 114
+maths_validation_0025,maths,Calcule : 228 + 69,297,297,297,True,True,8,8,REPONSE: 297,REPONSE: 297
+maths_validation_0016,maths,Calcule : 56 - 3,53,53,53,True,True,7,7,REPONSE: 53,REPONSE: 53
+maths_validation_0027,maths,Calcule : 186 / 6,31,31,31,True,True,7,7,REPONSE: 31,REPONSE: 31
+maths_validation_0014,maths,Calcule : (45 - 10) * 7,245,350,350,False,False,8,8,REPONSE: 350,REPONSE: 350
+maths_validation_0006,maths,Calcule : 239 - 114,125,125,125,True,True,8,8,REPONSE: 125,REPONSE: 125
+maths_validation_0020,maths,Calcule : 92 - 53,39,49,39,False,True,3,7,49,REPONSE: 39
+maths_validation_0013,maths,Calcule : 22 * 19,418,338,438,False,False,4,8,338,REPONSE: 438
+maths_validation_0029,maths,Calcule : 95 - 90,5,4,5,False,True,2,6,4,REPONSE: 5
+maths_validation_0011,maths,Calcule : (74 - 28) * 10,460,560,560,False,False,8,8,REPONSE: 560,REPONSE: 560
+maths_validation_0008,maths,Calcule : 68 + 220,288,288,288,True,True,8,8,REPONSE: 288,REPONSE: 288
+maths_validation_0002,maths,Calcule : (74 - 72) * 2,4,4,2,True,False,6,6,REPONSE: 4,REPONSE: 2
+maths_validation_0030,maths,Calcule : (62 - 6) * 5,280,300,30,False,False,8,7,REPONSE: 300,REPONSE: 30
+maths_validation_0007,maths,Calcule : 44 * 17,748,748,748,True,True,8,8,REPONSE: 748,REPONSE: 748
+maths_validation_0003,maths,Calcule : (79 - 7) * 10,720,690,690,False,False,8,8,REPONSE: 690,REPONSE: 690
+maths_validation_0004,maths,Calcule : 82 - 61,21,21,21,True,True,7,7,REPONSE: 21,REPONSE: 21
+maths_validation_0022,maths,Calcule : (72 - 20) * 5,260,480,400,False,False,8,8,REPONSE: 480,REPONSE: 400
+maths_validation_0021,maths,Calcule : 101 + 226,327,327,327,True,True,8,8,REPONSE: 327,REPONSE: 327
+maths_validation_0018,maths,Calcule : (57 - 54) * 7,21,19,31,False,False,7,7,REPONSE: 19,REPONSE: 31
+maths_validation_0028,maths,Calcule : 141 + 70,211,211,211,True,True,4,8,211,REPONSE: 211
+maths_validation_0009,maths,Calcule : 119 - 37,82,82,82,True,True,7,7,REPONSE: 82,REPONSE: 82
+maths_validation_0001,maths,Calcule : 22 + 159,181,381,181,False,True,4,8,381,REPONSE: 181
+maths_validation_0012,maths,Calcule : 203 + 22,225,225,225,True,True,8,8,REPONSE: 225,REPONSE: 225
+maths_validation_0010,maths,Calcule : 160 - 149,11,5,11,False,True,2,7,5,REPONSE: 11
+maths_validation_0019,maths,Calcule : (30 - 3) * 9,243,210,27,False,False,8,7,REPONSE: 210,REPONSE: 27

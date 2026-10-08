@@ -1,0 +1,64 @@
+
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face / caches
+.cache/
+huggingface/
+hf_cache/
+
+# Models and checkpoints
+models/
+checkpoints/
+checkpoint-*/
+
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Training logs
+wandb/
+runs/
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Evaluation backups
+**/records_before_*.jsonl
+
+# Private benchmark grading keys
+data/benchmark_v2_v1/grading/
+
+# Keep final report
+!paper/
+!paper/continual_rl_reasoning_report.pdf
+EOF

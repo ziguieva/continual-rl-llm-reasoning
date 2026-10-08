@@ -1,0 +1,34 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct + SFT-stage0-LoRA",
+  "partition": "validation",
+  "evaluated": 350,
+  "correct": 100,
+  "accuracy_at_1_greedy": 28.571428571428573,
+  "format_ok": 176,
+  "truncated": 38,
+  "domains": {
+    "maths_appliques": {
+      "total": 150,
+      "correct": 69,
+      "format_ok": 135,
+      "truncated": 0
+    },
+    "algebre_avancee": {
+      "total": 100,
+      "correct": 18,
+      "format_ok": 21,
+      "truncated": 21
+    },
+    "maths_competition": {
+      "total": 100,
+      "correct": 13,
+      "format_ok": 20,
+      "truncated": 17
+    }
+  },
+  "status_counts": {
+    "incorrect": 196,
+    "no_final_answer": 54,
+    "correct": 100
+  }
+}

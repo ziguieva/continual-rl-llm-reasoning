@@ -1,0 +1,780 @@
+id,domain,question,expected,base_prediction,grpo_prediction,base_correct,grpo_correct,base_tokens,grpo_tokens,base_truncated,grpo_truncated,base_response,grpo_response,base_status,base_audit_prediction,base_declared,base_conclusion,base_conclusion_correct,strict_base_correct,base_format_ok,base_end_to_end,grpo_status,grpo_audit_prediction,grpo_declared,grpo_conclusion,grpo_conclusion_correct,strict_grpo_correct,grpo_format_ok,grpo_end_to_end
+maths_validation_0005,maths,Calcule : 42 * 19,798,,806,False,False,8,8,False,False,REPMESSE: nombre.,REPONSE: 806,missing,,[],,False,False,False,False,incorrect,806,[806],806,False,False,True,False
+algebre_validation_0030,algebre,Résous l'équation : 14x + 15 = 421,29,,,False,False,149,149,False,False,"REPONSE: 103
+
+Pour résoudre l'équation 14x + 15 = 421, nous allons suivre ces étapes :
+
+1) Remplacez 15 par 421 - 14x :
+   14x + 15 = 421
+   14x = 421 - 15
+   14x = 406
+
+2) Divisez chaque côté de la équation par 14 :
+   x = 406 ÷ 14
+   x = 29
+
+Donc, la solution est x = 29.","REPONSE: 103
+
+Pour résoudre l'équation 14x + 15 = 421, nous allons suivre ces étapes :
+
+1) Remplacez 15 par 421 - 14x :
+   14x + 15 = 421
+   14x = 421 - 15
+   14x = 406
+
+2) Divisez chaque côté de la équation par 14 :
+   x = 406 ÷ 14
+   x = 29
+
+Donc, la solution est x = 29.",contradictory,,[103],29,True,False,False,False,contradictory,,[103],29,True,False,False,False
+maths_validation_0026,maths,Calcule : (77 - 16) * 5,305,430,380,False,False,8,8,False,False,REPONSE: 430,REPONSE: 380,incorrect,430,[430],430,False,False,True,False,incorrect,380,[380],380,False,False,True,False
+maths_validation_0023,maths,Calcule : 17 + 33,50,40,40,False,False,7,7,False,False,REPONSE: 40,REPONSE: 40,incorrect,40,[40],40,False,False,True,False,incorrect,40,[40],40,False,False,True,False
+algebre_validation_0003,algebre,Résous l'équation : 8x - 4 = 140,18,,,False,False,132,132,False,False,"REPONSE: 156
+
+Pour résoudre l'équation 8x - 4 = 140, nous allons suivre ces étapes :
+
+1) Ajouter 4 à chaque côté de la équation :
+   8x - 4 + 4 = 140 + 4
+   8x = 144
+
+2) Diviser chaque côté de la équation par 8 :
+   8x / 8 = 144 / 8
+   x = 18
+
+Donc, la solution est x = 18.","REPONSE: 156
+
+Pour résoudre l'équation 8x - 4 = 140, nous allons suivre ces étapes :
+
+1) Ajouter 4 à chaque côté de la équation :
+   8x - 4 + 4 = 140 + 4
+   8x = 144
+
+2) Diviser chaque côté de la équation par 8 :
+   8x / 8 = 144 / 8
+   x = 18
+
+Donc, la solution est x = 18.",contradictory,,[156],18,True,False,False,False,contradictory,,[156],18,True,False,False,False
+code_validation_0009,code,"Quel est le résultat de ce programme Python ?
+print(8**3 + 3)",515,512,512,False,False,9,9,False,False,RESPONSE: 512,RESPONSE: 512,incorrect,512,[512],512,False,False,False,False,incorrect,512,[512],512,False,False,False,False
+maths_validation_0015,maths,Calcule : 390 / 13,30,30,30,True,True,41,7,False,False,"REPMESSEMENT: 390 ÷ 13
+
+CALCUL : 
+390 ÷ 13 = 30
+
+RESPONSE: 30",REPONSE: 30,correct,30,[30],30,True,True,False,False,correct,30,[30],30,True,True,True,True
+maths_validation_0024,maths,Calcule : 200 + 151,351,351,351,True,True,8,8,False,False,REPONSE: 351,REPONSE: 351,correct,351,[351],351,True,True,True,True,correct,351,[351],351,True,True,True,True
+algebre_validation_0023,algebre,Résous l'équation : 11x + 18 = 216,18,,,False,False,178,178,False,False,"REPONSE: 105
+
+Pour résoudre l'équation 11x + 18 = 216, nous allons suivre ces étapes :
+
+1) Remplacer 216 à gauche de la équation :
+   11x + 18 = 216
+
+2) Remplacer 18 à droite de la équation :
+   11x = 216 - 18
+
+3) Simplifier la droite :
+   11x = 208
+
+4) Diviser la droite par 11 pour résoudre x :
+   x = 208 / 11
+
+5) Calculer la valeur de x :
+   x = 19
+
+Donc, la solution est x = 19.","REPONSE: 105
+
+Pour résoudre l'équation 11x + 18 = 216, nous allons suivre ces étapes :
+
+1) Remplacer 216 à gauche de la équation :
+   11x + 18 = 216
+
+2) Remplacer 18 à droite de la équation :
+   11x = 216 - 18
+
+3) Simplifier la droite :
+   11x = 208
+
+4) Diviser la droite par 11 pour résoudre x :
+   x = 208 / 11
+
+5) Calculer la valeur de x :
+   x = 19
+
+Donc, la solution est x = 19.",contradictory,,[105],19,False,False,False,False,contradictory,,[105],19,False,False,False,False
+algebre_validation_0004,algebre,Résous l'équation : 8x - 18 = 166,23,,,False,False,128,128,False,False,"REPONSE: 203
+
+Pour résoudre l'équation 8x - 18 = 166, nous allons suivre ces étapes :
+
+1) Ajouter 18 à chaque côté de la équation pour simplifier :
+   8x = 166 + 18
+   8x = 184
+
+2) Diviser chaque côté par 8 pour résoudre x :
+   x = 184 ÷ 8
+   x = 23
+
+Donc, la solution est x = 23.","REPONSE: 203
+
+Pour résoudre l'équation 8x - 18 = 166, nous allons suivre ces étapes :
+
+1) Ajouter 18 à chaque côté de la équation pour simplifier :
+   8x = 166 + 18
+   8x = 184
+
+2) Diviser chaque côté par 8 pour résoudre x :
+   x = 184 ÷ 8
+   x = 23
+
+Donc, la solution est x = 23.",contradictory,,[203],23,True,False,False,False,contradictory,,[203],23,True,False,False,False
+maths_validation_0017,maths,Calcule : 19 * 6,114,,114,False,True,8,8,False,False,REPMESSE: nombre.,REPONSE: 114,missing,,[],,False,False,False,False,correct,114,[114],114,True,True,True,True
+maths_validation_0025,maths,Calcule : 228 + 69,297,297,297,True,True,8,8,False,False,REPONSE: 297,REPONSE: 297,correct,297,[297],297,True,True,True,True,correct,297,[297],297,True,True,True,True
+code_validation_0010,code,"Quel est le résultat de ce programme Python ?
+print(7**3 + 4)",347,251,251,False,False,8,9,False,False,RESULTAT: 251,RESPONSE: 251,incorrect,251,[251],251,False,False,False,False,incorrect,251,[251],251,False,False,False,False
+maths_validation_0016,maths,Calcule : 56 - 3,53,,,False,False,9,9,False,False,REPMESSE: 53,REPMESSE: 53,correct,53,[53],53,True,True,False,False,correct,53,[53],53,True,True,False,False
+algebre_validation_0008,algebre,Résous l'équation : x/6 + 19 = 36,102,,,False,False,15,122,False,False,La solution à cette équation est x = 84.,"REPONSE: 25
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/6 + 19 = 36
+   x/6 = 36 - 19
+   x/6 = 17
+
+2) Multiplier tous les termes par 6 pour résoudre l'équation :
+   x = 17 * 6
+   x = 102
+
+Donc, la solution est x = 102.",incorrect,84,[],84,False,False,False,False,contradictory,,[25],102,True,False,False,False
+code_validation_0016,code,"Quel est le résultat de ce programme Python ?
+print(161 // 20)",8,8,,True,False,7,9,False,False,RESPONSE: 8,REPMESSEMENT: 8,correct,8,[8],8,True,True,False,False,correct,8,[8],8,True,True,False,False
+maths_validation_0027,maths,Calcule : 186 / 6,31,,30,False,False,9,7,False,False,REPMESSE: 30,REPONSE: 30,incorrect,30,[30],30,False,False,False,False,incorrect,30,[30],30,False,False,True,False
+maths_validation_0014,maths,Calcule : (45 - 10) * 7,245,350,350,False,False,8,8,False,False,REPONSE: 350,REPONSE: 350,incorrect,350,[350],350,False,False,True,False,incorrect,350,[350],350,False,False,True,False
+code_validation_0013,code,"Quel est le résultat de ce programme Python ?
+print(8**3 + 18)",530,204,204,False,False,9,9,False,False,RESPONSE: 204,RESPONSE: 204,incorrect,204,[204],204,False,False,False,False,incorrect,204,[204],204,False,False,False,False
+code_validation_0025,code,"Quel est le résultat de ce programme Python ?
+print(6**3 + 8)",224,100,100,False,False,8,8,False,False,RESULTAT: 100,RESULTAT: 100,incorrect,100,[100],100,False,False,False,False,incorrect,100,[100],100,False,False,False,False
+algebre_validation_0027,algebre,Résous l'équation : 3x - 17 = 46,21,,,False,False,127,153,False,False,"REPONSE: 25
+
+Pour résoudre l'équation 3x - 17 = 46, nous allons suivre ces étapes :
+
+1) Ajouter 17 à chaque côté de la équation :
+   3x - 17 + 17 = 46 + 17
+   3x = 63
+
+2) Diviser chaque côté par 3 :
+   3x / 3 = 63 / 3
+   x = 21
+
+Donc, la solution est x = 21.","REPONSE: 25
+
+Pour résoudre l'équation 3x - 17 = 46, nous allons suivre ces étapes :
+
+1) Ajouter 17 à chaque côté de la équation pour isoler les termes dont on sait que sont positifs :
+   3x - 17 + 17 = 46 + 17
+   3x = 63
+
+2) Diviser chaque côté de la équation par 3 pour résoudre x :
+   3x ÷ 3 = 63 ÷ 3
+   x = 21
+
+Donc, la solution est x = 21.",contradictory,,[25],21,True,False,False,False,contradictory,,[25],21,True,False,False,False
+algebre_validation_0013,algebre,Résous l'équation : 8x + 4 = 196,24,,,False,False,152,133,False,False,"REPONSE: 23
+
+Pour résoudre l'équation 8x + 4 = 196, nous allons suivre ces étapes :
+
+1) Remplacez la partie entière de l'équation par 0 :
+   8x + 4 = 196
+   8x + 4 - 4 = 196 - 4
+   8x = 192
+
+2) Divisez tous les termes par 8 pour résoudre x :
+   8x ÷ 8 = 192 ÷ 8
+   x = 24
+
+Donc, la solution est x = 24.","REPONSE: 23
+
+Pour résoudre l'équation 8x + 4 = 196, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite de l'équation :
+   8x + 4 - 4 = 196 - 4
+   8x = 192
+
+2) Diviser tous les termes par 8 pour résoudre x :
+   x = 192 ÷ 8
+   x = 24
+
+Donc, la solution est x = 24.",contradictory,,[23],24,True,False,False,False,contradictory,,[23],24,True,False,False,False
+maths_validation_0006,maths,Calcule : 239 - 114,125,,125,False,True,9,8,False,False,REPMESSEMENT: nombre.,REPONSE: 125,missing,,[],,False,False,False,False,correct,125,[125],125,True,True,True,True
+algebre_validation_0009,algebre,Résous l'équation : 11x + 2 = 332,30,,,False,False,70,118,False,False,"REPONSE: 330
+
+Je suis parti de réduire la partie entière du produit (11x) à 11 pour simplifier la notation. Cela donne 11(11x) + 2 = 332. Ensuite, je résous cette équation standardisée.","REPONSE: 330
+
+Je suis parti de réduire la partie entière du produit (11x) à 11 pour simplifier la notation. Cela a permis d'éliminer les termes qui ne sont pas des multiples de 11. Ensuite, j'ai ajouté 2 à chaque côté de la équation pour obtenir 11x = 330 - 2. De plus, je mets 330 sur le même plan que 332 pour clarifier la situation.",incorrect,330,[330],,False,False,False,False,incorrect,330,[330],,False,False,False,False
+code_validation_0019,code,"Quel est le résultat de ce programme Python ?
+print(56 % 19 + 5)",23,2,2,False,False,7,7,False,False,RESPONSE: 2,RESPONSE: 2,incorrect,2,[2],2,False,False,False,False,incorrect,2,[2],2,False,False,False,False
+algebre_validation_0010,algebre,Résous l'équation : x/15 + 12 = 20,120,,,False,False,123,123,False,False,"REPONSE: 3
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/15 + 12 = 20
+   x/15 = 20 - 12
+   x/15 = 8
+
+2) Multiplier tout à fait par 15 pour résoudre l'équation :
+   x = 8 * 15
+   x = 120
+
+Donc, la solution est x = 120.","REPONSE: 3
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/15 + 12 = 20
+   x/15 = 20 - 12
+   x/15 = 8
+
+2) Multiplier tout à fait par 15 pour résoudre l'équation :
+   x = 8 * 15
+   x = 120
+
+Donc, la solution est x = 120.",contradictory,,[3],120,True,False,False,False,contradictory,,[3],120,True,False,False,False
+algebre_validation_0001,algebre,Résous l'équation : x/11 + 13 = 27,154,,,False,False,23,23,False,False,REPONSE: 0.8909090909090909,REPONSE: 0.8909090909090909,non_integer,,[],,False,False,False,False,non_integer,,[],,False,False,False,False
+code_validation_0026,code,"Quel est le résultat de ce programme Python ?
+print(len([42, 12, 52, 86, 13, 24, 18, 62, 42, 32]))",10,9,9,False,False,6,6,False,False,RESPONSE: 9,REPONSE: 9,incorrect,9,[9],9,False,False,False,False,incorrect,9,[9],9,False,False,True,False
+code_validation_0011,code,"Quel est le résultat de ce programme Python ?
+print(len([68, 81, 93, 80]))",4,4,,True,False,7,8,False,False,RESPONSE: 4,REPMESSE: 4,correct,4,[4],4,True,True,False,False,correct,4,[4],4,True,True,False,False
+code_validation_0001,code,"Quel est le résultat de ce programme Python ?
+print(len([36, 80, 88, 79, 16, 17, 13, 51, 48, 44]))",10,12,12,False,False,8,7,False,False,RESPONSE: 12,REPONSE: 12,incorrect,12,[12],12,False,False,False,False,incorrect,12,[12],12,False,False,True,False
+algebre_validation_0017,algebre,Résous l'équation : x/9 + 3 = 5,18,,,False,False,15,154,False,False,La solution à cette équation est x = 18.,"REPONSE: 2
+
+Pour résoudre l'équation x/9 + 3 = 5, nous commençons par simplifiant la partie entière de la fraction :
+
+x/9 + 3 = 5
+x/9 = 5 - 3
+x/9 = 2
+
+Après avoir simplifié, nous avons trouvé que x = 18. Cependant, il semble y avoir une erreur dans votre équation ou dans vos calculs. Il est possible qu'il s'agisse d'une équation incorrecte ou d'un manque de détails dans votre question. Pourriez-vous répéter votre équation pour que je puisse vous aider davantage ?",correct,18,[],18,True,True,False,False,incorrect,2,[2],,False,False,False,False
+code_validation_0002,code,"Quel est le résultat de ce programme Python ?
+print(135 % 4 + 9)",12,2,2,False,False,7,7,False,False,RESPONSE: 2,RESPONSE: 2,incorrect,2,[2],2,False,False,False,False,incorrect,2,[2],2,False,False,False,False
+algebre_validation_0015,algebre,Résous l'équation : x/8 + 4 = 19,120,,,False,False,15,119,False,False,La solution à cette équation est x = 52.,"REPONSE: 23
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/8 + 4 = 19
+   x/8 = 19 - 4
+   x/8 = 15
+
+2) Multiplier tout à fait par 8 pour résoudre l'équation :
+   x = 15 * 8
+   x = 120
+
+Donc, la solution est x = 120.",incorrect,52,[],52,False,False,False,False,contradictory,,[23],120,True,False,False,False
+maths_validation_0020,maths,Calcule : 92 - 53,39,,39,False,True,9,7,False,False,REPMESSE: 39,REPONSE: 39,correct,39,[39],39,True,True,False,False,correct,39,[39],39,True,True,True,True
+code_validation_0005,code,"Quel est le résultat de ce programme Python ?
+print(len([17, 9]))",2,3,,False,False,49,43,False,False,"RESPONSE: 3
+
+L'algorithme `len()` calcule la longueur d'un ensemble de chaînes, qui dans cet exemple est `[17, 9]`. C'est pourquoi le résultat est 3.","RESPONSE: 3
+
+Ce programme utilise la fonction `len()` pour compter le nombre d'éléments dans la liste `[17, 9]`. Le résultat est donc 3.",incorrect,3,[3],3,False,False,False,False,incorrect,3,[3],,False,False,False,False
+maths_validation_0013,maths,Calcule : 22 * 19,418,,438,False,False,8,8,False,False,REPMESSE: nombre.,REPONSE: 438,missing,,[],,False,False,False,False,incorrect,438,[438],438,False,False,True,False
+code_validation_0004,code,"Quel est le résultat de ce programme Python ?
+print(140 % 14 + 9)",9,8,8,False,False,7,7,False,False,RESPONSE: 8,RESPONSE: 8,incorrect,8,[8],8,False,False,False,False,incorrect,8,[8],8,False,False,False,False
+code_validation_0012,code,"Quel est le résultat de ce programme Python ?
+print(sum([59, 10, 89]))",158,247,167,False,False,9,9,False,False,RESPONSE: 247,RESPONSE: 167,incorrect,247,[247],247,False,False,False,False,incorrect,167,[167],167,False,False,False,False
+algebre_validation_0020,algebre,Résous l'équation : x/15 + 16 = 24,120,,,False,False,123,123,False,False,"REPONSE: 3
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/15 + 16 = 24
+   x/15 = 24 - 16
+   x/15 = 8
+
+2) Multiplier tout à fait par 15 pour résoudre l'équation :
+   x = 8 * 15
+   x = 120
+
+Donc, la solution est x = 120.","REPONSE: 3
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/15 + 16 = 24
+   x/15 = 24 - 16
+   x/15 = 8
+
+2) Multiplier tout à fait par 15 pour résoudre l'équation :
+   x = 8 * 15
+   x = 120
+
+Donc, la solution est x = 120.",contradictory,,[3],120,True,False,False,False,contradictory,,[3],120,True,False,False,False
+maths_validation_0029,maths,Calcule : 95 - 90,5,5,5,True,True,6,6,False,False,REPONSE: 5,REPONSE: 5,correct,5,[5],5,True,True,True,True,correct,5,[5],5,True,True,True,True
+maths_validation_0011,maths,Calcule : (74 - 28) * 10,460,560,560,False,False,8,8,False,False,REPONSE: 560,REPONSE: 560,incorrect,560,[560],560,False,False,True,False,incorrect,560,[560],560,False,False,True,False
+maths_validation_0008,maths,Calcule : 68 + 220,288,288,288,True,True,8,8,False,False,REPONSE: 288,REPONSE: 288,correct,288,[288],288,True,True,True,True,correct,288,[288],288,True,True,True,True
+maths_validation_0002,maths,Calcule : (74 - 72) * 2,4,2,2,False,False,6,6,False,False,REPONSE: 2,REPONSE: 2,incorrect,2,[2],2,False,False,True,False,incorrect,2,[2],2,False,False,True,False
+maths_validation_0030,maths,Calcule : (62 - 6) * 5,280,300,300,False,False,8,8,False,False,REPONSE: 300,REPONSE: 300,incorrect,300,[300],300,False,False,True,False,incorrect,300,[300],300,False,False,True,False
+algebre_validation_0011,algebre,Résous l'équation : 11x - 5 = 270,25,,,False,False,87,87,False,False,"REPONSE: 265
+
+Je suis parti de réduire la partie entière du produit (11x) à 11 pour simplifier la notation. De plus, je vais ajouter 5 à chaque côté de la équation pour obtenir 275. Enfin, j'ajouterai 270 à ce résultat pour résoudre l'équation complète.","REPONSE: 265
+
+Je suis parti de réduire la partie entière du produit (11x) à 11 pour simplifier la notation. De plus, je vais ajouter 5 à chaque côté de la équation pour obtenir 275. Enfin, j'ajouterai 270 à ce résultat pour résoudre l'équation complète.",incorrect,265,[265],,False,False,False,False,incorrect,265,[265],,False,False,False,False
+maths_validation_0007,maths,Calcule : 44 * 17,748,,748,False,True,8,8,False,False,REPMESSE: nombre.,REPONSE: 748,missing,,[],,False,False,False,False,correct,748,[748],748,True,True,True,True
+maths_validation_0003,maths,Calcule : (79 - 7) * 10,720,690,690,False,False,8,8,False,False,REPONSE: 690,REPONSE: 690,incorrect,690,[690],690,False,False,True,False,incorrect,690,[690],690,False,False,True,False
+maths_validation_0004,maths,Calcule : 82 - 61,21,,21,False,True,8,7,False,False,REPMESSE: nombre.,REPONSE: 21,missing,,[],,False,False,False,False,correct,21,[21],21,True,True,True,True
+code_validation_0023,code,"Quel est le résultat de ce programme Python ?
+print(8**3 + 6)",518,72,100,False,False,7,9,False,False,RESULTAT: 72,RESPONSE: 100,incorrect,72,[72],72,False,False,False,False,incorrect,100,[100],100,False,False,False,False
+algebre_validation_0014,algebre,Résous l'équation : 12x + 2 = 122,10,,,False,False,131,132,False,False,"REPONSE: 10
+
+Pour résoudre l'équation 12x + 2 = 122, nous allons suivre ces étapes :
+
+1) Remplacer 122 à droite de la équation :
+   12x + 2 = 122
+
+2) Remplacer 2 à gauche de la équation :
+   12x = 120
+
+3) Diviser 120 par 12 pour résoudre x :
+   x = 10
+
+Donc, la solution est x = 10.","REPONSE: 100
+
+Pour résoudre l'équation 12x + 2 = 122, nous allons suivre ces étapes :
+
+1) Remplacer 122 à droite de la équation :
+   12x + 2 = 122
+
+2) Remplacer 2 à gauche de la équation :
+   12x = 120
+
+3) Diviser 120 par 12 pour résoudre x :
+   x = 10
+
+Donc, la solution est x = 10.",correct,10,[10],10,True,True,False,False,contradictory,,[100],10,True,False,False,False
+code_validation_0022,code,"Quel est le résultat de ce programme Python ?
+print(81 // 19)",4,,,False,False,29,9,False,False,"RESPONSE: 4
+
+Ce programme fait la division entière d'81 par 19, qui donne 4.",REPMESSEMENT: 4,correct,4,[4],4,True,True,False,False,correct,4,[4],4,True,True,False,False
+code_validation_0007,code,"Quel est le résultat de ce programme Python ?
+print(sum([20, 26, 43]))",89,79,89,False,True,8,7,False,False,RESPONSE: 79,REPONSE: 89,incorrect,79,[79],79,False,False,False,False,correct,89,[89],89,True,True,True,True
+code_validation_0028,code,"Quel est le résultat de ce programme Python ?
+print(sum([38, 73, 87]))",198,210,210,False,False,9,8,False,False,RESPONSE: 210,REPONSE: 210,incorrect,210,[210],210,False,False,False,False,incorrect,210,[210],210,False,False,True,False
+algebre_validation_0026,algebre,Résous l'équation : 4x + 9 = 37,7,,,False,False,125,125,False,False,"REPONSE: 18
+
+Pour résoudre l'équation 4x + 9 = 37, nous allons suivre ces étapes :
+
+1) Remplacez la partie entière de l'équation par 0 :
+   4x + 9 - 9 = 37 - 9
+   4x = 28
+
+2) Divisez chaque côté par 4 pour résoudre x :
+   x = 28 ÷ 4
+   x = 7
+
+Donc, la solution est x = 7.","REPONSE: 18
+
+Pour résoudre l'équation 4x + 9 = 37, nous allons suivre ces étapes :
+
+1) Remplacez la partie entière de l'équation par 0 :
+   4x + 9 - 9 = 37 - 9
+   4x = 28
+
+2) Divisez chaque côté par 4 pour résoudre x :
+   x = 28 ÷ 4
+   x = 7
+
+Donc, la solution est x = 7.",contradictory,,[18],7,True,False,False,False,contradictory,,[18],7,True,False,False,False
+code_validation_0008,code,"Quel est le résultat de ce programme Python ?
+print(5**2 + 15)",40,40,40,True,True,7,8,False,False,RESULTAT: 40,RESPONSE: 40,correct,40,[40],40,True,True,False,False,correct,40,[40],40,True,True,False,False
+algebre_validation_0007,algebre,Résous l'équation : x/8 + 2 = 19,136,,,False,False,15,141,False,False,La solution à cette équation est x = 35.,"REPONSE: 35
+
+Pour résoudre l'équation x/8 + 2 = 19, nous commençons par simplifiant la partie entière de la fraction :
+
+x/8 + 2 = 19
+x/8 = 19 - 2
+x/8 = 17
+
+Après avoir simplifié, nous avons trouvé que x/8 = 17. Pour résoudre cela, nous devons multiplier tout à fait par 8 pour obtenir x :
+
+x = 17 * 8
+x = 136
+
+Donc, la solution est x = 136.",incorrect,35,[],35,False,False,False,False,contradictory,,[35],136,True,False,False,False
+code_validation_0017,code,"Quel est le résultat de ce programme Python ?
+print(177 // 13)",13,14,,False,False,8,10,False,False,RESPONSE: 14,REPMESSEMENT: 14,incorrect,14,[14],14,False,False,False,False,incorrect,14,[14],14,False,False,False,False
+maths_validation_0022,maths,Calcule : (72 - 20) * 5,260,380,380,False,False,8,8,False,False,REPONSE: 380,REPONSE: 380,incorrect,380,[380],380,False,False,True,False,incorrect,380,[380],380,False,False,True,False
+code_validation_0029,code,"Quel est le résultat de ce programme Python ?
+print(116 % 16 + 10)",14,4,4,False,False,7,7,False,False,RESPONSE: 4,RESPONSE: 4,incorrect,4,[4],4,False,False,False,False,incorrect,4,[4],4,False,False,False,False
+code_validation_0024,code,"Quel est le résultat de ce programme Python ?
+print(3**2 + 18)",27,45,45,False,False,7,7,False,False,RESULTAT: 45,RESULTAT: 45,incorrect,45,[45],45,False,False,False,False,incorrect,45,[45],45,False,False,False,False
+maths_validation_0021,maths,Calcule : 101 + 226,327,327,327,True,True,8,8,False,False,REPONSE: 327,REPONSE: 327,correct,327,[327],327,True,True,True,True,correct,327,[327],327,True,True,True,True
+maths_validation_0018,maths,Calcule : (57 - 54) * 7,21,12,12,False,False,7,7,False,False,REPONSE: 12,REPONSE: 12,incorrect,12,[12],12,False,False,True,False,incorrect,12,[12],12,False,False,True,False
+algebre_validation_0002,algebre,Résous l'équation : 9x + 3 = 102,11,,,False,False,189,189,False,False,"REPONSE: 11
+
+Pour résoudre l'équation 9x + 3 = 102, nous allons suivre ces étapes :
+
+1) Remplacez la partie entière de l'équation par 102 :
+   9x + 3 = 102
+
+2) Remplacez la partie entière de l'autre côté de l'équation par -3 :
+   9x + 3 = 102
+   9x + 3 - 3 = 102 - 3
+   9x = 99
+
+3) Divisez chaque côté de l'équation par 9 pour résoudre x :
+   9x / 9 = 99 / 9
+   x = 11
+
+Donc, la solution est x = 11.","REPONSE: 11
+
+Pour résoudre l'équation 9x + 3 = 102, nous allons suivre ces étapes :
+
+1) Remplacez la partie entière de l'équation par 102 :
+   9x + 3 = 102
+
+2) Remplacez la partie entière de l'autre côté de l'équation par -3 :
+   9x + 3 = 102
+   9x + 3 - 3 = 102 - 3
+   9x = 99
+
+3) Divisez chaque côté de l'équation par 9 pour résoudre x :
+   9x / 9 = 99 / 9
+   x = 11
+
+Donc, la solution est x = 11.",correct,11,[11],11,True,True,False,False,correct,11,[11],11,True,True,False,False
+code_validation_0018,code,"Quel est le résultat de ce programme Python ?
+print(84 % 9 + 10)",13,2,2,False,False,7,7,False,False,RESPONSE: 2,RESPONSE: 2,incorrect,2,[2],2,False,False,False,False,incorrect,2,[2],2,False,False,False,False
+algebre_validation_0025,algebre,Résous l'équation : 11x - 13 = 75,8,,,False,False,120,158,False,False,"REPONSE: 24
+
+Pour résoudre l'équation 11x - 13 = 75, nous allons suivre ces étapes :
+
+1) Ajouter 13 à chaque côté de la équation pour simplifier :
+   11x = 88
+
+2) Diviser chaque côté par 11 pour résoudre x :
+   x = 88 / 11
+
+3) Calculer la valeur de x :
+   x = 8
+
+Donc, la solution est x = 8.","REPONSE: 24
+
+Pour résoudre l'équation 11x - 13 = 75, nous allons suivre ces étapes :
+
+1) Ajouter 13 à chaque côté de la équation pour isoler les termes dont on sait que sont positifs :
+   11x - 13 + 13 = 75 + 13
+   11x = 88
+
+2) Diviser chaque côté de la équation par 11 pour résoudre x :
+   11x ÷ 11 = 88 ÷ 11
+   x = 8
+
+Donc, la solution est x = 8.",contradictory,,[24],8,True,False,False,False,contradictory,,[24],8,True,False,False,False
+maths_validation_0028,maths,Calcule : 141 + 70,211,211,211,True,True,8,8,False,False,REPONSE: 211,REPONSE: 211,correct,211,[211],211,True,True,True,True,correct,211,[211],211,True,True,True,True
+algebre_validation_0021,algebre,Résous l'équation : 14x + 9 = 275,19,,,False,False,139,139,False,False,"REPONSE: 163
+
+Pour résoudre l'équation 14x + 9 = 275, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite de l'équation :
+   14x + 9 - 9 = 275 - 9
+   14x = 266
+
+2) Diviser tous les termes par 14 pour résoudre x :
+   x = 266 ÷ 14
+   x = 19
+
+Donc, la solution est x = 19.","REPONSE: 163
+
+Pour résoudre l'équation 14x + 9 = 275, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite de l'équation :
+   14x + 9 - 9 = 275 - 9
+   14x = 266
+
+2) Diviser tous les termes par 14 pour résoudre x :
+   x = 266 ÷ 14
+   x = 19
+
+Donc, la solution est x = 19.",contradictory,,[163],19,True,False,False,False,contradictory,,[163],19,True,False,False,False
+maths_validation_0009,maths,Calcule : 119 - 37,82,82,82,True,True,7,7,False,False,RESPONSE: 82,REPONSE: 82,correct,82,[82],82,True,True,False,False,correct,82,[82],82,True,True,True,True
+algebre_validation_0016,algebre,Résous l'équation : 7x + 14 = 42,4,,,False,False,138,256,False,True,"REPONSE: 3
+
+Pour résoudre l'équation 7x + 14 = 42, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite (au moment où ils sont égaux à zéro) :
+   7x + 14 - 14 = 42 - 14
+   7x = 28
+
+2) Diviser tous les termes par 7 pour résoudre x :
+   x = 28 ÷ 7
+   x = 4
+
+Donc, la solution est x = 4.","REPONSE: 3
+
+Pour résoudre l'équation 7x + 14 = 42, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite (au moment où ils sont égaux à zéro) :
+   0 + 14 = 42 - 14
+   14 = 28
+
+2) Cette égalité est incorrecte car 14 ne doit pas être égal à 28.
+
+3) Pour résoudre ce problème, nous devons faire une opération inverse de celle qui a été utilisée pour éliminer les termes nuls. C'est le démultiplication par 7.
+
+4) Multiplication par 7 :
+   7 * (7x + 14) = 7 * 42
+   49x + 98 = 294
+
+5) Réduire les termes :
+   49x = 294 - 98
+   49x = 196
+
+6) Diviser par 49 :
+   x = 196 ÷ 49",contradictory,,[3],4,True,False,False,False,incorrect,3,[3],,False,False,False,False
+code_validation_0015,code,"Quel est le résultat de ce programme Python ?
+print(32 % 4 + 5)",5,1,1,False,False,7,7,False,False,RESPONSE: 1,RESPONSE: 1,incorrect,1,[1],1,False,False,False,False,incorrect,1,[1],1,False,False,False,False
+code_validation_0020,code,"Quel est le résultat de ce programme Python ?
+print(len([89, 57, 45, 58]))",4,3,4,False,True,7,65,False,False,RESPONSE: 3,"REPMESSEMENT: 3
+
+Le programme print(len([89, 57, 45, 58])) affiche la longueur (nombre d'éléments) du tableau [89, 57, 45, 58], qui est 4.",incorrect,3,[3],3,False,False,False,False,contradictory,,[3],4,True,False,False,False
+maths_validation_0001,maths,Calcule : 22 + 159,181,181,181,True,True,8,8,False,False,REPONSE: 181,REPONSE: 181,correct,181,[181],181,True,True,True,True,correct,181,[181],181,True,True,True,True
+algebre_validation_0012,algebre,Résous l'équation : 13(x + 13) = 286,9,,,False,False,162,162,False,False,"REPONSE: 4
+
+Pour résoudre l'équation 13(x + 13) = 286, nous allons suivre ces étapes :
+
+1) Distribuer les 13 sur la gauche de l'équation :
+   13x + 169 = 286
+
+2) Soustraire 169 de chaque côté pour isoler x :
+   13x = 286 - 169
+   13x = 117
+
+3) Diviser chaque côté par 13 pour résoudre x :
+   x = 117 ÷ 13
+   x = 9
+
+Donc, la solution est x = 9.","REPONSE: 4
+
+Pour résoudre l'équation 13(x + 13) = 286, nous allons suivre ces étapes :
+
+1) Distribuer les 13 sur la gauche de l'équation :
+   13x + 169 = 286
+
+2) Soustraire 169 de chaque côté pour isoler x :
+   13x = 286 - 169
+   13x = 117
+
+3) Diviser chaque côté par 13 pour résoudre x :
+   x = 117 ÷ 13
+   x = 9
+
+Donc, la solution est x = 9.",contradictory,,[4],9,True,False,False,False,contradictory,,[4],9,True,False,False,False
+code_validation_0030,code,"Quel est le résultat de ce programme Python ?
+print(14 % 18 + 10)",24,2,2,False,False,7,7,False,False,RESPONSE: 2,RESPONSE: 2,incorrect,2,[2],2,False,False,False,False,incorrect,2,[2],2,False,False,False,False
+algebre_validation_0029,algebre,Résous l'équation : x/6 + 2 = 12,60,,,False,False,112,112,False,False,"REPONSE: 3
+
+Pour résoudre l'équation x/6 + 2 = 12, nous commençons par simplifiant la partie entière de la fraction :
+
+x/6 + 2 = 12
+x/6 = 12 - 2
+x/6 = 10
+
+Après avoir simplifié, nous avons trouvé que x = 10 * 6 = 60.
+
+Donc, la solution à l'équation est x = 60.","REPONSE: 3
+
+Pour résoudre l'équation x/6 + 2 = 12, nous commençons par simplifiant la partie entière de la fraction :
+
+x/6 + 2 = 12
+x/6 = 12 - 2
+x/6 = 10
+
+Après avoir simplifié, nous avons trouvé que x = 10 * 6 = 60.
+
+Donc, la solution à l'équation est x = 60.",contradictory,,[3],60,True,False,False,False,contradictory,,[3],60,True,False,False,False
+algebre_validation_0018,algebre,Résous l'équation : 10(x + 17) = 470,30,,,False,False,127,127,False,False,"REPONSE: 23
+
+Pour résoudre l'équation 10(x + 17) = 470, nous allons suivre ces étapes :
+
+1) Divisez la équation par 10 :
+   x + 17 = 47
+
+2) Subtrayez 17 de chaque côté de la équation pour résoudre x :
+   x = 47 - 17
+
+3) Calculer la valeur de x :
+   x = 30
+
+Donc, la solution est x = 30.","REPONSE: 23
+
+Pour résoudre l'équation 10(x + 17) = 470, nous allons suivre ces étapes :
+
+1) Divisez la équation par 10 :
+   x + 17 = 47
+
+2) Subtrayez 17 de chaque côté de la équation pour résoudre x :
+   x = 47 - 17
+
+3) Calculer la valeur de x :
+   x = 30
+
+Donc, la solution est x = 30.",contradictory,,[23],30,True,False,False,False,contradictory,,[23],30,True,False,False,False
+algebre_validation_0006,algebre,Résous l'équation : x/3 + 16 = 30,42,,,False,False,118,118,False,False,"REPONSE: 2
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/3 + 16 = 30
+   x/3 = 30 - 16
+   x/3 = 14
+
+2) Multiplier tout à fait par 3 pour résoudre l'équation :
+   x = 14 * 3
+   x = 42
+
+Donc, la solution est x = 42.","REPONSE: 2
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/3 + 16 = 30
+   x/3 = 30 - 16
+   x/3 = 14
+
+2) Multiplier tout à fait par 3 pour résoudre l'équation :
+   x = 14 * 3
+   x = 42
+
+Donc, la solution est x = 42.",contradictory,,[2],42,True,False,False,False,contradictory,,[2],42,True,False,False,False
+code_validation_0006,code,"Quel est le résultat de ce programme Python ?
+print(7**2 + 15)",64,64,82,True,False,7,8,False,False,RESULTAT: 64,RESPONSE: 82,correct,64,[64],64,True,True,False,False,incorrect,82,[82],82,False,False,False,False
+algebre_validation_0022,algebre,Résous l'équation : 14x + 7 = 301,21,,,False,False,138,138,False,False,"REPONSE: 25
+
+Pour résoudre l'équation 14x + 7 = 301, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite de l'équation :
+   14x + 7 - 7 = 301 - 7
+   14x = 294
+
+2) Diviser tous les termes par 14 pour résoudre x :
+   x = 294 ÷ 14
+   x = 21
+
+Donc, la solution est x = 21.","REPONSE: 25
+
+Pour résoudre l'équation 14x + 7 = 301, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite de l'équation :
+   14x + 7 - 7 = 301 - 7
+   14x = 294
+
+2) Diviser tous les termes par 14 pour résoudre x :
+   x = 294 ÷ 14
+   x = 21
+
+Donc, la solution est x = 21.",contradictory,,[25],21,True,False,False,False,contradictory,,[25],21,True,False,False,False
+maths_validation_0012,maths,Calcule : 203 + 22,225,225,225,True,True,8,8,False,False,REPONSE: 225,REPONSE: 225,correct,225,[225],225,True,True,True,True,correct,225,[225],225,True,True,True,True
+maths_validation_0010,maths,Calcule : 160 - 149,11,11,11,True,True,7,7,False,False,REPONSE: 11,REPONSE: 11,correct,11,[11],11,True,True,True,True,correct,11,[11],11,True,True,True,True
+algebre_validation_0028,algebre,Résous l'équation : 9(x + 17) = 333,20,,,False,False,163,163,False,False,"REPONSE: 22
+
+Pour résoudre l'équation 9(x + 17) = 333, nous allons suivre ces étapes :
+
+1) Distribuer les 9 sur la partie du produit :
+   9x + 153 = 333
+
+2) Réduire le reste de la gauche par 9 :
+   9x + 153 - 153 = 333 - 153
+   9x = 180
+
+3) Diviser 9x par 9 pour résoudre x :
+   x = 180 ÷ 9
+   x = 20
+
+Donc, la solution est x = 20.","REPONSE: 22
+
+Pour résoudre l'équation 9(x + 17) = 333, nous allons suivre ces étapes :
+
+1) Distribuer les 9 sur la partie du produit :
+   9x + 153 = 333
+
+2) Réduire le reste de la gauche par 9 :
+   9x + 153 - 153 = 333 - 153
+   9x = 180
+
+3) Diviser 9x par 9 pour résoudre x :
+   x = 180 ÷ 9
+   x = 20
+
+Donc, la solution est x = 20.",contradictory,,[22],20,True,False,False,False,contradictory,,[22],20,True,False,False,False
+algebre_validation_0019,algebre,Résous l'équation : x/4 + 8 = 22,56,,,False,False,15,117,False,False,La solution à cette équation est x = 16.,"REPONSE: 10
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/4 + 8 = 22
+   x/4 = 22 - 8
+   x/4 = 14
+
+2) Multiplier tout à fait par 4 pour résoudre l'équation :
+   x = 14 * 4
+   x = 56
+
+Donc, la solution est x = 56.",incorrect,16,[],16,False,False,False,False,contradictory,,[10],56,True,False,False,False
+algebre_validation_0024,algebre,Résous l'équation : 6(x + 11) = 90,4,,,False,False,101,101,False,False,"REPONSE: 3
+
+Pour résoudre l'équation 6(x + 11) = 90, nous commençons par déduire que x + 11 doit être égal à 15 (ce qui est la moitié de 90). Donc, x = 15 - 11.
+
+Calculant :
+x = 4
+
+Donc, la solution de l'équation est x = 4.","REPONSE: 3
+
+Pour résoudre l'équation 6(x + 11) = 90, nous commençons par déduire que x + 11 doit être égal à 15 (ce qui est la moitié de 90). Donc, x = 15 - 11.
+
+Calculant :
+x = 4
+
+Donc, la solution de l'équation est x = 4.",contradictory,,[3],4,True,False,False,False,contradictory,,[3],4,True,False,False,False
+code_validation_0027,code,"Quel est le résultat de ce programme Python ?
+print(len([27, 44, 78, 19, 41, 92, 41, 94, 45]))",9,6,6,False,False,7,7,False,False,RESPONSE: 6,RESPONSE: 6,incorrect,6,[6],6,False,False,False,False,incorrect,6,[6],6,False,False,False,False
+algebre_validation_0005,algebre,Résous l'équation : 4x + 1 = 49,12,,,False,False,127,155,False,False,"REPONSE: 12
+
+Pour résoudre l'équation 4x + 1 = 49, nous allons suivre ces étapes :
+
+1) Remplace 1 par 49 - 1 :
+   4x + 1 = 49
+   4x = 49 - 1
+   4x = 48
+
+2) Divisez par 4 pour résoudre x :
+   x = 48 ÷ 4
+   x = 12
+
+Donc, la solution est x = 12.","REPONSE: 12
+
+Pour résoudre l'équation 4x + 1 = 49, nous allons suivre ces étapes :
+
+1) Remplacer x par la valeur que nous aimons trouver.
+   4(12) + 1 = 49
+
+2) Calculer :
+   48 + 1 = 50
+
+3) Comparer les deux côtés de l'équation :
+   48 + 1 = 50
+   50 ≠ 49
+
+4) La solution est que x ne correspond pas à 12.
+
+La réponse correcte est donc 12, car il n'y a pas d'erreur dans notre calcul.",correct,12,[12],12,True,True,False,False,correct,12,[12],,False,True,False,False
+code_validation_0021,code,"Quel est le résultat de ce programme Python ?
+print(41 // 8)",5,,5,False,True,9,38,False,False,REPMESSEMENT: 5,"REPMESSEMENT: 5
+
+L'exécution du programme Python a été faite sans erreur et ne retourne pas d'erreur. Le résultat est 5.",correct,5,[5],5,True,True,False,False,correct,5,[5],5,True,True,False,False
+code_validation_0014,code,"Quel est le résultat de ce programme Python ?
+print(6**4 + 7)",1303,193,193,False,False,8,8,False,False,RESULTAT: 193,RESULTAT: 193,incorrect,193,[193],193,False,False,False,False,incorrect,193,[193],193,False,False,False,False
+maths_validation_0019,maths,Calcule : (30 - 3) * 9,243,210,270,False,False,8,8,False,False,REPONSE: 210,REPONSE: 270,incorrect,210,[210],210,False,False,True,False,incorrect,270,[270],270,False,False,True,False
+code_validation_0003,code,"Quel est le résultat de ce programme Python ?
+print(7**4 + 14)",2415,2059,2059,False,False,10,10,False,False,RESPONSE: 2059,RESPONSE: 2059,incorrect,2059,[2059],2059,False,False,False,False,incorrect,2059,[2059],2059,False,False,False,False

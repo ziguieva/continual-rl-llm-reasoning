@@ -1,0 +1,212 @@
+id,domain,question,expected,m1_prediction,m1_status,m1_correct,m1_format_ok,m1_end_to_end,m1_response,m2_prediction,m2_status,m2_correct,m2_format_ok,m2_end_to_end,m2_response,m3_prediction,m3_status,m3_correct,m3_format_ok,m3_end_to_end,m3_response,m1_tokens,m2_tokens,m3_tokens
+maths_validation_0023,maths,Calcule : 17 + 33,50,40,incorrect,False,True,False,REPONSE: 40,50,correct,True,False,False,"On ajoute les nombres.
+ON obtient 50.
+REPONSE: 50
+L'instruction a été respectée avec précision.",40,incorrect,False,True,False,"On ajoute les nombres.
+On obtient 40.
+REPONSE: 40",7,32,20
+algebre_validation_0004,algebre,Résous l'équation : 8x - 18 = 166,23,,contradictory,False,False,False,"REPONSE: 203
+
+Pour résoudre l'équation 8x - 18 = 166, nous allons suivre ces étapes :
+
+1) Ajouter 18 à chaque côté de la équation pour simplifier :
+   8x = 166 + 18
+   8x = 184
+
+2) Diviser chaque côté par 8 pour résoudre x :
+   x = 184 ÷ 8
+   x = 23
+
+Donc, la solution est x = 23.",23,correct,True,True,True,"On ajoute 18 des deux côtés.
+8x = 166 + 18 = 184
+On divise par 8.
+x = 23
+REPONSE: 23",,missing,False,False,False,"On ajoute 18 des deux côtés.
+8x = 166 + 18 = 184
+On divise par 8.
+x = 23
+REPONSE
+La solution est x = 23.
+L'opposition a été corrige.",128,48,63
+maths_validation_0025,maths,Calcule : 228 + 69,297,297,correct,True,True,True,REPONSE: 297,307,incorrect,False,True,False,"On ajoute les nombres.
+228 + 69 = 307
+REPONSE: 307",297,correct,True,False,False,"On ajoute les chiffres.
+228 + 69 = 297
+REPONSE
+297",8,27,27
+maths_validation_0006,maths,Calcule : 239 - 114,125,125,correct,True,True,True,REPONSE: 125,34,incorrect,False,True,False,"On soustrait des nombres. On divise les deux nombres par 10 pour simplifier la division.
+239 / 10 = 23,9
+114 / 10 = 11,4
+On ajoute ces quotients.
+23 + 11 = 34
+ON a donc 34.
+REPONSE: 34",125,correct,True,True,True,"On soustrait des nombres.
+239 - 114 = 125
+REPONSE: 125",8,83,29
+algebre_validation_0009,algebre,Résous l'équation : 11x + 2 = 332,30,330,incorrect,False,False,False,"REPONSE: 330
+
+Je suis parti de réduire la partie entière du produit (11x) à 11 pour simplifier la notation. Cela a permis d'éliminer les termes qui ne sont pas des multiples de 11. Ensuite, j'ai ajouté 2 à chaque côté de la équation pour obtenir 11x = 330 - 2. De plus, je mets 330 sur le même plan que 332 pour clarifier la situation.",30,correct,True,True,True,"On soustrait 2 des deux côtés.
+11x = 330
+On divise par 11.
+x = 30
+REPONSE: 30",,missing,False,False,False,"On soustrait 2 des deux côtés.
+11x = 330
+On divise par 11.
+x = 30
+REPONSE
+La solution est x = 30.
+L'opposition n'est pas nécessaire.",118,41,56
+code_validation_0026,code,"Quel est le résultat de ce programme Python ?
+print(len([42, 12, 52, 86, 13, 24, 18, 62, 42, 32]))",10,9,incorrect,False,True,False,REPONSE: 9,,missing,False,False,False,"Le programme calcule la longueur des listes, qui sont 9 dans cet exemple.",10,correct,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10",6,20,29
+code_validation_0001,code,"Quel est le résultat de ce programme Python ?
+print(len([36, 80, 88, 79, 16, 17, 13, 51, 48, 44]))",10,12,incorrect,False,True,False,REPONSE: 12,,missing,False,False,False,"Le programme calcule la longueur des éléments inclus dans la liste [36, 80, 88, 79, 16, 17, 13, 51, 48, 44]. Il y a 11 éléments, donc le résultat est 11. REPONSE: 11",10,correct,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10",7,76,29
+code_validation_0005,code,"Quel est le résultat de ce programme Python ?
+print(len([17, 9]))",2,3,incorrect,False,False,False,"RESPONSE: 3
+
+Ce programme utilise la fonction `len()` pour compter le nombre d'éléments dans la liste `[17, 9]`. Le résultat est donc 3.",8,incorrect,False,True,False,"On divise la liste [17, 9] par seuil de 2.
+La division est effectuée sans égalité.
+Le résultat est 8.
+REPONSE: 8",2,correct,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 2 éléments.
+REPONSE: 2",43,42,27
+code_validation_0012,code,"Quel est le résultat de ce programme Python ?
+print(sum([59, 10, 89]))",158,167,incorrect,False,False,False,RESPONSE: 167,267,incorrect,False,True,False,"267
+REPONSE: 267",158,correct,True,True,True,"La fonction sum() additionne les éléments de la liste.
+59 + 10 + 89 = 158
+REPONSE: 158",9,12,36
+maths_validation_0030,maths,Calcule : (62 - 6) * 5,280,300,incorrect,False,True,False,REPONSE: 300,30,incorrect,False,True,False,"On soustrait 62 des 6 = 6.
+On multiplie le résultat par 5 = 30.
+REPONSE: 30",280,correct,True,False,False,"On soustrait les chiffres.
+62 - 6 = 56
+On multiplie par 5.
+56 * 5 = 280
+REPONSE
+280",8,35,44
+algebre_validation_0014,algebre,Résous l'équation : 12x + 2 = 122,10,,contradictory,False,False,False,"REPONSE: 100
+
+Pour résoudre l'équation 12x + 2 = 122, nous allons suivre ces étapes :
+
+1) Remplacer 122 à droite de la équation :
+   12x + 2 = 122
+
+2) Remplacer 2 à gauche de la équation :
+   12x = 120
+
+3) Diviser 120 par 12 pour résoudre x :
+   x = 10
+
+Donc, la solution est x = 10.",10,correct,True,True,True,"On soustrait 2 des deux côtés.
+12x = 120
+On divise par 12.
+x = 10
+REPONSE: 10",,missing,False,False,False,"On soustrait 2 des deux côtés.
+12x = 120
+On divise par 12.
+x = 10
+REPONSE
+La solution est x = 10.
+L'opposition n'est pas nécessaire.",132,41,56
+code_validation_0008,code,"Quel est le résultat de ce programme Python ?
+print(5**2 + 15)",40,40,correct,True,False,False,RESPONSE: 40,30,incorrect,False,True,False,"On multiplie 5 par 2 et on ajoute 15.
+Le résultat est 30.
+REPONSE: 30",40,correct,True,True,True,"L'exécution des opérations est :
+5**2 = 25
+25 + 15 = 40
+REPONSE: 40",8,31,36
+algebre_validation_0002,algebre,Résous l'équation : 9x + 3 = 102,11,11,correct,True,False,False,"REPONSE: 11
+
+Pour résoudre l'équation 9x + 3 = 102, nous allons suivre ces étapes :
+
+1) Remplacez la partie entière de l'équation par 102 :
+   9x + 3 = 102
+
+2) Remplacez la partie entière de l'autre côté de l'équation par -3 :
+   9x + 3 = 102
+   9x + 3 - 3 = 102 - 3
+   9x = 99
+
+3) Divisez chaque côté de l'équation par 9 pour résoudre x :
+   9x / 9 = 99 / 9
+   x = 11
+
+Donc, la solution est x = 11.",11,correct,True,True,True,"On soustrait 3 des deux côtés.
+9x = 102 - 3 = 99
+On divise par 9.
+x = 11
+REPONSE: 11",2,incorrect,False,False,False,"On soustrait 3 des deux côtés.
+9x = 102 - 3 = 99
+On divise par 9.
+REPONSE
+2",189,46,38
+code_validation_0015,code,"Quel est le résultat de ce programme Python ?
+print(32 % 4 + 5)",5,1,incorrect,False,False,False,RESPONSE: 1,,missing,False,False,False,"On divise 32 par 4, reste 0. On ajoute 5. Resultat : 5.",5,correct,True,True,True,"L'opérateur % calcule le reste de la division entière.
+32 % 4 = 0
+0 + 5 = 5
+REPONSE: 5",7,27,40
+code_validation_0020,code,"Quel est le résultat de ce programme Python ?
+print(len([89, 57, 45, 58]))",4,,contradictory,False,False,False,"REPMESSEMENT: 3
+
+Le programme print(len([89, 57, 45, 58])) affiche la longueur (nombre d'éléments) du tableau [89, 57, 45, 58], qui est 4.",,missing,False,False,False,"Le programme calcule la longueur des listes, qui est 4. REPONSE: 4",4,correct,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 4 éléments.
+REPONSE: 4",65,22,27
+code_validation_0006,code,"Quel est le résultat de ce programme Python ?
+print(7**2 + 15)",64,82,incorrect,False,False,False,RESPONSE: 82,29,incorrect,False,True,False,"On multiplie 7 par 2 et on ajoute 15.
+print(7*2 + 15) = print(14 + 15) = print(29)
+REPONSE: 29",64,correct,True,True,True,"On calcule first.
+7**2 = 49
+49 + 15 = 64
+REPONSE: 64",8,50,31
+algebre_validation_0022,algebre,Résous l'équation : 14x + 7 = 301,21,,contradictory,False,False,False,"REPONSE: 25
+
+Pour résoudre l'équation 14x + 7 = 301, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite de l'équation :
+   14x + 7 - 7 = 301 - 7
+   14x = 294
+
+2) Diviser tous les termes par 14 pour résoudre x :
+   x = 294 ÷ 14
+   x = 21
+
+Donc, la solution est x = 21.",21,correct,True,True,True,"On soustrait 7 des deux côtés.
+14x = 294
+On divise par 14.
+x = 21
+REPONSE: 21",,missing,False,False,False,"On soustrait 7 des deux côtés.
+14x = 294
+On divise par 14.
+x = 21
+REPONSE
+La solution est x = 21.
+L'erreur était dans la soustraction des termes positives.",138,41,60
+maths_validation_0010,maths,Calcule : 160 - 149,11,11,correct,True,True,True,REPONSE: 11,,missing,False,False,False,"On soustrait des nombres, on retire l'un de l'autre. REPONSE: 11",11,correct,True,True,True,"On soustrait des nombres.
+160 - 149 = 11
+REPONSE: 11",7,23,27
+code_validation_0021,code,"Quel est le résultat de ce programme Python ?
+print(41 // 8)",5,5,correct,True,False,False,"REPMESSEMENT: 5
+
+L'exécution du programme Python a été faite sans erreur et ne retourne pas d'erreur. Le résultat est 5.",,missing,False,False,False,"On divise 41 par 8.
+REPMENLOU: 5
+La division est égale à 5.
+RESPONDE: 5",5,correct,True,True,True,"L'opérateur // réalise une division entière.
+41 // 8 = 5
+REPONSE: 5",38,36,29
+code_validation_0014,code,"Quel est le résultat de ce programme Python ?
+print(6**4 + 7)",1303,193,incorrect,False,False,False,RESULTAT: 193,35,incorrect,False,True,False,"On multiplie 6 par 4 et on ajoute 7.
+print(6*4 + 7) = 28 + 7 = 35
+REPONSE: 35",1303,correct,True,True,True,"On calcule d'abord la puissance.
+6**4 = 1296
+On ajoute 7.
+1296 + 7 = 1303
+REPONSE: 1303",8,44,50
+code_validation_0003,code,"Quel est le résultat de ce programme Python ?
+print(7**4 + 14)",2415,2059,incorrect,False,False,False,RESPONSE: 2059,,missing,False,False,False,"On multiplie 7 par 4 et on ajoute 14.
+ONREPSONSE: 56",2415,correct,True,True,True,"On calcule d'abord la puissance.
+7**4 = 2401
+On ajoute 14.
+2401 + 14 = 2415
+REPONSE: 2415",10,26,52

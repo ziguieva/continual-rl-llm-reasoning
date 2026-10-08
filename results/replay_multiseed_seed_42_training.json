@@ -1,0 +1,26 @@
+{
+    "seed": 42,
+    "results": [
+        {
+            "seed": 42,
+            "ratio": 0,
+            "training_loss": 0.20499421457449596,
+            "target_tokens": 4364,
+            "adapter": "/Users/evanszigui/Desktop/continual-rl-llm/models/replay_multiseed_v1/seed_42/replay_0"
+        },
+        {
+            "seed": 42,
+            "ratio": 10,
+            "training_loss": 0.23461159070332846,
+            "target_tokens": 4371,
+            "adapter": "/Users/evanszigui/Desktop/continual-rl-llm/models/replay_multiseed_v1/seed_42/replay_10"
+        },
+        {
+            "seed": 42,
+            "ratio": 20,
+            "training_loss": 0.2231385995944341,
+            "target_tokens": 4404,
+            "adapter": "/Users/evanszigui/Desktop/continual-rl-llm/models/replay_multiseed_v1/seed_42/replay_20"
+        }
+    ]
+}

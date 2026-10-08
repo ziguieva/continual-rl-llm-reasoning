@@ -1,0 +1,17 @@
+domain,question,expected,prediction,correct
+maths,28 + 17,45,45,True
+maths,9 * 8,72,72,True
+maths,144 / 12,12,12,True
+maths,(35 - 11) * 2,48,40,False
+algebre,3x + 5 = 20. Trouve x.,5,4,False
+algebre,2x - 7 = 11. Trouve x.,9,4,False
+algebre,5(x + 2) = 35. Trouve x.,5,"To solve the equation \(5(x + 2) = 35\), we will follow these steps:
+
+1. **Distribute the 5 on the left-hand side:**
+   \[
+   5(x + 2",False
+algebre,x/4 + 6 = 10. Trouve x.,16,3,False
+code,Quel est le résultat Python : print(2**4 + 1),17,6,False
+code,Quel est le résultat Python : print(10 // 3),3,2,False
+code,"Quel est le résultat Python : print(sum([2, 5, 8]))",15,6,False
+code,"Quel est le résultat Python : print(len([4, 7, 9]))",3,3,True

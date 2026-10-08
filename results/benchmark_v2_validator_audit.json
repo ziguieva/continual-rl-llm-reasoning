@@ -1,0 +1,33 @@
+{
+  "benchmark": "V2",
+  "version": "validator_v1",
+  "validation": {
+    "questions": 440,
+    "counts": {
+      "maths_appliques_total": 150,
+      "maths_appliques_gold_parsed": 150,
+      "maths_competition_total": 100,
+      "maths_competition_gold_parsed": 100,
+      "algebre_avancee_total": 100,
+      "algebre_avancee_gold_parsed": 100,
+      "programmation_total": 90,
+      "programmation_ready_for_sandbox": 90
+    },
+    "manual_review_ids": []
+  },
+  "test_schema": {
+    "questions": 714,
+    "counts": {
+      "maths_appliques_total": 150,
+      "maths_competition_total": 100,
+      "algebre_avancee_total": 100,
+      "programmation_total": 100,
+      "programmation_ready_for_sandbox": 100,
+      "raisonnement_logique_total": 100,
+      "programmation_avancee_total": 164,
+      "programmation_avancee_base_tests_present": 164
+    }
+  },
+  "code_execution_performed": false,
+  "model_inference_performed": false
+}

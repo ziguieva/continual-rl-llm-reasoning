@@ -1,0 +1,30 @@
+{
+  "total": 250,
+  "correct": 87,
+  "micro_accuracy": 0.348,
+  "average_domain_accuracy": 0.31833333333333336,
+  "domains": {
+    "maths_appliques": {
+      "total": 150,
+      "correct": 70,
+      "accuracy": 0.4666666666666667,
+      "truncated": 0,
+      "statuses": {
+        "incorrect": 73,
+        "correct": 70,
+        "no_final_answer": 7
+      }
+    },
+    "algebre_avancee": {
+      "total": 100,
+      "correct": 17,
+      "accuracy": 0.17,
+      "truncated": 22,
+      "statuses": {
+        "no_final_answer": 23,
+        "correct": 17,
+        "incorrect": 60
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "source": "/Users/evanszigui/Desktop/continual-rl-llm/results/baseline_validation.csv",
+    "total": 90,
+    "manual_review_count": 22,
+    "domains": {
+        "maths": {
+            "correct": 17,
+            "total": 30,
+            "accuracy": 56.67
+        },
+        "algebre": {
+            "correct": 14,
+            "total": 30,
+            "accuracy": 46.67
+        },
+        "code": {
+            "correct": 7,
+            "total": 30,
+            "accuracy": 23.33
+        }
+    },
+    "global": {
+        "correct": 38,
+        "total": 90,
+        "accuracy": 42.22
+    },
+    "review_status_counts": {
+        "auto_incorrect": 45,
+        "manual_incorrect": 4,
+        "auto_correct": 23,
+        "manual_correct": 15,
+        "manual_incomplete": 3
+    }
+}

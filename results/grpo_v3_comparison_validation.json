@@ -1,0 +1,151 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter_v3": "/Users/evanszigui/Desktop/continual-rl-llm/models/grpo_maths_v3",
+  "validation_file": "/Users/evanszigui/Desktop/continual-rl-llm/data/processed/validation.jsonl",
+  "evaluator": "16_finalize_validation.py",
+  "system_prompt": "Tu es un assistant spécialisé en mathématiques, en algèbre et en programmation Python. Résous le problème avec précision. Tu peux expliquer brièvement ton raisonnement. Termine par une ligne au format REPONSE: nombre. N'ajoute aucun texte après cette ligne.",
+  "max_new_tokens": 256,
+  "do_sample": false,
+  "domains": {
+    "maths": {
+      "questions": 30,
+      "base": {
+        "correct": 13,
+        "accuracy": 43.33,
+        "contradictions": 0,
+        "missing": 6,
+        "correct_and_formatted": 9,
+        "tokens": 269
+      },
+      "v2": {
+        "correct": 17,
+        "accuracy": 56.67,
+        "contradictions": 0,
+        "missing": 0,
+        "correct_and_formatted": 16,
+        "tokens": 229
+      },
+      "v3": {
+        "correct": 17,
+        "accuracy": 56.67,
+        "contradictions": 1,
+        "missing": 0,
+        "correct_and_formatted": 17,
+        "tokens": 268
+      },
+      "base_to_v3": {
+        "improved": 4,
+        "regressed": 0
+      },
+      "v2_to_v3": {
+        "improved": 0,
+        "regressed": 0
+      }
+    },
+    "algebre": {
+      "questions": 30,
+      "base": {
+        "correct": 4,
+        "accuracy": 13.33,
+        "contradictions": 19,
+        "missing": 0,
+        "correct_and_formatted": 0,
+        "tokens": 3257
+      },
+      "v2": {
+        "correct": 2,
+        "accuracy": 6.67,
+        "contradictions": 23,
+        "missing": 0,
+        "correct_and_formatted": 0,
+        "tokens": 4075
+      },
+      "v3": {
+        "correct": 2,
+        "accuracy": 6.67,
+        "contradictions": 24,
+        "missing": 0,
+        "correct_and_formatted": 0,
+        "tokens": 3901
+      },
+      "base_to_v3": {
+        "improved": 0,
+        "regressed": 2
+      },
+      "v2_to_v3": {
+        "improved": 1,
+        "regressed": 1
+      }
+    },
+    "code": {
+      "questions": 30,
+      "base": {
+        "correct": 6,
+        "accuracy": 20.0,
+        "contradictions": 0,
+        "missing": 0,
+        "correct_and_formatted": 0,
+        "tokens": 292
+      },
+      "v2": {
+        "correct": 6,
+        "accuracy": 20.0,
+        "contradictions": 1,
+        "missing": 0,
+        "correct_and_formatted": 1,
+        "tokens": 360
+      },
+      "v3": {
+        "correct": 6,
+        "accuracy": 20.0,
+        "contradictions": 1,
+        "missing": 0,
+        "correct_and_formatted": 2,
+        "tokens": 355
+      },
+      "base_to_v3": {
+        "improved": 1,
+        "regressed": 1
+      },
+      "v2_to_v3": {
+        "improved": 0,
+        "regressed": 0
+      }
+    }
+  },
+  "global": {
+    "questions": 90,
+    "base": {
+      "correct": 23,
+      "accuracy": 25.56,
+      "contradictions": 19,
+      "missing": 6,
+      "correct_and_formatted": 9,
+      "tokens": 3818
+    },
+    "v2": {
+      "correct": 25,
+      "accuracy": 27.78,
+      "contradictions": 24,
+      "missing": 0,
+      "correct_and_formatted": 17,
+      "tokens": 4664
+    },
+    "v3": {
+      "correct": 25,
+      "accuracy": 27.78,
+      "contradictions": 26,
+      "missing": 0,
+      "correct_and_formatted": 19,
+      "tokens": 4524
+    },
+    "base_to_v3": {
+      "improved": 5,
+      "regressed": 3
+    },
+    "v2_to_v3": {
+      "improved": 1,
+      "regressed": 1
+    }
+  }
+}

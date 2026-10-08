@@ -1,0 +1,97 @@
+{
+    "source": "/Users/evanszigui/Desktop/continual-rl-llm/results/grpo_v2_neutral_validation.csv",
+    "domains": {
+        "maths": {
+            "before": {
+                "total": 30,
+                "correct": 13,
+                "incorrect": 11,
+                "ambiguous": 0,
+                "missing": 6,
+                "resolved": 24,
+                "accuracy_on_resolved": 54.17,
+                "coverage": 80.0
+            },
+            "after": {
+                "total": 30,
+                "correct": 17,
+                "incorrect": 13,
+                "ambiguous": 0,
+                "missing": 0,
+                "resolved": 30,
+                "accuracy_on_resolved": 56.67,
+                "coverage": 100.0
+            }
+        },
+        "algebre": {
+            "before": {
+                "total": 30,
+                "correct": 4,
+                "incorrect": 6,
+                "ambiguous": 20,
+                "missing": 0,
+                "resolved": 10,
+                "accuracy_on_resolved": 40.0,
+                "coverage": 33.33
+            },
+            "after": {
+                "total": 30,
+                "correct": 2,
+                "incorrect": 4,
+                "ambiguous": 24,
+                "missing": 0,
+                "resolved": 6,
+                "accuracy_on_resolved": 33.33,
+                "coverage": 20.0
+            }
+        },
+        "code": {
+            "before": {
+                "total": 30,
+                "correct": 6,
+                "incorrect": 24,
+                "ambiguous": 0,
+                "missing": 0,
+                "resolved": 30,
+                "accuracy_on_resolved": 20.0,
+                "coverage": 100.0
+            },
+            "after": {
+                "total": 30,
+                "correct": 6,
+                "incorrect": 23,
+                "ambiguous": 1,
+                "missing": 0,
+                "resolved": 29,
+                "accuracy_on_resolved": 20.69,
+                "coverage": 96.67
+            }
+        }
+    },
+    "global": {
+        "before": {
+            "total": 90,
+            "correct": 23,
+            "incorrect": 41,
+            "ambiguous": 20,
+            "missing": 6,
+            "resolved": 64,
+            "accuracy_on_resolved": 35.94,
+            "coverage": 71.11
+        },
+        "after": {
+            "total": 90,
+            "correct": 25,
+            "incorrect": 40,
+            "ambiguous": 25,
+            "missing": 0,
+            "resolved": 65,
+            "accuracy_on_resolved": 38.46,
+            "coverage": 72.22
+        },
+        "paired_resolved": 58,
+        "paired_improved": 1,
+        "paired_regressed": 2
+    },
+    "manual_review_count": 32
+}

@@ -1,0 +1,14 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "adapter": "/Users/evanszigui/Desktop/continual-rl-llm/models/grpo_maths_smoke",
+    "domain": "maths",
+    "questions": 30,
+    "base_accuracy": 50.0,
+    "grpo_accuracy": 50.0,
+    "accuracy_delta": 0.0,
+    "improved_questions": 0,
+    "regressed_questions": 0,
+    "changed_responses": 0,
+    "base_tokens": 230,
+    "grpo_tokens": 230
+}

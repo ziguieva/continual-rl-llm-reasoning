@@ -1,0 +1,123 @@
+id,domain,question,expected,base_prediction,grpo_prediction,base_correct,grpo_correct,base_tokens,grpo_tokens,base_response,grpo_response
+maths_validation_0005,maths,Calcule : 42 * 19,798,806,806,False,False,8,8,REPONSE: 806,REPONSE: 806
+algebre_validation_0030,algebre,Résous l'équation : 14x + 15 = 421,29,1039,1039,False,False,9,9,REPONSE: 1039,REPONSE: 1039
+maths_validation_0026,maths,Calcule : (77 - 16) * 5,305,430,430,False,False,8,8,REPONSE: 430,REPONSE: 430
+maths_validation_0023,maths,Calcule : 17 + 33,50,20,40,False,False,3,7,20,REPONSE: 40
+algebre_validation_0003,algebre,Résous l'équation : 8x - 4 = 140,18,136,125,False,False,8,8,REPONSE: 136,REPONSE: 125
+code_validation_0009,code,"Quel est le résultat de ce programme Python ?
+print(8**3 + 3)",515,154,512,False,False,4,8,154,REPONSE: 512
+maths_validation_0015,maths,Calcule : 390 / 13,30,30,30,True,True,7,7,REPONSE: 30,REPONSE: 30
+maths_validation_0024,maths,Calcule : 200 + 151,351,351,351,True,True,8,8,REPONSE: 351,REPONSE: 351
+algebre_validation_0023,algebre,Résous l'équation : 11x + 18 = 216,18,105,105,False,False,8,8,REPONSE: 105,REPONSE: 105
+algebre_validation_0004,algebre,Résous l'équation : 8x - 18 = 166,23,,,False,False,10,10,REPONSE: 204.5,REPONSE: 204.5
+maths_validation_0017,maths,Calcule : 19 * 6,114,,114,False,True,11,8,REPMESSEMENT: 114,REPONSE: 114
+maths_validation_0025,maths,Calcule : 228 + 69,297,297,297,True,True,8,8,REPONSE: 297,REPONSE: 297
+code_validation_0010,code,"Quel est le résultat de ce programme Python ?
+print(7**3 + 4)",347,107,250,False,False,4,8,107,REPONSE: 250
+maths_validation_0016,maths,Calcule : 56 - 3,53,53,53,True,True,7,7,REPONSE: 53,REPONSE: 53
+algebre_validation_0008,algebre,Résous l'équation : x/6 + 19 = 36,102,54,25,False,False,3,9,54,REPONSE: 25.0
+code_validation_0016,code,"Quel est le résultat de ce programme Python ?
+print(161 // 20)",8,8,8,True,True,2,6,8,REPONSE: 8
+maths_validation_0027,maths,Calcule : 186 / 6,31,31,31,True,True,7,7,REPONSE: 31,REPONSE: 31
+maths_validation_0014,maths,Calcule : (45 - 10) * 7,245,350,350,False,False,8,8,REPONSE: 350,REPONSE: 350
+code_validation_0013,code,"Quel est le résultat de ce programme Python ?
+print(8**3 + 18)",530,57,204,False,False,3,8,57,REPONSE: 204
+code_validation_0025,code,"Quel est le résultat de ce programme Python ?
+print(6**3 + 8)",224,192,100,False,False,4,8,192,REPONSE: 100
+algebre_validation_0027,algebre,Résous l'équation : 3x - 17 = 46,21,,,False,False,9,9,REPONSE: 20.5,REPONSE: 20.5
+algebre_validation_0013,algebre,Résous l'équation : 8x + 4 = 196,24,,220,False,False,9,8,REPONSE: 23.5,REPONSE: 220
+maths_validation_0006,maths,Calcule : 239 - 114,125,125,125,True,True,8,8,REPONSE: 125,REPONSE: 125
+algebre_validation_0009,algebre,Résous l'équation : 11x + 2 = 332,30,340,340,False,False,12,12,REPONSE: 340.000,REPONSE: 340.000
+code_validation_0019,code,"Quel est le résultat de ce programme Python ?
+print(56 % 19 + 5)",23,20,2,False,False,7,6,REPONSE: 20,REPONSE: 2
+algebre_validation_0010,algebre,Résous l'équation : x/15 + 12 = 20,120,3,3,False,False,2,6,3,REPONSE: 3
+algebre_validation_0001,algebre,Résous l'équation : x/11 + 13 = 27,154,54,,False,False,3,13,54,REPONSE: 0.854545
+code_validation_0026,code,"Quel est le résultat de ce programme Python ?
+print(len([42, 12, 52, 86, 13, 24, 18, 62, 42, 32]))",10,3,9,False,False,2,6,3,REPONSE: 9
+code_validation_0011,code,"Quel est le résultat de ce programme Python ?
+print(len([68, 81, 93, 80]))",4,2,4,False,True,2,6,2,REPONSE: 4
+code_validation_0001,code,"Quel est le résultat de ce programme Python ?
+print(len([36, 80, 88, 79, 16, 17, 13, 51, 48, 44]))",10,12,12,False,False,7,7,REPONSE: 12,REPONSE: 12
+algebre_validation_0017,algebre,Résous l'équation : x/9 + 3 = 5,18,,2,False,False,13,6,0.1111111111,REPONSE: 2
+code_validation_0002,code,"Quel est le résultat de ce programme Python ?
+print(135 % 4 + 9)",12,7,7,False,False,6,6,REPONSE: 7,REPONSE: 7
+algebre_validation_0015,algebre,Résous l'équation : x/8 + 4 = 19,120,52,23,False,False,3,9,52,REPONSE: 23.0
+maths_validation_0020,maths,Calcule : 92 - 53,39,49,39,False,True,3,7,49,REPONSE: 39
+code_validation_0005,code,"Quel est le résultat de ce programme Python ?
+print(len([17, 9]))",2,2,2,True,True,2,6,2,REPONSE: 2
+maths_validation_0013,maths,Calcule : 22 * 19,418,338,438,False,False,4,8,338,REPONSE: 438
+code_validation_0004,code,"Quel est le résultat de ce programme Python ?
+print(140 % 14 + 9)",9,8,8,False,False,6,6,REPONSE: 8,REPONSE: 8
+code_validation_0012,code,"Quel est le résultat de ce programme Python ?
+print(sum([59, 10, 89]))",158,167,167,False,False,8,8,REPONSE: 167,REPONSE: 167
+algebre_validation_0020,algebre,Résous l'équation : x/15 + 16 = 24,120,,,False,False,8,8,REPONSE: 0.8,REPONSE: 0.8
+maths_validation_0029,maths,Calcule : 95 - 90,5,4,5,False,True,2,6,4,REPONSE: 5
+maths_validation_0011,maths,Calcule : (74 - 28) * 10,460,560,560,False,False,8,8,REPONSE: 560,REPONSE: 560
+maths_validation_0008,maths,Calcule : 68 + 220,288,288,288,True,True,8,8,REPONSE: 288,REPONSE: 288
+maths_validation_0002,maths,Calcule : (74 - 72) * 2,4,4,2,True,False,6,6,REPONSE: 4,REPONSE: 2
+maths_validation_0030,maths,Calcule : (62 - 6) * 5,280,300,30,False,False,8,7,REPONSE: 300,REPONSE: 30
+algebre_validation_0011,algebre,Résous l'équation : 11x - 5 = 270,25,265,265,False,False,8,8,REPONSE: 265,REPONSE: 265
+maths_validation_0007,maths,Calcule : 44 * 17,748,748,748,True,True,8,8,REPONSE: 748,REPONSE: 748
+maths_validation_0003,maths,Calcule : (79 - 7) * 10,720,690,690,False,False,8,8,REPONSE: 690,REPONSE: 690
+maths_validation_0004,maths,Calcule : 82 - 61,21,21,21,True,True,7,7,REPONSE: 21,REPONSE: 21
+code_validation_0023,code,"Quel est le résultat de ce programme Python ?
+print(8**3 + 6)",518,54,72,False,False,3,7,54,REPONSE: 72
+algebre_validation_0014,algebre,Résous l'équation : 12x + 2 = 122,10,,,False,False,9,9,REPONSE: 10.1,REPONSE: 10.1
+code_validation_0022,code,"Quel est le résultat de ce programme Python ?
+print(81 // 19)",4,3,4,False,True,2,6,3,REPONSE: 4
+code_validation_0007,code,"Quel est le résultat de ce programme Python ?
+print(sum([20, 26, 43]))",89,59,89,False,True,3,7,59,REPONSE: 89
+code_validation_0028,code,"Quel est le résultat de ce programme Python ?
+print(sum([38, 73, 87]))",198,210,210,False,False,8,8,REPONSE: 210,REPONSE: 210
+algebre_validation_0026,algebre,Résous l'équation : 4x + 9 = 37,7,18,10,False,False,7,7,REPONSE: 18,REPONSE: 10
+code_validation_0008,code,"Quel est le résultat de ce programme Python ?
+print(5**2 + 15)",40,40,40,True,True,7,7,REPONSE: 40,REPONSE: 40
+algebre_validation_0007,algebre,Résous l'équation : x/8 + 2 = 19,136,54,53,False,False,3,9,54,REPONSE: 53.0
+code_validation_0017,code,"Quel est le résultat de ce programme Python ?
+print(177 // 13)",13,14,14,False,False,7,7,REPONSE: 14,REPONSE: 14
+maths_validation_0022,maths,Calcule : (72 - 20) * 5,260,480,400,False,False,8,8,REPONSE: 480,REPONSE: 400
+code_validation_0029,code,"Quel est le résultat de ce programme Python ?
+print(116 % 16 + 10)",14,8,8,False,False,6,6,REPONSE: 8,REPONSE: 8
+code_validation_0024,code,"Quel est le résultat de ce programme Python ?
+print(3**2 + 18)",27,40,40,False,False,3,7,40,REPONSE: 40
+maths_validation_0021,maths,Calcule : 101 + 226,327,327,327,True,True,8,8,REPONSE: 327,REPONSE: 327
+maths_validation_0018,maths,Calcule : (57 - 54) * 7,21,19,31,False,False,7,7,REPONSE: 19,REPONSE: 31
+algebre_validation_0002,algebre,Résous l'équation : 9x + 3 = 102,11,4,84,False,False,2,7,4,REPONSE: 84
+code_validation_0018,code,"Quel est le résultat de ce programme Python ?
+print(84 % 9 + 10)",13,1,5,False,False,2,6,1,REPONSE: 5
+algebre_validation_0025,algebre,Résous l'équation : 11x - 13 = 75,8,20,20,False,False,7,7,REPONSE: 20,REPONSE: 20
+maths_validation_0028,maths,Calcule : 141 + 70,211,211,211,True,True,4,8,211,REPONSE: 211
+algebre_validation_0021,algebre,Résous l'équation : 14x + 9 = 275,19,,,False,False,10,10,REPONSE: 130.5,REPONSE: 130.5
+maths_validation_0009,maths,Calcule : 119 - 37,82,82,82,True,True,7,7,REPONSE: 82,REPONSE: 82
+algebre_validation_0016,algebre,Résous l'équation : 7x + 14 = 42,4,3,3,False,False,6,6,REPONSE: 3,REPONSE: 3
+code_validation_0015,code,"Quel est le résultat de ce programme Python ?
+print(32 % 4 + 5)",5,1,1,False,False,2,6,1,REPONSE: 1
+code_validation_0020,code,"Quel est le résultat de ce programme Python ?
+print(len([89, 57, 45, 58]))",4,3,4,False,True,2,6,3,REPONSE: 4
+maths_validation_0001,maths,Calcule : 22 + 159,181,381,181,False,True,4,8,381,REPONSE: 181
+algebre_validation_0012,algebre,Résous l'équation : 13(x + 13) = 286,9,59,5,False,False,7,37,REPONSE: 59,"REPONSE: 5
+
+Pour résoudre l'équation, on doit diviser tous les termes par 13. La solution est x = 5."
+code_validation_0030,code,"Quel est le résultat de ce programme Python ?
+print(14 % 18 + 10)",24,2,2,False,False,2,6,2,REPONSE: 2
+algebre_validation_0029,algebre,Résous l'équation : x/6 + 2 = 12,60,5,,False,False,2,8,5,REPONSE: 4.5
+algebre_validation_0018,algebre,Résous l'équation : 10(x + 17) = 470,30,23,23,False,False,7,7,REPONSE: 23,REPONSE: 23
+algebre_validation_0006,algebre,Résous l'équation : x/3 + 16 = 30,42,5,2,False,False,2,6,5,REPONSE: 2
+code_validation_0006,code,"Quel est le résultat de ce programme Python ?
+print(7**2 + 15)",64,82,82,False,False,3,7,82,REPONSE: 82
+algebre_validation_0022,algebre,Résous l'équation : 14x + 7 = 301,21,258,,False,False,12,10,REPONSE: 258.000,REPONSE: 289.5
+maths_validation_0012,maths,Calcule : 203 + 22,225,225,225,True,True,8,8,REPONSE: 225,REPONSE: 225
+maths_validation_0010,maths,Calcule : 160 - 149,11,5,11,False,True,2,7,5,REPONSE: 11
+algebre_validation_0028,algebre,Résous l'équation : 9(x + 17) = 333,20,,,False,False,10,10,REPONSE: 20.05,REPONSE: 20.05
+algebre_validation_0019,algebre,Résous l'équation : x/4 + 8 = 22,56,5,10,False,False,2,7,5,REPONSE: 10
+algebre_validation_0024,algebre,Résous l'équation : 6(x + 11) = 90,4,3,3,False,False,6,6,REPONSE: 3,REPONSE: 3
+code_validation_0027,code,"Quel est le résultat de ce programme Python ?
+print(len([27, 44, 78, 19, 41, 92, 41, 94, 45]))",9,3,6,False,False,2,6,3,REPONSE: 6
+algebre_validation_0005,algebre,Résous l'équation : 4x + 1 = 49,12,,,False,False,10,10,REPONSE: 10.25,REPONSE: 10.25
+code_validation_0021,code,"Quel est le résultat de ce programme Python ?
+print(41 // 8)",5,5,5,True,True,2,6,5,REPONSE: 5
+code_validation_0014,code,"Quel est le résultat de ce programme Python ?
+print(6**4 + 7)",1303,193,193,False,False,8,8,REPONSE: 193,REPONSE: 193
+maths_validation_0019,maths,Calcule : (30 - 3) * 9,243,210,27,False,False,8,7,REPONSE: 210,REPONSE: 27
+code_validation_0003,code,"Quel est le résultat de ce programme Python ?
+print(7**4 + 14)",2415,5709,5709,False,False,9,9,REPONSE: 5709,REPONSE: 5709

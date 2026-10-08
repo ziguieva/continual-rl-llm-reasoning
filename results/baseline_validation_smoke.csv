@@ -1,0 +1,14 @@
+id,domain,question,expected,predicted,correct,extraction_method,format_error,truncated,token_count,elapsed_seconds,full_response
+maths_validation_0005,maths,Calcule : 42 * 19,798,838,False,explicit,False,False,8,0.435,REPONSE: 838
+algebre_validation_0030,algebre,Résous l'équation : 14x + 15 = 421,29,139,False,numeric,False,False,4,0.118,139
+maths_validation_0026,maths,Calcule : (77 - 16) * 5,305,430,False,explicit,False,False,8,0.202,REPONSE: 430
+maths_validation_0023,maths,Calcule : 17 + 33,50,,False,not_found,True,False,7,0.154,RESULTAT: 40
+algebre_validation_0003,algebre,Résous l'équation : 8x - 4 = 140,18,136,False,explicit,False,False,8,0.171,REPONSE: 136
+code_validation_0009,code,"Quel est le résultat de ce programme Python ?
+print(8**3 + 3)",515,159,False,numeric,False,False,4,0.114,159
+maths_validation_0015,maths,Calcule : 390 / 13,30,30,True,explicit,False,False,7,0.157,REPONSE: 30
+maths_validation_0024,maths,Calcule : 200 + 151,351,351,True,explicit,False,False,8,0.169,REPONSE: 351
+algebre_validation_0023,algebre,Résous l'équation : 11x + 18 = 216,18,105,False,numeric,False,False,4,0.115,105
+algebre_validation_0004,algebre,Résous l'équation : 8x - 18 = 166,23,23,True,explicit,False,False,7,0.158,REPONSE: 23
+maths_validation_0017,maths,Calcule : 19 * 6,114,114,True,explicit,False,False,8,0.365,REPONSE: 114
+maths_validation_0025,maths,Calcule : 228 + 69,297,297,True,explicit,False,False,8,0.17,REPONSE: 297

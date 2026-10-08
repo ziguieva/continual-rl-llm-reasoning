@@ -1,0 +1,37 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "device": "mps",
+    "split": "validation",
+    "max_new_tokens": 256,
+    "domains": {
+        "maths": {
+            "correct": 13,
+            "total": 30,
+            "accuracy": 43.333333333333336,
+            "format_errors": 5,
+            "truncated": 0
+        },
+        "algebre": {
+            "correct": 4,
+            "total": 30,
+            "accuracy": 13.333333333333334,
+            "format_errors": 14,
+            "truncated": 0
+        },
+        "code": {
+            "correct": 6,
+            "total": 30,
+            "accuracy": 20.0,
+            "format_errors": 3,
+            "truncated": 0
+        }
+    },
+    "global": {
+        "correct": 23,
+        "total": 90,
+        "accuracy": 25.555555555555557,
+        "format_errors": 22,
+        "truncated": 0,
+        "generated_tokens": 915
+    }
+}

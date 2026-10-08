@@ -1,0 +1,19 @@
+{
+  "total": 150,
+  "correct": 69,
+  "micro_accuracy": 0.46,
+  "average_domain_accuracy": 0.46,
+  "domains": {
+    "maths_appliques": {
+      "total": 150,
+      "correct": 69,
+      "accuracy": 0.46,
+      "truncated": 0,
+      "statuses": {
+        "incorrect": 69,
+        "correct": 69,
+        "no_final_answer": 12
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "partition": "validation",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "original_correct": 107,
+  "original_total": 350,
+  "original_accuracy": 30.57,
+  "rescued_correct": 11,
+  "indicative_correct": 118,
+  "indicative_accuracy": 33.71,
+  "categories": {
+    "rescued_correct": 11,
+    "ambiguous_multiple_numbers": 4,
+    "candidate_incorrect": 6,
+    "no_numeric_candidate": 1,
+    "no_explicit_conclusion": 7,
+    "truncated": 47,
+    "manual_review_other_domain": 3
+  },
+  "source_hashes": {
+    "generations": "a84eb974b00f05631e4b8a8ffc2db0b902549ba39c81b105fdf3263f46a0069e",
+    "grades": "64b7cf05b3701f772848d70367222f146acfaa1e24783e334d903b3e0aba5658"
+  },
+  "method": "Analyse exploratoire après l'évaluation initiale. Le score de référence reste inchangé."
+}

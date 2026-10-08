@@ -1,0 +1,319 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "dataset": "validation",
+    "evaluator": "V16",
+    "seed": 42,
+    "max_new_tokens": 256,
+    "system_prompt": "Tu es un assistant spécialisé en mathématiques, en algèbre et en programmation Python. Résous le problème avec précision. Tu peux expliquer brièvement ton raisonnement. Termine par une ligne au format REPONSE: nombre. N'ajoute aucun texte après cette ligne.",
+    "controlled_comparison": {
+        "control_model": "m3c",
+        "replay_model": "m3r",
+        "common_unique_code_examples": 96,
+        "control_code_repetitions": 24,
+        "replay_old_examples": 24,
+        "training_steps": 60
+    },
+    "domains": {
+        "maths": {
+            "questions": 30,
+            "models": {
+                "m2": {
+                    "questions": 30,
+                    "correct": 23,
+                    "accuracy": 76.67,
+                    "correct_and_formatted": 20,
+                    "conclusions_recognized_as_correct": 22,
+                    "contradictions": 0,
+                    "missing": 1,
+                    "tokens": 1013
+                },
+                "m3": {
+                    "questions": 30,
+                    "correct": 26,
+                    "accuracy": 86.67,
+                    "correct_and_formatted": 21,
+                    "conclusions_recognized_as_correct": 26,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "tokens": 899
+                },
+                "m3c": {
+                    "questions": 30,
+                    "correct": 24,
+                    "accuracy": 80.0,
+                    "correct_and_formatted": 17,
+                    "conclusions_recognized_as_correct": 25,
+                    "contradictions": 1,
+                    "missing": 0,
+                    "tokens": 836
+                },
+                "m3r": {
+                    "questions": 30,
+                    "correct": 25,
+                    "accuracy": 83.33,
+                    "correct_and_formatted": 25,
+                    "conclusions_recognized_as_correct": 25,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "tokens": 954
+                }
+            },
+            "comparisons": {
+                "m2_to_m3c": {
+                    "improved": 4,
+                    "regressed": 3,
+                    "accuracy_delta_points": 3.33,
+                    "mcnemar_exact_p": 1.0
+                },
+                "m2_to_m3r": {
+                    "improved": 4,
+                    "regressed": 2,
+                    "accuracy_delta_points": 6.67,
+                    "mcnemar_exact_p": 0.6875
+                },
+                "m3_to_m3c": {
+                    "improved": 2,
+                    "regressed": 4,
+                    "accuracy_delta_points": -6.67,
+                    "mcnemar_exact_p": 0.6875
+                },
+                "m3c_to_m3r": {
+                    "improved": 5,
+                    "regressed": 4,
+                    "accuracy_delta_points": 3.33,
+                    "mcnemar_exact_p": 1.0
+                }
+            }
+        },
+        "algebre": {
+            "questions": 30,
+            "models": {
+                "m2": {
+                    "questions": 30,
+                    "correct": 27,
+                    "accuracy": 90.0,
+                    "correct_and_formatted": 27,
+                    "conclusions_recognized_as_correct": 27,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "tokens": 1402
+                },
+                "m3": {
+                    "questions": 30,
+                    "correct": 22,
+                    "accuracy": 73.33,
+                    "correct_and_formatted": 17,
+                    "conclusions_recognized_as_correct": 22,
+                    "contradictions": 0,
+                    "missing": 4,
+                    "tokens": 1508
+                },
+                "m3c": {
+                    "questions": 30,
+                    "correct": 26,
+                    "accuracy": 86.67,
+                    "correct_and_formatted": 18,
+                    "conclusions_recognized_as_correct": 26,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "tokens": 1451
+                },
+                "m3r": {
+                    "questions": 30,
+                    "correct": 27,
+                    "accuracy": 90.0,
+                    "correct_and_formatted": 27,
+                    "conclusions_recognized_as_correct": 27,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "tokens": 1440
+                }
+            },
+            "comparisons": {
+                "m2_to_m3c": {
+                    "improved": 0,
+                    "regressed": 1,
+                    "accuracy_delta_points": -3.33,
+                    "mcnemar_exact_p": 1.0
+                },
+                "m2_to_m3r": {
+                    "improved": 0,
+                    "regressed": 0,
+                    "accuracy_delta_points": 0.0,
+                    "mcnemar_exact_p": 1.0
+                },
+                "m3_to_m3c": {
+                    "improved": 5,
+                    "regressed": 1,
+                    "accuracy_delta_points": 13.33,
+                    "mcnemar_exact_p": 0.21875
+                },
+                "m3c_to_m3r": {
+                    "improved": 1,
+                    "regressed": 0,
+                    "accuracy_delta_points": 3.33,
+                    "mcnemar_exact_p": 1.0
+                }
+            }
+        },
+        "code": {
+            "questions": 30,
+            "models": {
+                "m2": {
+                    "questions": 30,
+                    "correct": 6,
+                    "accuracy": 20.0,
+                    "correct_and_formatted": 5,
+                    "conclusions_recognized_as_correct": 5,
+                    "contradictions": 0,
+                    "missing": 8,
+                    "tokens": 926
+                },
+                "m3": {
+                    "questions": 30,
+                    "correct": 17,
+                    "accuracy": 56.67,
+                    "correct_and_formatted": 17,
+                    "conclusions_recognized_as_correct": 17,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "tokens": 1096
+                },
+                "m3c": {
+                    "questions": 30,
+                    "correct": 22,
+                    "accuracy": 73.33,
+                    "correct_and_formatted": 22,
+                    "conclusions_recognized_as_correct": 22,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "tokens": 1090
+                },
+                "m3r": {
+                    "questions": 30,
+                    "correct": 14,
+                    "accuracy": 46.67,
+                    "correct_and_formatted": 14,
+                    "conclusions_recognized_as_correct": 14,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "tokens": 989
+                }
+            },
+            "comparisons": {
+                "m2_to_m3c": {
+                    "improved": 16,
+                    "regressed": 0,
+                    "accuracy_delta_points": 53.33,
+                    "mcnemar_exact_p": 3.1e-05
+                },
+                "m2_to_m3r": {
+                    "improved": 8,
+                    "regressed": 0,
+                    "accuracy_delta_points": 26.67,
+                    "mcnemar_exact_p": 0.007812
+                },
+                "m3_to_m3c": {
+                    "improved": 6,
+                    "regressed": 1,
+                    "accuracy_delta_points": 16.67,
+                    "mcnemar_exact_p": 0.125
+                },
+                "m3c_to_m3r": {
+                    "improved": 0,
+                    "regressed": 8,
+                    "accuracy_delta_points": -26.67,
+                    "mcnemar_exact_p": 0.007812
+                }
+            }
+        }
+    },
+    "global": {
+        "questions": 90,
+        "models": {
+            "m2": {
+                "questions": 90,
+                "correct": 56,
+                "accuracy": 62.22,
+                "correct_and_formatted": 52,
+                "conclusions_recognized_as_correct": 54,
+                "contradictions": 0,
+                "missing": 9,
+                "tokens": 3341
+            },
+            "m3": {
+                "questions": 90,
+                "correct": 65,
+                "accuracy": 72.22,
+                "correct_and_formatted": 55,
+                "conclusions_recognized_as_correct": 65,
+                "contradictions": 0,
+                "missing": 4,
+                "tokens": 3503
+            },
+            "m3c": {
+                "questions": 90,
+                "correct": 72,
+                "accuracy": 80.0,
+                "correct_and_formatted": 57,
+                "conclusions_recognized_as_correct": 73,
+                "contradictions": 1,
+                "missing": 0,
+                "tokens": 3377
+            },
+            "m3r": {
+                "questions": 90,
+                "correct": 66,
+                "accuracy": 73.33,
+                "correct_and_formatted": 66,
+                "conclusions_recognized_as_correct": 66,
+                "contradictions": 0,
+                "missing": 0,
+                "tokens": 3383
+            }
+        },
+        "comparisons": {
+            "m2_to_m3c": {
+                "improved": 20,
+                "regressed": 4,
+                "accuracy_delta_points": 17.78,
+                "mcnemar_exact_p": 0.001544
+            },
+            "m2_to_m3r": {
+                "improved": 12,
+                "regressed": 2,
+                "accuracy_delta_points": 11.11,
+                "mcnemar_exact_p": 0.012939
+            },
+            "m3_to_m3c": {
+                "improved": 13,
+                "regressed": 6,
+                "accuracy_delta_points": 7.78,
+                "mcnemar_exact_p": 0.167068
+            },
+            "m3c_to_m3r": {
+                "improved": 6,
+                "regressed": 12,
+                "accuracy_delta_points": -6.67,
+                "mcnemar_exact_p": 0.237885
+            }
+        }
+    },
+    "continual_learning": {
+        "m3": {
+            "maths_forgetting_points": 0.0,
+            "algebra_forgetting_points": 16.67,
+            "code_gain_points": 36.67
+        },
+        "m3c": {
+            "maths_forgetting_points": 0.0,
+            "algebra_forgetting_points": 3.33,
+            "code_gain_points": 53.33
+        },
+        "m3r": {
+            "maths_forgetting_points": 0.0,
+            "algebra_forgetting_points": 0.0,
+            "code_gain_points": 26.67
+        }
+    }
+}

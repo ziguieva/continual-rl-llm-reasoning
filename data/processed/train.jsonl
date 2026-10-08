@@ -1,0 +1,360 @@
+{"id": "maths_train_0071", "domain": "maths", "question": "Calcule : 152 - 85", "answer": 67}
+{"id": "code_train_0087", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(49 % 16 + 6)", "answer": 7}
+{"id": "code_train_0045", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(9**4 + 10)", "answer": 6571}
+{"id": "algebre_train_0017", "domain": "algebre", "question": "Résous l'équation : 9(x + 4) = 171", "answer": 15}
+{"id": "algebre_train_0020", "domain": "algebre", "question": "Résous l'équation : 12(x + 19) = 420", "answer": 16}
+{"id": "code_train_0095", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(3**4 + 2)", "answer": 83}
+{"id": "algebre_train_0019", "domain": "algebre", "question": "Résous l'équation : 2x - 2 = 18", "answer": 10}
+{"id": "code_train_0105", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([64, 77, 84]))", "answer": 225}
+{"id": "code_train_0055", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(84 % 11 + 8)", "answer": 15}
+{"id": "code_train_0090", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(103 % 6 + 4)", "answer": 5}
+{"id": "maths_train_0001", "domain": "maths", "question": "Calcule : (44 - 5) * 2", "answer": 78}
+{"id": "algebre_train_0102", "domain": "algebre", "question": "Résous l'équation : 14x + 11 = 123", "answer": 8}
+{"id": "maths_train_0032", "domain": "maths", "question": "Calcule : (77 - 21) * 9", "answer": 504}
+{"id": "maths_train_0013", "domain": "maths", "question": "Calcule : 17 * 10", "answer": 170}
+{"id": "algebre_train_0021", "domain": "algebre", "question": "Résous l'équation : 9x + 3 = 48", "answer": 5}
+{"id": "code_train_0018", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(87 // 5)", "answer": 17}
+{"id": "algebre_train_0015", "domain": "algebre", "question": "Résous l'équation : 15x - 3 = 132", "answer": 9}
+{"id": "code_train_0032", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(192 // 16)", "answer": 12}
+{"id": "code_train_0064", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(102 // 18)", "answer": 5}
+{"id": "maths_train_0021", "domain": "maths", "question": "Calcule : 75 / 15", "answer": 5}
+{"id": "maths_train_0010", "domain": "maths", "question": "Calcule : 67 - 9", "answer": 58}
+{"id": "code_train_0019", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(194 % 12 + 4)", "answer": 6}
+{"id": "algebre_train_0064", "domain": "algebre", "question": "Résous l'équation : x/11 + 5 = 19", "answer": 154}
+{"id": "algebre_train_0033", "domain": "algebre", "question": "Résous l'équation : x/8 + 14 = 18", "answer": 32}
+{"id": "maths_train_0052", "domain": "maths", "question": "Calcule : (88 - 34) * 8", "answer": 432}
+{"id": "maths_train_0034", "domain": "maths", "question": "Calcule : 217 - 128", "answer": 89}
+{"id": "code_train_0039", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([29, 39, 99]))", "answer": 167}
+{"id": "code_train_0118", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(8**3 + 2)", "answer": 514}
+{"id": "algebre_train_0003", "domain": "algebre", "question": "Résous l'équation : 7(x + 5) = 91", "answer": 8}
+{"id": "algebre_train_0109", "domain": "algebre", "question": "Résous l'équation : 3(x + 12) = 90", "answer": 18}
+{"id": "code_train_0001", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([38, 26]))", "answer": 2}
+{"id": "code_train_0094", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(185 // 14)", "answer": 13}
+{"id": "code_train_0115", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(25 % 4 + 8)", "answer": 9}
+{"id": "maths_train_0009", "domain": "maths", "question": "Calcule : 34 * 7", "answer": 238}
+{"id": "algebre_train_0118", "domain": "algebre", "question": "Résous l'équation : 12x - 5 = 355", "answer": 30}
+{"id": "algebre_train_0058", "domain": "algebre", "question": "Résous l'équation : 9x - 15 = 57", "answer": 8}
+{"id": "code_train_0024", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(8**2 + 14)", "answer": 78}
+{"id": "algebre_train_0055", "domain": "algebre", "question": "Résous l'équation : 7x - 6 = 64", "answer": 10}
+{"id": "code_train_0104", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([59, 17]))", "answer": 2}
+{"id": "maths_train_0092", "domain": "maths", "question": "Calcule : 180 - 127", "answer": 53}
+{"id": "code_train_0110", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([60, 71, 17]))", "answer": 148}
+{"id": "maths_train_0097", "domain": "maths", "question": "Calcule : 33 + 247", "answer": 280}
+{"id": "algebre_train_0069", "domain": "algebre", "question": "Résous l'équation : x/2 + 20 = 38", "answer": 36}
+{"id": "code_train_0041", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(66 % 15 + 5)", "answer": 11}
+{"id": "code_train_0098", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([69, 2, 14, 56, 18, 34]))", "answer": 6}
+{"id": "code_train_0060", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(185 // 16)", "answer": 11}
+{"id": "code_train_0069", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(14 // 10)", "answer": 1}
+{"id": "maths_train_0020", "domain": "maths", "question": "Calcule : 235 + 72", "answer": 307}
+{"id": "maths_train_0016", "domain": "maths", "question": "Calcule : 288 - 179", "answer": 109}
+{"id": "code_train_0116", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([79, 62, 25]))", "answer": 166}
+{"id": "maths_train_0042", "domain": "maths", "question": "Calcule : 43 * 18", "answer": 774}
+{"id": "code_train_0054", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([89, 63, 26]))", "answer": 178}
+{"id": "maths_train_0098", "domain": "maths", "question": "Calcule : 210 / 15", "answer": 14}
+{"id": "algebre_train_0066", "domain": "algebre", "question": "Résous l'équation : 3(x + 13) = 42", "answer": 1}
+{"id": "code_train_0043", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([40, 64, 3, 12, 51, 65, 59, 31, 28]))", "answer": 9}
+{"id": "maths_train_0109", "domain": "maths", "question": "Calcule : 26 / 2", "answer": 13}
+{"id": "algebre_train_0087", "domain": "algebre", "question": "Résous l'équation : 15x - 8 = 157", "answer": 11}
+{"id": "maths_train_0099", "domain": "maths", "question": "Calcule : 228 - 109", "answer": 119}
+{"id": "maths_train_0061", "domain": "maths", "question": "Calcule : 15 * 3", "answer": 45}
+{"id": "code_train_0002", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([62, 45, 72, 93, 36, 37, 16]))", "answer": 7}
+{"id": "maths_train_0049", "domain": "maths", "question": "Calcule : 46 * 4", "answer": 184}
+{"id": "code_train_0101", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([49, 87, 78]))", "answer": 214}
+{"id": "code_train_0068", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(135 % 20 + 5)", "answer": 20}
+{"id": "maths_train_0047", "domain": "maths", "question": "Calcule : 768 / 16", "answer": 48}
+{"id": "algebre_train_0012", "domain": "algebre", "question": "Résous l'équation : 6x - 10 = 170", "answer": 30}
+{"id": "algebre_train_0120", "domain": "algebre", "question": "Résous l'équation : x/7 + 11 = 29", "answer": 126}
+{"id": "code_train_0084", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(111 // 9)", "answer": 12}
+{"id": "code_train_0025", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([61, 67, 59]))", "answer": 187}
+{"id": "algebre_train_0068", "domain": "algebre", "question": "Résous l'équation : 3(x + 19) = 108", "answer": 17}
+{"id": "code_train_0048", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(137 // 18)", "answer": 7}
+{"id": "maths_train_0112", "domain": "maths", "question": "Calcule : (30 - 14) * 10", "answer": 160}
+{"id": "algebre_train_0053", "domain": "algebre", "question": "Résous l'équation : 13x + 17 = 147", "answer": 10}
+{"id": "algebre_train_0048", "domain": "algebre", "question": "Résous l'équation : 2x + 5 = 17", "answer": 6}
+{"id": "maths_train_0078", "domain": "maths", "question": "Calcule : 163 + 92", "answer": 255}
+{"id": "code_train_0038", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([84, 36, 32, 15, 4, 95, 24]))", "answer": 7}
+{"id": "maths_train_0005", "domain": "maths", "question": "Calcule : 168 - 98", "answer": 70}
+{"id": "code_train_0028", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(93 // 12)", "answer": 7}
+{"id": "maths_train_0029", "domain": "maths", "question": "Calcule : 252 - 175", "answer": 77}
+{"id": "code_train_0074", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([68, 53, 99, 53, 74, 10, 17, 41, 83]))", "answer": 9}
+{"id": "maths_train_0073", "domain": "maths", "question": "Calcule : 204 + 146", "answer": 350}
+{"id": "maths_train_0011", "domain": "maths", "question": "Calcule : 27 * 19", "answer": 513}
+{"id": "maths_train_0106", "domain": "maths", "question": "Calcule : 41 * 12", "answer": 492}
+{"id": "code_train_0036", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(59 % 13 + 9)", "answer": 16}
+{"id": "algebre_train_0111", "domain": "algebre", "question": "Résous l'équation : 6x + 16 = 40", "answer": 4}
+{"id": "maths_train_0120", "domain": "maths", "question": "Calcule : 85 + 121", "answer": 206}
+{"id": "maths_train_0095", "domain": "maths", "question": "Calcule : 60 / 10", "answer": 6}
+{"id": "code_train_0082", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([88, 32, 5, 74]))", "answer": 4}
+{"id": "maths_train_0064", "domain": "maths", "question": "Calcule : 200 - 57", "answer": 143}
+{"id": "algebre_train_0114", "domain": "algebre", "question": "Résous l'équation : 14x + 6 = 230", "answer": 16}
+{"id": "maths_train_0065", "domain": "maths", "question": "Calcule : 230 + 94", "answer": 324}
+{"id": "code_train_0023", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(92 % 11 + 7)", "answer": 11}
+{"id": "algebre_train_0043", "domain": "algebre", "question": "Résous l'équation : 12x - 20 = -8", "answer": 1}
+{"id": "algebre_train_0080", "domain": "algebre", "question": "Résous l'équation : 15x + 15 = 75", "answer": 4}
+{"id": "code_train_0088", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(130 % 3 + 3)", "answer": 4}
+{"id": "maths_train_0105", "domain": "maths", "question": "Calcule : 188 - 34", "answer": 154}
+{"id": "algebre_train_0039", "domain": "algebre", "question": "Résous l'équation : 4x - 18 = -6", "answer": 3}
+{"id": "code_train_0120", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(52 // 12)", "answer": 4}
+{"id": "algebre_train_0099", "domain": "algebre", "question": "Résous l'équation : 14(x + 5) = 322", "answer": 18}
+{"id": "algebre_train_0089", "domain": "algebre", "question": "Résous l'équation : 3(x + 7) = 51", "answer": 10}
+{"id": "maths_train_0058", "domain": "maths", "question": "Calcule : 284 - 63", "answer": 221}
+{"id": "algebre_train_0077", "domain": "algebre", "question": "Résous l'équation : 13(x + 10) = 481", "answer": 27}
+{"id": "maths_train_0114", "domain": "maths", "question": "Calcule : 40 * 10", "answer": 400}
+{"id": "code_train_0078", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([88, 85, 70]))", "answer": 3}
+{"id": "algebre_train_0091", "domain": "algebre", "question": "Résous l'équation : 9x + 17 = 89", "answer": 8}
+{"id": "code_train_0109", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([99, 19, 38, 6, 37, 92, 11]))", "answer": 7}
+{"id": "algebre_train_0071", "domain": "algebre", "question": "Résous l'équation : 3(x + 13) = 123", "answer": 28}
+{"id": "code_train_0034", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(158 // 4)", "answer": 39}
+{"id": "maths_train_0023", "domain": "maths", "question": "Calcule : 171 - 157", "answer": 14}
+{"id": "maths_train_0083", "domain": "maths", "question": "Calcule : (61 - 30) * 9", "answer": 279}
+{"id": "code_train_0073", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(8**2 + 19)", "answer": 83}
+{"id": "maths_train_0069", "domain": "maths", "question": "Calcule : 280 / 20", "answer": 14}
+{"id": "code_train_0071", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(174 // 15)", "answer": 11}
+{"id": "algebre_train_0063", "domain": "algebre", "question": "Résous l'équation : 10(x + 9) = 230", "answer": 14}
+{"id": "code_train_0092", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([82, 8, 10]))", "answer": 100}
+{"id": "code_train_0063", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(61 % 20 + 9)", "answer": 10}
+{"id": "algebre_train_0001", "domain": "algebre", "question": "Résous l'équation : 12x + 5 = 197", "answer": 16}
+{"id": "maths_train_0074", "domain": "maths", "question": "Calcule : 143 + 246", "answer": 389}
+{"id": "code_train_0029", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(110 // 11)", "answer": 10}
+{"id": "code_train_0005", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([50, 73, 5]))", "answer": 128}
+{"id": "maths_train_0054", "domain": "maths", "question": "Calcule : 153 - 31", "answer": 122}
+{"id": "maths_train_0050", "domain": "maths", "question": "Calcule : 82 + 141", "answer": 223}
+{"id": "maths_train_0066", "domain": "maths", "question": "Calcule : 34 * 17", "answer": 578}
+{"id": "code_train_0022", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([25, 15, 43, 21, 94, 59]))", "answer": 6}
+{"id": "algebre_train_0100", "domain": "algebre", "question": "Résous l'équation : 13x - 1 = 38", "answer": 3}
+{"id": "algebre_train_0104", "domain": "algebre", "question": "Résous l'équation : 14x - 20 = -6", "answer": 1}
+{"id": "maths_train_0024", "domain": "maths", "question": "Calcule : 49 + 170", "answer": 219}
+{"id": "maths_train_0015", "domain": "maths", "question": "Calcule : 34 * 11", "answer": 374}
+{"id": "code_train_0031", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(65 % 3 + 3)", "answer": 5}
+{"id": "maths_train_0062", "domain": "maths", "question": "Calcule : 39 + 234", "answer": 273}
+{"id": "maths_train_0031", "domain": "maths", "question": "Calcule : 240 + 101", "answer": 341}
+{"id": "algebre_train_0060", "domain": "algebre", "question": "Résous l'équation : 7x - 14 = 147", "answer": 23}
+{"id": "maths_train_0035", "domain": "maths", "question": "Calcule : 16 + 199", "answer": 215}
+{"id": "algebre_train_0094", "domain": "algebre", "question": "Résous l'équation : 14x - 19 = 79", "answer": 7}
+{"id": "code_train_0007", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(8**3 + 8)", "answer": 520}
+{"id": "algebre_train_0061", "domain": "algebre", "question": "Résous l'équation : 5x - 7 = 113", "answer": 24}
+{"id": "algebre_train_0027", "domain": "algebre", "question": "Résous l'équation : 13(x + 15) = 312", "answer": 9}
+{"id": "code_train_0059", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(56 % 6 + 7)", "answer": 9}
+{"id": "code_train_0050", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(63 % 19 + 6)", "answer": 12}
+{"id": "algebre_train_0026", "domain": "algebre", "question": "Résous l'équation : 5(x + 3) = 85", "answer": 14}
+{"id": "algebre_train_0108", "domain": "algebre", "question": "Résous l'équation : x/2 + 5 = 10", "answer": 10}
+{"id": "algebre_train_0040", "domain": "algebre", "question": "Résous l'équation : x/8 + 5 = 7", "answer": 16}
+{"id": "maths_train_0081", "domain": "maths", "question": "Calcule : 56 - 43", "answer": 13}
+{"id": "algebre_train_0016", "domain": "algebre", "question": "Résous l'équation : 14x - 14 = 378", "answer": 28}
+{"id": "algebre_train_0006", "domain": "algebre", "question": "Résous l'équation : 2(x + 2) = 40", "answer": 18}
+{"id": "maths_train_0068", "domain": "maths", "question": "Calcule : 87 + 83", "answer": 170}
+{"id": "algebre_train_0070", "domain": "algebre", "question": "Résous l'équation : 11x - 13 = 20", "answer": 3}
+{"id": "maths_train_0118", "domain": "maths", "question": "Calcule : 377 / 13", "answer": 29}
+{"id": "code_train_0070", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([66, 96, 87, 21, 4, 19, 78]))", "answer": 7}
+{"id": "maths_train_0084", "domain": "maths", "question": "Calcule : 4 * 5", "answer": 20}
+{"id": "maths_train_0094", "domain": "maths", "question": "Calcule : 31 * 12", "answer": 372}
+{"id": "algebre_train_0050", "domain": "algebre", "question": "Résous l'équation : 9x + 14 = 68", "answer": 6}
+{"id": "code_train_0097", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(7**4 + 12)", "answer": 2413}
+{"id": "code_train_0030", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(175 // 13)", "answer": 13}
+{"id": "algebre_train_0112", "domain": "algebre", "question": "Résous l'équation : x/12 + 1 = 17", "answer": 192}
+{"id": "maths_train_0017", "domain": "maths", "question": "Calcule : 96 / 3", "answer": 32}
+{"id": "code_train_0035", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(34 // 3)", "answer": 11}
+{"id": "algebre_train_0085", "domain": "algebre", "question": "Résous l'équation : 3x + 11 = 71", "answer": 20}
+{"id": "code_train_0077", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([40, 58, 78]))", "answer": 176}
+{"id": "maths_train_0002", "domain": "maths", "question": "Calcule : 45 + 48", "answer": 93}
+{"id": "maths_train_0100", "domain": "maths", "question": "Calcule : (41 - 35) * 5", "answer": 30}
+{"id": "algebre_train_0056", "domain": "algebre", "question": "Résous l'équation : 3x + 8 = 74", "answer": 22}
+{"id": "algebre_train_0032", "domain": "algebre", "question": "Résous l'équation : 14x - 5 = 345", "answer": 25}
+{"id": "algebre_train_0076", "domain": "algebre", "question": "Résous l'équation : 5(x + 11) = 180", "answer": 25}
+{"id": "maths_train_0051", "domain": "maths", "question": "Calcule : 18 * 8", "answer": 144}
+{"id": "algebre_train_0038", "domain": "algebre", "question": "Résous l'équation : 6(x + 8) = 72", "answer": 4}
+{"id": "maths_train_0008", "domain": "maths", "question": "Calcule : 157 - 98", "answer": 59}
+{"id": "maths_train_0102", "domain": "maths", "question": "Calcule : (33 - 20) * 10", "answer": 130}
+{"id": "code_train_0004", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(71 % 9 + 1)", "answer": 9}
+{"id": "code_train_0057", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(164 % 5 + 6)", "answer": 10}
+{"id": "code_train_0072", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(8**3 + 16)", "answer": 528}
+{"id": "code_train_0117", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([98, 52, 47]))", "answer": 197}
+{"id": "algebre_train_0042", "domain": "algebre", "question": "Résous l'équation : 6x - 15 = 159", "answer": 29}
+{"id": "maths_train_0104", "domain": "maths", "question": "Calcule : 148 - 40", "answer": 108}
+{"id": "maths_train_0060", "domain": "maths", "question": "Calcule : 37 * 6", "answer": 222}
+{"id": "algebre_train_0107", "domain": "algebre", "question": "Résous l'équation : 10(x + 4) = 190", "answer": 15}
+{"id": "maths_train_0110", "domain": "maths", "question": "Calcule : 189 - 10", "answer": 179}
+{"id": "code_train_0051", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(24 % 5 + 9)", "answer": 13}
+{"id": "code_train_0026", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(44 // 17)", "answer": 2}
+{"id": "maths_train_0041", "domain": "maths", "question": "Calcule : (44 - 25) * 9", "answer": 171}
+{"id": "code_train_0091", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(136 % 3 + 6)", "answer": 7}
+{"id": "maths_train_0045", "domain": "maths", "question": "Calcule : 52 / 2", "answer": 26}
+{"id": "algebre_train_0116", "domain": "algebre", "question": "Résous l'équation : x/12 + 19 = 39", "answer": 240}
+{"id": "maths_train_0063", "domain": "maths", "question": "Calcule : (92 - 13) * 3", "answer": 237}
+{"id": "maths_train_0043", "domain": "maths", "question": "Calcule : 184 + 236", "answer": 420}
+{"id": "code_train_0046", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(4**2 + 18)", "answer": 34}
+{"id": "code_train_0003", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(70 // 17)", "answer": 4}
+{"id": "code_train_0009", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(92 // 9)", "answer": 10}
+{"id": "algebre_train_0088", "domain": "algebre", "question": "Résous l'équation : 10x + 14 = 44", "answer": 3}
+{"id": "maths_train_0006", "domain": "maths", "question": "Calcule : 30 * 4", "answer": 120}
+{"id": "algebre_train_0093", "domain": "algebre", "question": "Résous l'équation : 9(x + 10) = 153", "answer": 7}
+{"id": "code_train_0017", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([54, 20, 53]))", "answer": 127}
+{"id": "code_train_0096", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(170 // 15)", "answer": 11}
+{"id": "maths_train_0077", "domain": "maths", "question": "Calcule : 232 - 80", "answer": 152}
+{"id": "maths_train_0018", "domain": "maths", "question": "Calcule : 238 - 27", "answer": 211}
+{"id": "maths_train_0082", "domain": "maths", "question": "Calcule : (55 - 52) * 2", "answer": 6}
+{"id": "maths_train_0116", "domain": "maths", "question": "Calcule : 84 / 6", "answer": 14}
+{"id": "algebre_train_0059", "domain": "algebre", "question": "Résous l'équation : 9(x + 9) = 279", "answer": 22}
+{"id": "code_train_0021", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([17, 100, 71]))", "answer": 188}
+{"id": "maths_train_0113", "domain": "maths", "question": "Calcule : 16 * 8", "answer": 128}
+{"id": "maths_train_0025", "domain": "maths", "question": "Calcule : 216 + 90", "answer": 306}
+{"id": "algebre_train_0002", "domain": "algebre", "question": "Résous l'équation : x/15 + 5 = 23", "answer": 270}
+{"id": "code_train_0037", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([8, 72, 76]))", "answer": 156}
+{"id": "algebre_train_0098", "domain": "algebre", "question": "Résous l'équation : 13x - 10 = 367", "answer": 29}
+{"id": "algebre_train_0014", "domain": "algebre", "question": "Résous l'équation : 2x + 11 = 63", "answer": 26}
+{"id": "maths_train_0053", "domain": "maths", "question": "Calcule : 213 - 68", "answer": 145}
+{"id": "algebre_train_0081", "domain": "algebre", "question": "Résous l'équation : 15(x + 5) = 120", "answer": 3}
+{"id": "maths_train_0117", "domain": "maths", "question": "Calcule : 180 + 219", "answer": 399}
+{"id": "maths_train_0088", "domain": "maths", "question": "Calcule : 95 + 207", "answer": 302}
+{"id": "maths_train_0080", "domain": "maths", "question": "Calcule : 560 / 16", "answer": 35}
+{"id": "maths_train_0090", "domain": "maths", "question": "Calcule : 522 / 18", "answer": 29}
+{"id": "maths_train_0037", "domain": "maths", "question": "Calcule : (71 - 47) * 5", "answer": 120}
+{"id": "code_train_0049", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([84, 46, 40, 34, 47, 66, 64, 60, 13, 93]))", "answer": 10}
+{"id": "maths_train_0030", "domain": "maths", "question": "Calcule : 24 * 8", "answer": 192}
+{"id": "maths_train_0022", "domain": "maths", "question": "Calcule : 273 - 39", "answer": 234}
+{"id": "maths_train_0107", "domain": "maths", "question": "Calcule : (31 - 19) * 8", "answer": 96}
+{"id": "maths_train_0076", "domain": "maths", "question": "Calcule : 31 * 11", "answer": 341}
+{"id": "maths_train_0027", "domain": "maths", "question": "Calcule : 160 - 33", "answer": 127}
+{"id": "code_train_0033", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([67, 37, 11]))", "answer": 115}
+{"id": "code_train_0112", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([33, 96, 3, 46, 9, 45, 31]))", "answer": 7}
+{"id": "maths_train_0089", "domain": "maths", "question": "Calcule : 196 + 127", "answer": 323}
+{"id": "maths_train_0039", "domain": "maths", "question": "Calcule : 98 - 69", "answer": 29}
+{"id": "code_train_0085", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(139 % 18 + 9)", "answer": 22}
+{"id": "algebre_train_0113", "domain": "algebre", "question": "Résous l'équation : x/8 + 9 = 26", "answer": 136}
+{"id": "algebre_train_0031", "domain": "algebre", "question": "Résous l'équation : 11(x + 8) = 319", "answer": 21}
+{"id": "code_train_0010", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(50 // 12)", "answer": 4}
+{"id": "code_train_0113", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([48, 79, 29]))", "answer": 156}
+{"id": "maths_train_0119", "domain": "maths", "question": "Calcule : 194 + 240", "answer": 434}
+{"id": "code_train_0079", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(4**2 + 15)", "answer": 31}
+{"id": "maths_train_0096", "domain": "maths", "question": "Calcule : 25 + 113", "answer": 138}
+{"id": "maths_train_0115", "domain": "maths", "question": "Calcule : 36 / 3", "answer": 12}
+{"id": "algebre_train_0119", "domain": "algebre", "question": "Résous l'équation : x/10 + 3 = 13", "answer": 100}
+{"id": "algebre_train_0028", "domain": "algebre", "question": "Résous l'équation : 13x - 6 = 124", "answer": 10}
+{"id": "algebre_train_0057", "domain": "algebre", "question": "Résous l'équation : 11x + 9 = 20", "answer": 1}
+{"id": "algebre_train_0029", "domain": "algebre", "question": "Résous l'équation : x/9 + 15 = 21", "answer": 54}
+{"id": "algebre_train_0023", "domain": "algebre", "question": "Résous l'équation : x/2 + 11 = 27", "answer": 32}
+{"id": "algebre_train_0013", "domain": "algebre", "question": "Résous l'équation : x/6 + 13 = 31", "answer": 108}
+{"id": "algebre_train_0072", "domain": "algebre", "question": "Résous l'équation : x/7 + 17 = 18", "answer": 7}
+{"id": "algebre_train_0011", "domain": "algebre", "question": "Résous l'équation : 10x - 18 = 252", "answer": 27}
+{"id": "maths_train_0057", "domain": "maths", "question": "Calcule : 99 / 9", "answer": 11}
+{"id": "maths_train_0067", "domain": "maths", "question": "Calcule : 29 + 236", "answer": 265}
+{"id": "maths_train_0026", "domain": "maths", "question": "Calcule : 66 - 44", "answer": 22}
+{"id": "maths_train_0003", "domain": "maths", "question": "Calcule : 8 * 9", "answer": 72}
+{"id": "maths_train_0028", "domain": "maths", "question": "Calcule : 121 - 60", "answer": 61}
+{"id": "maths_train_0111", "domain": "maths", "question": "Calcule : 324 / 12", "answer": 27}
+{"id": "code_train_0058", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(100 % 3 + 1)", "answer": 2}
+{"id": "maths_train_0085", "domain": "maths", "question": "Calcule : 28 + 191", "answer": 219}
+{"id": "code_train_0052", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([14, 11, 42]))", "answer": 67}
+{"id": "code_train_0107", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(146 % 4 + 9)", "answer": 11}
+{"id": "code_train_0011", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([43, 39, 2, 28, 25]))", "answer": 5}
+{"id": "algebre_train_0054", "domain": "algebre", "question": "Résous l'équation : x/15 + 17 = 18", "answer": 15}
+{"id": "code_train_0015", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(9**3 + 19)", "answer": 748}
+{"id": "algebre_train_0025", "domain": "algebre", "question": "Résous l'équation : x/11 + 8 = 27", "answer": 209}
+{"id": "maths_train_0012", "domain": "maths", "question": "Calcule : 12 * 5", "answer": 60}
+{"id": "algebre_train_0037", "domain": "algebre", "question": "Résous l'équation : 2(x + 8) = 42", "answer": 13}
+{"id": "algebre_train_0046", "domain": "algebre", "question": "Résous l'équation : 15x + 16 = 316", "answer": 20}
+{"id": "code_train_0093", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([55, 1, 79]))", "answer": 135}
+{"id": "code_train_0119", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([49, 41, 23, 59, 69, 44, 70, 46, 87, 99]))", "answer": 10}
+{"id": "algebre_train_0008", "domain": "algebre", "question": "Résous l'équation : x/11 + 12 = 22", "answer": 110}
+{"id": "maths_train_0056", "domain": "maths", "question": "Calcule : 225 - 84", "answer": 141}
+{"id": "code_train_0108", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([61, 97, 69, 86, 28, 98, 32, 88, 97, 77]))", "answer": 10}
+{"id": "code_train_0086", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(165 // 18)", "answer": 9}
+{"id": "maths_train_0019", "domain": "maths", "question": "Calcule : 88 + 103", "answer": 191}
+{"id": "algebre_train_0095", "domain": "algebre", "question": "Résous l'équation : 5x + 14 = 109", "answer": 19}
+{"id": "code_train_0020", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([27, 48, 41, 53, 6, 73, 29]))", "answer": 7}
+{"id": "algebre_train_0086", "domain": "algebre", "question": "Résous l'équation : 4x + 10 = 90", "answer": 20}
+{"id": "code_train_0061", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(136 % 6 + 9)", "answer": 13}
+{"id": "algebre_train_0110", "domain": "algebre", "question": "Résous l'équation : 8x - 11 = 205", "answer": 27}
+{"id": "maths_train_0038", "domain": "maths", "question": "Calcule : 28 * 9", "answer": 252}
+{"id": "algebre_train_0074", "domain": "algebre", "question": "Résous l'équation : 15(x + 11) = 240", "answer": 5}
+{"id": "algebre_train_0097", "domain": "algebre", "question": "Résous l'équation : 8x + 1 = 121", "answer": 15}
+{"id": "maths_train_0079", "domain": "maths", "question": "Calcule : 500 / 10", "answer": 50}
+{"id": "algebre_train_0010", "domain": "algebre", "question": "Résous l'équation : 9x + 9 = 108", "answer": 11}
+{"id": "algebre_train_0004", "domain": "algebre", "question": "Résous l'équation : 14x + 4 = 214", "answer": 15}
+{"id": "code_train_0075", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([66, 51, 70]))", "answer": 187}
+{"id": "code_train_0100", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(20 % 2 + 2)", "answer": 2}
+{"id": "code_train_0016", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([29, 39, 91, 19, 60]))", "answer": 5}
+{"id": "algebre_train_0090", "domain": "algebre", "question": "Résous l'équation : x/9 + 8 = 26", "answer": 162}
+{"id": "maths_train_0036", "domain": "maths", "question": "Calcule : 10 * 9", "answer": 90}
+{"id": "code_train_0056", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([98, 48, 66, 72]))", "answer": 4}
+{"id": "algebre_train_0105", "domain": "algebre", "question": "Résous l'équation : 10x - 19 = 91", "answer": 11}
+{"id": "maths_train_0108", "domain": "maths", "question": "Calcule : (93 - 61) * 5", "answer": 160}
+{"id": "algebre_train_0117", "domain": "algebre", "question": "Résous l'équation : 14x - 17 = 165", "answer": 13}
+{"id": "maths_train_0014", "domain": "maths", "question": "Calcule : 182 + 177", "answer": 359}
+{"id": "code_train_0042", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(183 % 19 + 7)", "answer": 19}
+{"id": "maths_train_0093", "domain": "maths", "question": "Calcule : 265 - 142", "answer": 123}
+{"id": "code_train_0040", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(67 % 9 + 1)", "answer": 5}
+{"id": "code_train_0062", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([31, 74, 54]))", "answer": 159}
+{"id": "maths_train_0059", "domain": "maths", "question": "Calcule : 308 / 7", "answer": 44}
+{"id": "algebre_train_0067", "domain": "algebre", "question": "Résous l'équation : 15x - 4 = 221", "answer": 15}
+{"id": "algebre_train_0082", "domain": "algebre", "question": "Résous l'équation : 8x - 7 = 233", "answer": 30}
+{"id": "algebre_train_0024", "domain": "algebre", "question": "Résous l'équation : 8x - 15 = 217", "answer": 29}
+{"id": "algebre_train_0073", "domain": "algebre", "question": "Résous l'équation : x/14 + 10 = 21", "answer": 154}
+{"id": "code_train_0114", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(159 % 20 + 7)", "answer": 26}
+{"id": "code_train_0106", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(180 // 4)", "answer": 45}
+{"id": "code_train_0012", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([18, 14, 79]))", "answer": 111}
+{"id": "code_train_0111", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(9**3 + 17)", "answer": 746}
+{"id": "algebre_train_0044", "domain": "algebre", "question": "Résous l'équation : x/3 + 4 = 22", "answer": 54}
+{"id": "algebre_train_0084", "domain": "algebre", "question": "Résous l'équation : 6x + 12 = 84", "answer": 12}
+{"id": "maths_train_0091", "domain": "maths", "question": "Calcule : 176 + 148", "answer": 324}
+{"id": "algebre_train_0041", "domain": "algebre", "question": "Résous l'équation : 11(x + 2) = 154", "answer": 12}
+{"id": "code_train_0006", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([70, 44, 83]))", "answer": 197}
+{"id": "maths_train_0103", "domain": "maths", "question": "Calcule : 166 - 1", "answer": 165}
+{"id": "algebre_train_0045", "domain": "algebre", "question": "Résous l'équation : 11x - 11 = 0", "answer": 1}
+{"id": "code_train_0089", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([89, 16, 82]))", "answer": 187}
+{"id": "code_train_0080", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(len([44, 24, 64, 89, 64, 48, 67, 35]))", "answer": 8}
+{"id": "code_train_0083", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(4**3 + 14)", "answer": 78}
+{"id": "algebre_train_0101", "domain": "algebre", "question": "Résous l'équation : 8x - 14 = 106", "answer": 15}
+{"id": "algebre_train_0052", "domain": "algebre", "question": "Résous l'équation : 13x + 18 = 83", "answer": 5}
+{"id": "algebre_train_0106", "domain": "algebre", "question": "Résous l'équation : x/3 + 16 = 26", "answer": 30}
+{"id": "algebre_train_0049", "domain": "algebre", "question": "Résous l'équation : 12(x + 9) = 336", "answer": 19}
+{"id": "code_train_0102", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([56, 52, 96]))", "answer": 204}
+{"id": "algebre_train_0051", "domain": "algebre", "question": "Résous l'équation : x/9 + 10 = 29", "answer": 171}
+{"id": "algebre_train_0083", "domain": "algebre", "question": "Résous l'équation : 3x - 5 = 22", "answer": 9}
+{"id": "maths_train_0004", "domain": "maths", "question": "Calcule : 40 / 10", "answer": 4}
+{"id": "algebre_train_0036", "domain": "algebre", "question": "Résous l'équation : x/2 + 19 = 24", "answer": 10}
+{"id": "maths_train_0070", "domain": "maths", "question": "Calcule : 156 / 13", "answer": 12}
+{"id": "maths_train_0055", "domain": "maths", "question": "Calcule : (41 - 17) * 10", "answer": 240}
+{"id": "algebre_train_0115", "domain": "algebre", "question": "Résous l'équation : 6x + 15 = 105", "answer": 15}
+{"id": "maths_train_0101", "domain": "maths", "question": "Calcule : 20 * 7", "answer": 140}
+{"id": "code_train_0076", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([50, 79, 54]))", "answer": 183}
+{"id": "code_train_0065", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(68 % 3 + 10)", "answer": 12}
+{"id": "code_train_0014", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(146 // 3)", "answer": 48}
+{"id": "code_train_0081", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([91, 27, 89]))", "answer": 207}
+{"id": "algebre_train_0007", "domain": "algebre", "question": "Résous l'équation : 4x - 6 = 6", "answer": 3}
+{"id": "algebre_train_0009", "domain": "algebre", "question": "Résous l'équation : x/3 + 1 = 21", "answer": 60}
+{"id": "algebre_train_0065", "domain": "algebre", "question": "Résous l'équation : 13(x + 15) = 234", "answer": 3}
+{"id": "maths_train_0040", "domain": "maths", "question": "Calcule : (35 - 25) * 3", "answer": 30}
+{"id": "code_train_0008", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(9**4 + 12)", "answer": 6573}
+{"id": "algebre_train_0034", "domain": "algebre", "question": "Résous l'équation : 12x + 3 = 111", "answer": 9}
+{"id": "algebre_train_0096", "domain": "algebre", "question": "Résous l'équation : 2x + 7 = 27", "answer": 10}
+{"id": "algebre_train_0022", "domain": "algebre", "question": "Résous l'équation : x/13 + 11 = 20", "answer": 117}
+{"id": "algebre_train_0103", "domain": "algebre", "question": "Résous l'équation : 6x - 2 = 28", "answer": 5}
+{"id": "maths_train_0086", "domain": "maths", "question": "Calcule : 37 * 2", "answer": 74}
+{"id": "maths_train_0033", "domain": "maths", "question": "Calcule : 4 * 15", "answer": 60}
+{"id": "maths_train_0075", "domain": "maths", "question": "Calcule : 21 * 9", "answer": 189}
+{"id": "code_train_0013", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(45 % 18 + 6)", "answer": 15}
+{"id": "code_train_0099", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(6**3 + 18)", "answer": 234}
+{"id": "algebre_train_0035", "domain": "algebre", "question": "Résous l'équation : 2(x + 13) = 44", "answer": 9}
+{"id": "algebre_train_0018", "domain": "algebre", "question": "Résous l'équation : 15(x + 6) = 225", "answer": 9}
+{"id": "maths_train_0072", "domain": "maths", "question": "Calcule : 247 - 75", "answer": 172}
+{"id": "code_train_0103", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(8**3 + 1)", "answer": 513}
+{"id": "algebre_train_0075", "domain": "algebre", "question": "Résous l'équation : 11(x + 16) = 407", "answer": 21}
+{"id": "maths_train_0087", "domain": "maths", "question": "Calcule : 39 * 19", "answer": 741}
+{"id": "code_train_0027", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(123 % 5 + 4)", "answer": 7}
+{"id": "code_train_0053", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(8**4 + 10)", "answer": 4106}
+{"id": "algebre_train_0005", "domain": "algebre", "question": "Résous l'équation : x/12 + 3 = 14", "answer": 132}
+{"id": "code_train_0047", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(195 % 19 + 4)", "answer": 9}
+{"id": "maths_train_0044", "domain": "maths", "question": "Calcule : 295 - 173", "answer": 122}
+{"id": "algebre_train_0079", "domain": "algebre", "question": "Résous l'équation : 7(x + 5) = 189", "answer": 22}
+{"id": "algebre_train_0092", "domain": "algebre", "question": "Résous l'équation : 7(x + 1) = 49", "answer": 6}
+{"id": "algebre_train_0030", "domain": "algebre", "question": "Résous l'équation : 7x - 4 = 164", "answer": 24}
+{"id": "maths_train_0007", "domain": "maths", "question": "Calcule : 893 / 19", "answer": 47}
+{"id": "algebre_train_0078", "domain": "algebre", "question": "Résous l'équation : 15x + 18 = 123", "answer": 7}
+{"id": "algebre_train_0047", "domain": "algebre", "question": "Résous l'équation : 15x + 11 = 296", "answer": 19}
+{"id": "code_train_0067", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([59, 83, 70]))", "answer": 212}
+{"id": "code_train_0066", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(sum([31, 39, 19]))", "answer": 89}
+{"id": "maths_train_0048", "domain": "maths", "question": "Calcule : (45 - 24) * 8", "answer": 168}
+{"id": "code_train_0044", "domain": "code", "question": "Quel est le résultat de ce programme Python ?\nprint(42 % 9 + 1)", "answer": 7}
+{"id": "algebre_train_0062", "domain": "algebre", "question": "Résous l'équation : 12x + 15 = 375", "answer": 30}
+{"id": "maths_train_0046", "domain": "maths", "question": "Calcule : 836 / 19", "answer": 44}

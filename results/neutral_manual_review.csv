@@ -1,0 +1,604 @@
+id,domain,question,expected,base_prediction,grpo_prediction,base_correct,grpo_correct,base_tokens,grpo_tokens,base_truncated,grpo_truncated,base_response,grpo_response,base_audit_prediction,base_audit_status,base_final_answer,base_labels,grpo_audit_prediction,grpo_audit_status,grpo_final_answer,grpo_labels
+maths_validation_0005,maths,Calcule : 42 * 19,798,,806,False,False,8,8,False,False,REPMESSE: nombre.,REPONSE: 806,,missing,,[],806,incorrect,806,[806]
+algebre_validation_0030,algebre,Résous l'équation : 14x + 15 = 421,29,,,False,False,149,149,False,False,"REPONSE: 103
+
+Pour résoudre l'équation 14x + 15 = 421, nous allons suivre ces étapes :
+
+1) Remplacez 15 par 421 - 14x :
+   14x + 15 = 421
+   14x = 421 - 15
+   14x = 406
+
+2) Divisez chaque côté de la équation par 14 :
+   x = 406 ÷ 14
+   x = 29
+
+Donc, la solution est x = 29.","REPONSE: 103
+
+Pour résoudre l'équation 14x + 15 = 421, nous allons suivre ces étapes :
+
+1) Remplacez 15 par 421 - 14x :
+   14x + 15 = 421
+   14x = 421 - 15
+   14x = 406
+
+2) Divisez chaque côté de la équation par 14 :
+   x = 406 ÷ 14
+   x = 29
+
+Donc, la solution est x = 29.",29,ambiguous,29,[103],29,ambiguous,29,[103]
+algebre_validation_0003,algebre,Résous l'équation : 8x - 4 = 140,18,,,False,False,132,132,False,False,"REPONSE: 156
+
+Pour résoudre l'équation 8x - 4 = 140, nous allons suivre ces étapes :
+
+1) Ajouter 4 à chaque côté de la équation :
+   8x - 4 + 4 = 140 + 4
+   8x = 144
+
+2) Diviser chaque côté de la équation par 8 :
+   8x / 8 = 144 / 8
+   x = 18
+
+Donc, la solution est x = 18.","REPONSE: 156
+
+Pour résoudre l'équation 8x - 4 = 140, nous allons suivre ces étapes :
+
+1) Ajouter 4 à chaque côté de la équation :
+   8x - 4 + 4 = 140 + 4
+   8x = 144
+
+2) Diviser chaque côté de la équation par 8 :
+   8x / 8 = 144 / 8
+   x = 18
+
+Donc, la solution est x = 18.",18,ambiguous,18,[156],18,ambiguous,18,[156]
+algebre_validation_0023,algebre,Résous l'équation : 11x + 18 = 216,18,,,False,False,178,178,False,False,"REPONSE: 105
+
+Pour résoudre l'équation 11x + 18 = 216, nous allons suivre ces étapes :
+
+1) Remplacer 216 à gauche de la équation :
+   11x + 18 = 216
+
+2) Remplacer 18 à droite de la équation :
+   11x = 216 - 18
+
+3) Simplifier la droite :
+   11x = 208
+
+4) Diviser la droite par 11 pour résoudre x :
+   x = 208 / 11
+
+5) Calculer la valeur de x :
+   x = 19
+
+Donc, la solution est x = 19.","REPONSE: 105
+
+Pour résoudre l'équation 11x + 18 = 216, nous allons suivre ces étapes :
+
+1) Remplacer 216 à gauche de la équation :
+   11x + 18 = 216
+
+2) Remplacer 18 à droite de la équation :
+   11x = 216 - 18
+
+3) Simplifier la droite :
+   11x = 208
+
+4) Diviser la droite par 11 pour résoudre x :
+   x = 208 / 11
+
+5) Calculer la valeur de x :
+   x = 19
+
+Donc, la solution est x = 19.",19,ambiguous,19,[105],19,ambiguous,19,[105]
+algebre_validation_0004,algebre,Résous l'équation : 8x - 18 = 166,23,,,False,False,128,128,False,False,"REPONSE: 203
+
+Pour résoudre l'équation 8x - 18 = 166, nous allons suivre ces étapes :
+
+1) Ajouter 18 à chaque côté de la équation pour simplifier :
+   8x = 166 + 18
+   8x = 184
+
+2) Diviser chaque côté par 8 pour résoudre x :
+   x = 184 ÷ 8
+   x = 23
+
+Donc, la solution est x = 23.","REPONSE: 203
+
+Pour résoudre l'équation 8x - 18 = 166, nous allons suivre ces étapes :
+
+1) Ajouter 18 à chaque côté de la équation pour simplifier :
+   8x = 166 + 18
+   8x = 184
+
+2) Diviser chaque côté par 8 pour résoudre x :
+   x = 184 ÷ 8
+   x = 23
+
+Donc, la solution est x = 23.",23,ambiguous,23,[203],23,ambiguous,23,[203]
+maths_validation_0017,maths,Calcule : 19 * 6,114,,114,False,True,8,8,False,False,REPMESSE: nombre.,REPONSE: 114,,missing,,[],114,correct,114,[114]
+algebre_validation_0008,algebre,Résous l'équation : x/6 + 19 = 36,102,,,False,False,15,122,False,False,La solution à cette équation est x = 84.,"REPONSE: 25
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/6 + 19 = 36
+   x/6 = 36 - 19
+   x/6 = 17
+
+2) Multiplier tous les termes par 6 pour résoudre l'équation :
+   x = 17 * 6
+   x = 102
+
+Donc, la solution est x = 102.",84,incorrect,84,[],102,ambiguous,102,[25]
+algebre_validation_0027,algebre,Résous l'équation : 3x - 17 = 46,21,,,False,False,127,153,False,False,"REPONSE: 25
+
+Pour résoudre l'équation 3x - 17 = 46, nous allons suivre ces étapes :
+
+1) Ajouter 17 à chaque côté de la équation :
+   3x - 17 + 17 = 46 + 17
+   3x = 63
+
+2) Diviser chaque côté par 3 :
+   3x / 3 = 63 / 3
+   x = 21
+
+Donc, la solution est x = 21.","REPONSE: 25
+
+Pour résoudre l'équation 3x - 17 = 46, nous allons suivre ces étapes :
+
+1) Ajouter 17 à chaque côté de la équation pour isoler les termes dont on sait que sont positifs :
+   3x - 17 + 17 = 46 + 17
+   3x = 63
+
+2) Diviser chaque côté de la équation par 3 pour résoudre x :
+   3x ÷ 3 = 63 ÷ 3
+   x = 21
+
+Donc, la solution est x = 21.",21,ambiguous,21,[25],21,ambiguous,21,[25]
+algebre_validation_0013,algebre,Résous l'équation : 8x + 4 = 196,24,,,False,False,152,133,False,False,"REPONSE: 23
+
+Pour résoudre l'équation 8x + 4 = 196, nous allons suivre ces étapes :
+
+1) Remplacez la partie entière de l'équation par 0 :
+   8x + 4 = 196
+   8x + 4 - 4 = 196 - 4
+   8x = 192
+
+2) Divisez tous les termes par 8 pour résoudre x :
+   8x ÷ 8 = 192 ÷ 8
+   x = 24
+
+Donc, la solution est x = 24.","
+REPONSE: 23
+
+Pour résoudre l'équation 8x + 4 = 196, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite de l'équation :
+   8x + 4 - 4 = 196 - 4
+   8x = 192
+
+2) Diviser tous les termes par 8 pour résoudre x :
+   x = 192 ÷ 8
+   x = 24
+
+Donc, la solution est x = 24.",24,ambiguous,24,[23],24,ambiguous,24,[23]
+maths_validation_0006,maths,Calcule : 239 - 114,125,,125,False,True,9,8,False,False,REPMESSEMENT: nombre.,REPONSE: 125,,missing,,[],125,correct,125,[125]
+algebre_validation_0010,algebre,Résous l'équation : x/15 + 12 = 20,120,,,False,False,123,123,False,False,"REPONSE: 3
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/15 + 12 = 20
+   x/15 = 20 - 12
+   x/15 = 8
+
+2) Multiplier tout à fait par 15 pour résoudre l'équation :
+   x = 8 * 15
+   x = 120
+
+Donc, la solution est x = 120.","REPONSE: 3
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/15 + 12 = 20
+   x/15 = 20 - 12
+   x/15 = 8
+
+2) Multiplier tout à fait par 15 pour résoudre l'équation :
+   x = 8 * 15
+   x = 120
+
+Donc, la solution est x = 120.",120,ambiguous,120,[3],120,ambiguous,120,[3]
+algebre_validation_0001,algebre,Résous l'équation : x/11 + 13 = 27,154,,,False,False,23,23,False,False,REPONSE: 0.8909090909090909,REPONSE: 0.8909090909090909,,ambiguous,,[null],,ambiguous,,[null]
+algebre_validation_0015,algebre,Résous l'équation : x/8 + 4 = 19,120,,,False,False,15,119,False,False,La solution à cette équation est x = 52.,"REPONSE: 23
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/8 + 4 = 19
+   x/8 = 19 - 4
+   x/8 = 15
+
+2) Multiplier tout à fait par 8 pour résoudre l'équation :
+   x = 15 * 8
+   x = 120
+
+Donc, la solution est x = 120.",52,incorrect,52,[],120,ambiguous,120,[23]
+maths_validation_0013,maths,Calcule : 22 * 19,418,,438,False,False,8,8,False,False,REPMESSE: nombre.,REPONSE: 438,,missing,,[],438,incorrect,438,[438]
+algebre_validation_0020,algebre,Résous l'équation : x/15 + 16 = 24,120,,,False,False,123,123,False,False,"REPONSE: 3
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/15 + 16 = 24
+   x/15 = 24 - 16
+   x/15 = 8
+
+2) Multiplier tout à fait par 15 pour résoudre l'équation :
+   x = 8 * 15
+   x = 120
+
+Donc, la solution est x = 120.","REPONSE: 3
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/15 + 16 = 24
+   x/15 = 24 - 16
+   x/15 = 8
+
+2) Multiplier tout à fait par 15 pour résoudre l'équation :
+   x = 8 * 15
+   x = 120
+
+Donc, la solution est x = 120.",120,ambiguous,120,[3],120,ambiguous,120,[3]
+maths_validation_0007,maths,Calcule : 44 * 17,748,,748,False,True,8,8,False,False,REPMESSE: nombre.,REPONSE: 748,,missing,,[],748,correct,748,[748]
+maths_validation_0004,maths,Calcule : 82 - 61,21,,21,False,True,8,7,False,False,REPMESSE: nombre.,REPONSE: 21,,missing,,[],21,correct,21,[21]
+algebre_validation_0014,algebre,Résous l'équation : 12x + 2 = 122,10,,,False,False,131,132,False,False,"REPONSE: 10
+
+Pour résoudre l'équation 12x + 2 = 122, nous allons suivre ces étapes :
+
+1) Remplacer 122 à droite de la équation :
+   12x + 2 = 122
+
+2) Remplacer 2 à gauche de la équation :
+   12x = 120
+
+3) Diviser 120 par 12 pour résoudre x :
+   x = 10
+
+Donc, la solution est x = 10.","REPONSE: 100
+
+Pour résoudre l'équation 12x + 2 = 122, nous allons suivre ces étapes :
+
+1) Remplacer 122 à droite de la équation :
+   12x + 2 = 122
+
+2) Remplacer 2 à gauche de la équation :
+   12x = 120
+
+3) Diviser 120 par 12 pour résoudre x :
+   x = 10
+
+Donc, la solution est x = 10.",10,correct,10,[10],10,ambiguous,10,[100]
+algebre_validation_0026,algebre,Résous l'équation : 4x + 9 = 37,7,,,False,False,125,125,False,False,"REPONSE: 18
+
+Pour résoudre l'équation 4x + 9 = 37, nous allons suivre ces étapes :
+
+1) Remplacez la partie entière de l'équation par 0 :
+   4x + 9 - 9 = 37 - 9
+   4x = 28
+
+2) Divisez chaque côté par 4 pour résoudre x :
+   x = 28 ÷ 4
+   x = 7
+
+Donc, la solution est x = 7.","REPONSE: 18
+
+Pour résoudre l'équation 4x + 9 = 37, nous allons suivre ces étapes :
+
+1) Remplacez la partie entière de l'équation par 0 :
+   4x + 9 - 9 = 37 - 9
+   4x = 28
+
+2) Divisez chaque côté par 4 pour résoudre x :
+   x = 28 ÷ 4
+   x = 7
+
+Donc, la solution est x = 7.",7,ambiguous,7,[18],7,ambiguous,7,[18]
+algebre_validation_0007,algebre,Résous l'équation : x/8 + 2 = 19,136,,,False,False,15,141,False,False,La solution à cette équation est x = 35.,"REPONSE: 35
+
+Pour résoudre l'équation x/8 + 2 = 19, nous commençons par simplifiant la partie entière de la fraction :
+
+x/8 + 2 = 19
+x/8 = 19 - 2
+x/8 = 17
+
+Après avoir simplifié, nous avons trouvé que x/8 = 17. Pour résoudre cela, nous devons multiplier tout à fait par 8 pour obtenir x :
+
+x = 17 * 8
+x = 136
+
+Donc, la solution est x = 136.",35,incorrect,35,[],136,ambiguous,136,[35]
+algebre_validation_0025,algebre,Résous l'équation : 11x - 13 = 75,8,,,False,False,120,158,False,False,"REPONSE: 24
+
+Pour résoudre l'équation 11x - 13 = 75, nous allons suivre ces étapes :
+
+1) Ajouter 13 à chaque côté de la équation pour simplifier :
+   11x = 88
+
+2) Diviser chaque côté par 11 pour résoudre x :
+   x = 88 / 11
+
+3) Calculer la valeur de x :
+   x = 8
+
+Donc, la solution est x = 8.","REPONSE: 24
+
+Pour résoudre l'équation 11x - 13 = 75, nous allons suivre ces étapes :
+
+1) Ajouter 13 à chaque côté de la équation pour isoler les termes dont on sait que sont positifs :
+   11x - 13 + 13 = 75 + 13
+   11x = 88
+
+2) Diviser chaque côté de la équation par 11 pour résoudre x :
+   11x ÷ 11 = 88 ÷ 11
+   x = 8
+
+Donc, la solution est x = 8.",8,ambiguous,8,[24],8,ambiguous,8,[24]
+algebre_validation_0021,algebre,Résous l'équation : 14x + 9 = 275,19,,,False,False,139,139,False,False,"REPONSE: 163
+
+Pour résoudre l'équation 14x + 9 = 275, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite de l'équation :
+   14x + 9 - 9 = 275 - 9
+   14x = 266
+
+2) Diviser tous les termes par 14 pour résoudre x :
+   x = 266 ÷ 14
+   x = 19
+
+Donc, la solution est x = 19.","REPONSE: 163
+
+Pour résoudre l'équation 14x + 9 = 275, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite de l'équation :
+   14x + 9 - 9 = 275 - 9
+   14x = 266
+
+2) Diviser tous les termes par 14 pour résoudre x :
+   x = 266 ÷ 14
+   x = 19
+
+Donc, la solution est x = 19.",19,ambiguous,19,[163],19,ambiguous,19,[163]
+algebre_validation_0016,algebre,Résous l'équation : 7x + 14 = 42,4,,,False,False,138,256,False,True,"REPONSE: 3
+
+Pour résoudre l'équation 7x + 14 = 42, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite (au moment où ils sont égaux à zéro) :
+   7x + 14 - 14 = 42 - 14
+   7x = 28
+
+2) Diviser tous les termes par 7 pour résoudre x :
+   x = 28 ÷ 7
+   x = 4
+
+Donc, la solution est x = 4.","REPONSE: 3
+
+Pour résoudre l'équation 7x + 14 = 42, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite (au moment où ils sont égaux à zéro) :
+   0 + 14 = 42 - 14
+   14 = 28
+
+2) Cette égalité est incorrecte car 14 ne doit pas être égal à 28.
+
+3) Pour résoudre ce problème, nous devons faire une opération inverse de celle qui a été utilisée pour éliminer les termes nuls. C'est le démultiplication par 7.
+
+4) Multiplication par 7 :
+   7 * (7x + 14) = 7 * 42
+   49x + 98 = 294
+
+5) Réduire les termes :
+   49x = 294 - 98
+   49x = 196
+
+6) Diviser par 49 :
+   x = 196 ÷ 49",4,ambiguous,4,[3],3,incorrect,,[3]
+code_validation_0020,code,"Quel est le résultat de ce programme Python ?
+print(len([89, 57, 45, 58]))",4,3,4,False,True,7,65,False,False,RESPONSE: 3,"REPMESSEMENT: 3
+
+Le programme print(len([89, 57, 45, 58])) affiche la longueur (nombre d'éléments) du tableau [89, 57, 45, 58], qui est 4.",3,incorrect,3,[3],4,ambiguous,4,[3]
+algebre_validation_0012,algebre,Résous l'équation : 13(x + 13) = 286,9,,,False,False,162,162,False,False,"REPONSE: 4
+
+Pour résoudre l'équation 13(x + 13) = 286, nous allons suivre ces étapes :
+
+1) Distribuer les 13 sur la gauche de l'équation :
+   13x + 169 = 286
+
+2) Soustraire 169 de chaque côté pour isoler x :
+   13x = 286 - 169
+   13x = 117
+
+3) Diviser chaque côté par 13 pour résoudre x :
+   x = 117 ÷ 13
+   x = 9
+
+Donc, la solution est x = 9.","REPONSE: 4
+
+Pour résoudre l'équation 13(x + 13) = 286, nous allons suivre ces étapes :
+
+1) Distribuer les 13 sur la gauche de l'équation :
+   13x + 169 = 286
+
+2) Soustraire 169 de chaque côté pour isoler x :
+   13x = 286 - 169
+   13x = 117
+
+3) Diviser chaque côté par 13 pour résoudre x :
+   x = 117 ÷ 13
+   x = 9
+
+Donc, la solution est x = 9.",9,ambiguous,9,[4],9,ambiguous,9,[4]
+algebre_validation_0029,algebre,Résous l'équation : x/6 + 2 = 12,60,,,False,False,112,112,False,False,"REPONSE: 3
+
+Pour résoudre l'équation x/6 + 2 = 12, nous commençons par simplifiant la partie entière de la fraction :
+
+x/6 + 2 = 12
+x/6 = 12 - 2
+x/6 = 10
+
+Après avoir simplifié, nous avons trouvé que x = 10 * 6 = 60.
+
+Donc, la solution à l'équation est x = 60.","REPONSE: 3
+
+Pour résoudre l'équation x/6 + 2 = 12, nous commençons par simplifiant la partie entière de la fraction :
+
+x/6 + 2 = 12
+x/6 = 12 - 2
+x/6 = 10
+
+Après avoir simplifié, nous avons trouvé que x = 10 * 6 = 60.
+
+Donc, la solution à l'équation est x = 60.",60,ambiguous,60,[3],60,ambiguous,60,[3]
+algebre_validation_0018,algebre,Résous l'équation : 10(x + 17) = 470,30,,,False,False,127,127,False,False,"REPONSE: 23
+
+Pour résoudre l'équation 10(x + 17) = 470, nous allons suivre ces étapes :
+
+1) Divisez la équation par 10 :
+   x + 17 = 47
+
+2) Subtrayez 17 de chaque côté de la équation pour résoudre x :
+   x = 47 - 17
+
+3) Calculer la valeur de x :
+   x = 30
+
+Donc, la solution est x = 30.","REPONSE: 23
+
+Pour résoudre l'équation 10(x + 17) = 470, nous allons suivre ces étapes :
+
+1) Divisez la équation par 10 :
+   x + 17 = 47
+
+2) Subtrayez 17 de chaque côté de la équation pour résoudre x :
+   x = 47 - 17
+
+3) Calculer la valeur de x :
+   x = 30
+
+Donc, la solution est x = 30.",30,ambiguous,30,[23],30,ambiguous,30,[23]
+algebre_validation_0006,algebre,Résous l'équation : x/3 + 16 = 30,42,,,False,False,118,118,False,False,"REPONSE: 2
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/3 + 16 = 30
+   x/3 = 30 - 16
+   x/3 = 14
+
+2) Multiplier tout à fait par 3 pour résoudre l'équation :
+   x = 14 * 3
+   x = 42
+
+Donc, la solution est x = 42.","REPONSE: 2
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/3 + 16 = 30
+   x/3 = 30 - 16
+   x/3 = 14
+
+2) Multiplier tout à fait par 3 pour résoudre l'équation :
+   x = 14 * 3
+   x = 42
+
+Donc, la solution est x = 42.",42,ambiguous,42,[2],42,ambiguous,42,[2]
+algebre_validation_0022,algebre,Résous l'équation : 14x + 7 = 301,21,,,False,False,138,138,False,False,"REPONSE: 25
+
+Pour résoudre l'équation 14x + 7 = 301, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite de l'équation :
+   14x + 7 - 7 = 301 - 7
+   14x = 294
+
+2) Diviser tous les termes par 14 pour résoudre x :
+   x = 294 ÷ 14
+   x = 21
+
+Donc, la solution est x = 21.","REPONSE: 25
+
+Pour résoudre l'équation 14x + 7 = 301, nous allons suivre ces étapes :
+
+1) Remplacer les termes nuls sur la droite de l'équation :
+   14x + 7 - 7 = 301 - 7
+   14x = 294
+
+2) Diviser tous les termes par 14 pour résoudre x :
+   x = 294 ÷ 14
+   x = 21
+
+Donc, la solution est x = 21.",21,ambiguous,21,[25],21,ambiguous,21,[25]
+algebre_validation_0028,algebre,Résous l'équation : 9(x + 17) = 333,20,,,False,False,163,163,False,False,"REPONSE: 22
+
+Pour résoudre l'équation 9(x + 17) = 333, nous allons suivre ces étapes :
+
+1) Distribuer les 9 sur la partie du produit :
+   9x + 153 = 333
+
+2) Réduire le reste de la gauche par 9 :
+   9x + 153 - 153 = 333 - 153
+   9x = 180
+
+3) Diviser 9x par 9 pour résoudre x :
+   x = 180 ÷ 9
+   x = 20
+
+Donc, la solution est x = 20.","REPONSE: 22
+
+Pour résoudre l'équation 9(x + 17) = 333, nous allons suivre ces étapes :
+
+1) Distribuer les 9 sur la partie du produit :
+   9x + 153 = 333
+
+2) Réduire le reste de la gauche par 9 :
+   9x + 153 - 153 = 333 - 153
+   9x = 180
+
+3) Diviser 9x par 9 pour résoudre x :
+   x = 180 ÷ 9
+   x = 20
+
+Donc, la solution est x = 20.",20,ambiguous,20,[22],20,ambiguous,20,[22]
+algebre_validation_0019,algebre,Résous l'équation : x/4 + 8 = 22,56,,,False,False,15,117,False,False,La solution à cette équation est x = 16.,"REPONSE: 10
+
+Pour résoudre cette équation, nous allons suivre les étapes suivantes :
+
+1) Réduire la fraction :
+   x/4 + 8 = 22
+   x/4 = 22 - 8
+   x/4 = 14
+
+2) Multiplier tout à fait par 4 pour résoudre l'équation :
+   x = 14 * 4
+   x = 56
+
+Donc, la solution est x = 56.",16,incorrect,16,[],56,ambiguous,56,[10]
+algebre_validation_0024,algebre,Résous l'équation : 6(x + 11) = 90,4,,,False,False,101,101,False,False,"REPONSE: 3
+
+Pour résoudre l'équation 6(x + 11) = 90, nous commençons par déduire que x + 11 doit être égal à 15 (ce qui est la moitié de 90). Donc, x = 15 - 11.
+
+Calculant :
+x = 4
+
+Donc, la solution de l'équation est x = 4.","REPONSE: 3
+
+Pour résoudre l'équation 6(x + 11) = 90, nous commençons par déduire que x + 11 doit être égal à 15 (ce qui est la moitié de 90). Donc, x = 15 - 11.
+
+Calculant :
+x = 4
+
+Donc, la solution de l'équation est x = 4.",4,ambiguous,4,[3],4,ambiguous,4,[3]

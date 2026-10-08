@@ -1,0 +1,30 @@
+{
+    "maths": {
+        "total": 30,
+        "correct_before": 11,
+        "correct_after": 16,
+        "missing_before": 9,
+        "missing_after": 1
+    },
+    "algebre": {
+        "total": 30,
+        "correct_before": 0,
+        "correct_after": 0,
+        "missing_before": 30,
+        "missing_after": 30
+    },
+    "code": {
+        "total": 30,
+        "correct_before": 4,
+        "correct_after": 4,
+        "missing_before": 2,
+        "missing_after": 5
+    },
+    "audit": {
+        "maths_improved": 5,
+        "maths_regressed": 0,
+        "code_improved": 3,
+        "code_regressed": 3,
+        "algebra_missing": 30
+    }
+}

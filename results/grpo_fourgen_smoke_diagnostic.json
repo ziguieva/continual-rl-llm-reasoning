@@ -1,0 +1,124 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter": "/Users/evanszigui/Desktop/continual-rl-llm/models/benchmark_v2_sft_stage0/final_adapter",
+  "source": "train uniquement",
+  "seed": 42,
+  "questions": [
+    {
+      "id": "v2_gsm8k_main_train_00067",
+      "question": "Jesse and Mia are competing in a week long race. They have one week to run 30 miles. On the first three days Jesse averages (2/3) of a mile. On day four she runs 10 miles. Mia averages 3 miles a day over the first 4 days. What is the average of their average that they have to run over the final three days?",
+      "expected": "6",
+      "reference_solution_tokens": 243,
+      "sampled_256": [
+        {
+          "response": "Jesse runs for 5 days at a rate of 2/3 mile per day, which is 5 * (2/3) = 10/3 miles.\nOn day four she runs 10 miles.\nMia runs for 4 days and averages 3 miles a day, which totals 3 * 4 = 12 miles.\nSo far Jesse has run 10/3 + 10 = 20/3 miles.\nThe total distance Jesse needs to run is 30 - (20/3) = 26/3 miles.\nSo far Jesse has averaged 26/3 / (10/3) = 26/3 * 3/10 = 7/5 miles a day.\nIn total, they need to run 30 - 26/3 = 84/3 miles.\nOver the last two days, they have each run an additional 26/3 - 7/5 = 120/15 - 21/15 = 99/15 miles.\nTheir combined average for the remaining 3 days should be 99/15 / 3 = 33/",
+          "tokens": 256,
+          "truncated": true,
+          "status": "no_final_answer",
+          "correct": false,
+          "format_ok": false,
+          "extracted_answer": "",
+          "reward": 0.0
+        },
+        {
+          "response": "On the first three days, Jesse ran an average of two-thirds of a mile per day for 12 miles so she ran 8 miles on those three days.\nShe had seven days in total and Jesse has already finished her first three which means she needs to run 30 - 8 = 22 more miles on the rest of the days.\nMia ran 10 miles on Day 4 and then averaged 3 miles a day for 4 days so she ran 12 miles during those 4 days.\nFor the rest of the time she was running, she had 7-4 = 3 days left.\nSo she ran 3 * 3 = 9 miles over these last 3 days.\nIn total, Jesse ran 22 + 9 = 31 miles over the three-day period.\nMia ran 12 + 10 = 22 miles over those three days.\nHer average over the final three days should be 31 / 3 = .97\n\nREPONSE: \\boxed{.97}",
+          "tokens": 256,
+          "truncated": false,
+          "status": "incorrect",
+          "correct": false,
+          "format_ok": true,
+          "extracted_answer": "\\boxed{.97}",
+          "reward": 0.02
+        },
+        {
+          "response": "First, let's calculate how many miles Jesse has left to run before the last day:\n\nS + M = 30 miles\n\nHere S represents the distance Jesse ran on the first three days.\n\nS * (2/3) = S * 2/3 miles already run\n\nOn day four:\nS + M + D = 10 miles\n\nD = 10 - (S + S * (2/3))\n\nNow let's find out how many miles Jesse still needs to run:\n\nJ + R = 30 - D\nJ + R = 30 - [10 - (S + S * (2/3))]\nJ + R = 30 - 10 + (S * (2/3))\nJ + R = 20 + (S * (2/3))\nJ + R = 20 + (S * (2/3))\n\nNow we'll calculate how many miles Jesse runs each day for the next three days (last three days):\n\nJ + R = (20 + (S * (2/3))) * 3\nJ + R = 60 + (S * 2)\n\nMia runs 3 miles a day over 4 days:\n\nM",
+          "tokens": 256,
+          "truncated": true,
+          "status": "no_final_answer",
+          "correct": false,
+          "format_ok": false,
+          "extracted_answer": "",
+          "reward": 0.0
+        },
+        {
+          "response": "On the first three days, Jesse runs for a total of 3 x (2/3) = 2 miles.\nMia runs a total of 4 * 3 = 12 miles on her first 4 days.\nIn total, they both have run 2 + 12 = 14 miles on the first 7 days.\nTo complete the week, Jesse needs to average 30 / 7 = 4.29 miles per day.\nThey need to average an additional (14+10)/5 = 10/5 = 2 miles per day.\nREPONSE: \\boxed{2}",
+          "tokens": 256,
+          "truncated": false,
+          "status": "incorrect",
+          "correct": false,
+          "format_ok": true,
+          "extracted_answer": "\\boxed{2}",
+          "reward": 0.02
+        }
+      ],
+      "greedy_512": {
+        "response": "On the first three days, Jesse runs 2/3 * 30 = 20 miles.\nSo far, Jesse has completed 20 + 10 = 30 miles.\nMia runs 3 * 4 = 12 miles on the first 4 days.\nShe has thus completed another 12 + 30 = 42 miles.\nIn total, they have completed 30 + 42 = 72 miles.\nThey need to complete an additional 30 - 72 = -42 miles.\nTherefore, they need to average 42 / 5 = 8.4 miles per day for the last three days.\n\nREPONSE: \\boxed{8.4}",
+        "tokens": 154,
+        "truncated": false,
+        "status": "incorrect",
+        "correct": false,
+        "format_ok": true,
+        "extracted_answer": "\\boxed{8.4}",
+        "reward": 0.02
+      }
+    },
+    {
+      "id": "v2_gsm8k_main_train_05281",
+      "question": "A couple opened a savings account. The husband gives $335 every week while the wife gives $225 every week. After 6 months of saving (assume 4 weeks in each month), they decided to divide half of the couple's savings into their four children's savings accounts. How much does each child receive?",
+      "expected": "1680",
+      "reference_solution_tokens": 214,
+      "sampled_256": [
+        {
+          "response": "The total weekly contribution from the couple is 335 + 225 = $560 per week.\nThey saved for 6 * 4 = 24 weeks.\nSo together they have saved 24 * 560 = $1,344\nEach child received $1,344 / 4 = $336.\n\nREPONSE: \\boxed{336}",
+          "tokens": 256,
+          "truncated": false,
+          "status": "incorrect",
+          "correct": false,
+          "format_ok": true,
+          "extracted_answer": "\\boxed{336}",
+          "reward": 0.02
+        },
+        {
+          "response": "First, we need to find out how many weeks it took for both the husband and wife to save $335 + $225 = $560 per week. That means over 4 weeks, they saved:\n$560 x 4 = $2240.\nThe total amount that saved after 6 months is $2240/4 weeks * 6 months = $3480.\nThen they divided half of the total savings equally among their children, so there are two kids. Each child gets: $3480 / 2 = $1740.\nREPONSE: \\boxed{1740}",
+          "tokens": 256,
+          "truncated": false,
+          "status": "incorrect",
+          "correct": false,
+          "format_ok": true,
+          "extracted_answer": "\\boxed{1740}",
+          "reward": 0.02
+        },
+        {
+          "response": "For the first 4 weeks, both the couple contributes $335 weekly for a total contribution of 335 * 4 = $1,340.\nAfter that, both contribute an additional $225 weekly for a total contribution of 225*4 = $900.\nThe total contribution for the first 8 weeks is $1,340 + $900 = $2,240.\n\nIn total, after 8 weeks, they contributed a total of $2,240 + $2,240 = $4,480.\n\nThey have saved enough money for them to split their savings between four children by dividing their total savings of $4,480 equally among 4 children which means they will split $4,480 / 4 = $1,120 between each child.\n\nREPONSE: \\boxed{1120}",
+          "tokens": 256,
+          "truncated": false,
+          "status": "incorrect",
+          "correct": false,
+          "format_ok": true,
+          "extracted_answer": "\\boxed{1120}",
+          "reward": 0.02
+        },
+        {
+          "response": "To determine how much each child receives, we need to follow these steps:\n\n1. Calculate the total amount saved by both the husband and wife over 6 months.\n2. Divide this total amount equally among the four children.\n\nFirst, let's calculate the total amount saved by both partners over 6 months:\n- The husband gives $335 every week.\n- There are approximately 50 weeks in 6 months.\n- Therefore, the husband saves \\(335 \\times 50\\) dollars per year.\n\nNext, we'll calculate the total amount saved by both partners:\n- The wife also gives $225 every week.\n- Again, there are approximately 50 weeks in 6 months.\n- Thus, the wife saves \\(225 \\times 50\\) dollars per year.\n\nNow, add the two amounts together to get the total savings:\n\\[ \n335 \\times 50 + 225 \\times 50 = 16750 + 11250 = 28000 \\text{ dollars} \n\\]\n\nThis is the combined savings from both partners over 6 months. \n\nSince they want to divide this amount equally between four children:\n\\[",
+          "tokens": 256,
+          "truncated": true,
+          "status": "no_final_answer",
+          "correct": false,
+          "format_ok": false,
+          "extracted_answer": "",
+          "reward": 0.0
+        }
+      ],
+      "greedy_512": {
+        "response": "The total amount saved by the couple is $335 + $225 = $560 per week.\nIn 6 months, there are 12/4 = 3 sets of 6 months.\nSo, the couple saves $560 x 3 = $1680 over the course of 6 months.\nHalf of that amount is $1680 / 2 = $840.\n\nEach child receives $840 / 4 = $210.\n\nREPONSE: \\boxed{210}",
+        "tokens": 118,
+        "truncated": false,
+        "status": "incorrect",
+        "correct": false,
+        "format_ok": true,
+        "extracted_answer": "\\boxed{210}",
+        "reward": 0.02
+      }
+    }
+  ]
+}

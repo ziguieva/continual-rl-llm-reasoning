@@ -1,0 +1,157 @@
+{
+  "name": "Benchmark V2",
+  "version": "v1",
+  "seed": 42,
+  "counts": {
+    "train": {
+      "maths_appliques": 600,
+      "maths_competition": 300,
+      "algebre_avancee": 300,
+      "programmation": 374
+    },
+    "validation": {
+      "maths_appliques": 150,
+      "maths_competition": 100,
+      "algebre_avancee": 100,
+      "programmation": 90
+    },
+    "test": {
+      "maths_appliques": 150,
+      "maths_competition": 100,
+      "algebre_avancee": 100,
+      "programmation": 100,
+      "raisonnement_logique": 100,
+      "programmation_avancee": 164
+    }
+  },
+  "expected_counts": {
+    "train": 1574,
+    "validation": 440,
+    "test": 714
+  },
+  "sources": [
+    {
+      "source": "openai/gsm8k",
+      "config": "main",
+      "official_split": "train",
+      "fingerprint": "c6f812ae33c9159d",
+      "total_rows": 7473
+    },
+    {
+      "source": "openai/gsm8k",
+      "config": "main",
+      "official_split": "test",
+      "fingerprint": "59ec1b7f9357c7a2",
+      "total_rows": 1319
+    },
+    {
+      "source": "EleutherAI/hendrycks_math",
+      "config": "number_theory",
+      "official_split": "train",
+      "fingerprint": "9ae199e578c77344",
+      "total_rows": 869
+    },
+    {
+      "source": "EleutherAI/hendrycks_math",
+      "config": "number_theory",
+      "official_split": "test",
+      "fingerprint": "1ab2ad63c6a64212",
+      "total_rows": 540
+    },
+    {
+      "source": "EleutherAI/hendrycks_math",
+      "config": "counting_and_probability",
+      "official_split": "train",
+      "fingerprint": "17a19e9b09aebb79",
+      "total_rows": 771
+    },
+    {
+      "source": "EleutherAI/hendrycks_math",
+      "config": "counting_and_probability",
+      "official_split": "test",
+      "fingerprint": "80e8f86793e44265",
+      "total_rows": 474
+    },
+    {
+      "source": "EleutherAI/hendrycks_math",
+      "config": "algebra",
+      "official_split": "train",
+      "fingerprint": "5cfdbe85de769625",
+      "total_rows": 1744
+    },
+    {
+      "source": "EleutherAI/hendrycks_math",
+      "config": "algebra",
+      "official_split": "test",
+      "fingerprint": "0132904b03fe9c0d",
+      "total_rows": 1187
+    },
+    {
+      "source": "EleutherAI/hendrycks_math",
+      "config": "intermediate_algebra",
+      "official_split": "train",
+      "fingerprint": "62ab0d0f8ace580c",
+      "total_rows": 1295
+    },
+    {
+      "source": "EleutherAI/hendrycks_math",
+      "config": "intermediate_algebra",
+      "official_split": "test",
+      "fingerprint": "396bd5edc76d0181",
+      "total_rows": 903
+    },
+    {
+      "source": "google-research-datasets/mbpp",
+      "config": "full",
+      "official_split": "train",
+      "fingerprint": "5cdc16311fd8e220",
+      "total_rows": 374
+    },
+    {
+      "source": "google-research-datasets/mbpp",
+      "config": "full",
+      "official_split": "validation",
+      "fingerprint": "8f9deacfc72ae133",
+      "total_rows": 90
+    },
+    {
+      "source": "google-research-datasets/mbpp",
+      "config": "full",
+      "official_split": "test",
+      "fingerprint": "44206dd27b0bf01d",
+      "total_rows": 500
+    },
+    {
+      "source": "Joschka/big_bench_hard",
+      "config": "logical_deduction_five_objects",
+      "official_split": "logical_deduction_five_objects",
+      "fingerprint": "6419ce0b13dc99c8",
+      "total_rows": 250
+    },
+    {
+      "source": "evalplus/humanevalplus",
+      "config": "default",
+      "official_split": "test",
+      "fingerprint": "a0db8315dc0b6ad7",
+      "total_rows": 164
+    }
+  ],
+  "file_hashes": {
+    "train.jsonl": "dbb1b11d825e5ca9969054022a92baff69040c8aa7eb2cf6b49ae12153e111ca",
+    "grading/train_keys.jsonl": "332090ed333ef4fd4b6ae6d04542aa2c4f1fefb08304c746a0108e558aa1e175",
+    "validation.jsonl": "4887fe19b320a4a6ea8d52422974a81461aeda4fe0ba4b7ae256938915499c89",
+    "grading/validation_keys.jsonl": "9d5cbb03399a363d02e69a901325d21be7f26e57f2b73826a31cb341a7ac0156",
+    "test.jsonl": "a837c1751015f9ff759e6956fe7cc90fb3625e4a472e2196c1297080c407f07e",
+    "grading/test_keys.jsonl": "29ef18b409b9155379aa19ee18454112375a2c9161303c493504786dd468cd22"
+  },
+  "missing_math_answer_extractions": 0,
+  "protocol": {
+    "official_test_only_for_test": true,
+    "train_and_validation_disjoint": true,
+    "answers_separated": true,
+    "no_model_evaluation_performed": true,
+    "no_untrusted_code_executed": true,
+    "external_benchmarks_may_be_in_pretraining": true,
+    "test_selection_must_be_frozen": true
+  }
+}

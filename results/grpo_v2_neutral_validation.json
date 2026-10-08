@@ -1,0 +1,69 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "adapter": "/Users/evanszigui/Desktop/continual-rl-llm/models/grpo_maths_v2",
+    "dataset": "validation",
+    "prompt": "Tu es un assistant spécialisé en mathématiques, en algèbre et en programmation Python. Résous le problème avec précision. Tu peux expliquer brièvement ton raisonnement. Termine par une ligne au format REPONSE: nombre. N'ajoute aucun texte après cette ligne.",
+    "max_new_tokens": 256,
+    "domains": {
+        "maths": {
+            "total": 30,
+            "base_correct": 11,
+            "grpo_correct": 16,
+            "base_accuracy": 36.67,
+            "grpo_accuracy": 53.33,
+            "improved": 5,
+            "regressed": 0,
+            "base_missing": 9,
+            "grpo_missing": 1,
+            "base_tokens": 269,
+            "grpo_tokens": 229,
+            "base_truncated": 0,
+            "grpo_truncated": 0
+        },
+        "algebre": {
+            "total": 30,
+            "base_correct": 0,
+            "grpo_correct": 0,
+            "base_accuracy": 0.0,
+            "grpo_accuracy": 0.0,
+            "improved": 0,
+            "regressed": 0,
+            "base_missing": 30,
+            "grpo_missing": 30,
+            "base_tokens": 3257,
+            "grpo_tokens": 4075,
+            "base_truncated": 0,
+            "grpo_truncated": 1
+        },
+        "code": {
+            "total": 30,
+            "base_correct": 4,
+            "grpo_correct": 4,
+            "base_accuracy": 13.33,
+            "grpo_accuracy": 13.33,
+            "improved": 3,
+            "regressed": 3,
+            "base_missing": 2,
+            "grpo_missing": 5,
+            "base_tokens": 292,
+            "grpo_tokens": 360,
+            "base_truncated": 0,
+            "grpo_truncated": 0
+        }
+    },
+    "global": {
+        "total": 90,
+        "base_correct": 15,
+        "grpo_correct": 20,
+        "base_accuracy": 16.67,
+        "grpo_accuracy": 22.22,
+        "improved": 8,
+        "regressed": 3,
+        "base_missing": 41,
+        "grpo_missing": 36,
+        "base_tokens": 3818,
+        "grpo_tokens": 4664,
+        "base_truncated": 0,
+        "grpo_truncated": 1
+    }
+}

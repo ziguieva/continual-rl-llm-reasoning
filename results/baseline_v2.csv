@@ -1,0 +1,102 @@
+domain,question,expected,predicted,correct,format_error,token_count,reached_token_limit,full_response
+maths,28 + 17,45,45,True,False,7,False,REPONSE: 45
+maths,9 * 8,72,72,True,False,7,False,REPONSE: 72
+maths,144 / 12,12,,False,True,41,False,"D'accord, je vais déterminer la division de 144 par 12.
+
+144 ÷ 12 = 12
+
+RESPONSE: 12"
+maths,(35 - 11) * 2,48,,False,True,79,False,"Je vais calculer la expression (35 - 11) * 2 :
+
+1. First, I'll perform the subtraction inside the parentheses:
+   35 - 11 = 24
+
+2. Then, I multiply the result by 2:
+   24 * 2 = 48
+
+Therefore, the final answer is 48."
+algebre,3x + 5 = 20. Trouve x.,5,5,True,False,157,False,"Pour résoudre l'équation 3x + 5 = 20, nous allons suivre les étapes suivantes :
+
+1) **Rédigez la équation** :
+   3x + 5 = 20
+
+2) **Simplifiez la partie positive** :
+   3x = 20 - 5
+   3x = 15
+
+3) **Divisez tous les termes par 3** :
+   x = 15 ÷ 3
+   x = 5
+
+4) **Révisez votre solution** :
+   La valeur de x est 5.
+
+5) **Évaluez la réponse** :
+   REPONSE: 5"
+algebre,2x - 7 = 11. Trouve x.,9,9,True,False,143,False,"Pour résoudre l'équation 2x - 7 = 11, nous allons suivre ces étapes :
+
+1) Ajoutez 7 à chaque côté de la équation pour simplifier :
+   2x - 7 + 7 = 11 + 7
+
+2) Simplifiez :
+   2x = 18
+
+3) Divisez chaque côté par 2 pour résoudre x :
+   2x ÷ 2 = 18 ÷ 2
+
+4) Simplifiez encore :
+   x = 9
+
+Donc, la solution est x = 9.
+
+REPONSE: 9"
+algebre,5(x + 2) = 35. Trouve x.,5,,False,True,160,True,"Pour résoudre l'équation \(5(x + 2) = 35\), nous allons suivre les étapes suivantes :
+
+1. **Distributivité de la multiplication** :
+   \[
+   5(x + 2) = 35 \\
+   5x + 10 = 35
+   \]
+
+2. **Raccourci pour simplifier l'instruction** :
+   \[
+   5x + 10 - 10 = 35 - 10 \\
+   5x = 25
+   \]
+
+3. **Simplification de l'instruction** :
+   \[
+   5x = 25
+   \]
+   
+4. **Division pour"
+algebre,x/4 + 6 = 10. Trouve x.,16,,False,True,160,True,"Pour résoudre l'équation x/4 + 6 = 10, nous allons suivre les étapes suivantes :
+
+1) L'objectif est de résoudre pour x.
+2) Pour résoudre cette équation, nous devons isoler x sur la droite.
+3) Nous pouvons faire cela en multipliant tous les termes à droite de l'équation par 4.
+4) Cela donnera 4(x/4) + 4*6 = 40.
+5) Simplifiez ensuite 4x + 24 = 40.
+6) Réduisez 24 à 24 (le reste n'est pas nécessairement nécessaire).
+7) Rédu"
+code,Quel est le résultat Python : print(2**4 + 1),17,,False,True,19,False,Le résultat de `print(2**4 + 1)` est `17`.
+code,Quel est le résultat Python : print(10 // 3),3,,False,True,117,False,"Raisonnement :
+1. L'expression `10 // 3` calcule la division de 10 par 3.
+2. Dans l'algorithme Python, la division est effectuée sur les nombres entiers.
+3. Pour diviser 10 par 3, nous devons obtenir un quotient entier.
+4. Le quotient de 10 divisé par 3 est 3.
+5. Par conséquent, `print(10 // 3)` affiche le résultat 3.
+
+RESPONSE: 3"
+code,"Quel est le résultat Python : print(sum([2, 5, 8]))",15,,False,True,35,False,"Le résultat de la fonction `sum()` sur l'ensemble des nombres [2, 5, 8] est 15.
+
+RESPONSE: 15"
+code,"Quel est le résultat Python : print(len([4, 7, 9]))",3,3,True,False,112,False,"Raisonnement :
+1. La fonction `len()` dans Python retourne la taille de la liste ou de l'ensemble des éléments inclus dans une structure.
+2. Dans votre exemple, vous avez une liste `[4, 7, 9]`.
+3. Vous utilisez cette liste pour obtenir sa longueur (taille).
+4. Par conséquent, `print(len([4, 7, 9]))` affichera la valeur 3.
+
+Donc, le résultat est 3.
+
+REPONSE: 3"

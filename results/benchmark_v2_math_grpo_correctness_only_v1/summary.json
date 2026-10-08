@@ -1,0 +1,34 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct + SFT-stage0 + GRPO-correctness-only-48steps",
+  "partition": "validation",
+  "evaluated": 350,
+  "correct": 99,
+  "accuracy_at_1_greedy": 28.285714285714285,
+  "format_ok": 176,
+  "truncated": 42,
+  "domains": {
+    "maths_appliques": {
+      "total": 150,
+      "correct": 69,
+      "format_ok": 135,
+      "truncated": 1
+    },
+    "algebre_avancee": {
+      "total": 100,
+      "correct": 17,
+      "format_ok": 21,
+      "truncated": 24
+    },
+    "maths_competition": {
+      "total": 100,
+      "correct": 13,
+      "format_ok": 20,
+      "truncated": 17
+    }
+  },
+  "status_counts": {
+    "incorrect": 194,
+    "no_final_answer": 57,
+    "correct": 99
+  }
+}

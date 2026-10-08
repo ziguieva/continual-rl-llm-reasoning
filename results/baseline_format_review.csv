@@ -1,0 +1,57 @@
+id,domain,question,expected,full_response,manual_prediction,manual_correct
+maths_validation_0023,maths,Calcule : 17 + 33,50,RESULTAT: 40,,
+algebre_validation_0008,algebre,Résous l'équation : x/6 + 19 = 36,102,"x/6 + 19 - 19 = 36 - 19 
+x/6 = 17 
+x = 17 * 6 
+x = 102",,
+algebre_validation_0027,algebre,Résous l'équation : 3x - 17 = 46,21,3x = 53,,
+algebre_validation_0010,algebre,Résous l'équation : x/15 + 12 = 20,120,"x/15 + 12 - 12 = 20 - 12
+x/15 = 8
+x = 8 * 15
+x = 120",,
+algebre_validation_0001,algebre,Résous l'équation : x/11 + 13 = 27,154,"x/11 + 13 - 13 = 27 - 13
+x/11 = 14
+x = 14 * 11
+x = 154",,
+algebre_validation_0017,algebre,Résous l'équation : x/9 + 3 = 5,18,"x/9 + 3 - 3 = 5 - 3
+x/9 = 2
+x = 2 * 9
+x = 18",,
+algebre_validation_0015,algebre,Résous l'équation : x/8 + 4 = 19,120,"x/8 + 4 - 4 = 19 - 4
+x/8 = 15
+x = 15 * 8
+x = 120",,
+maths_validation_0013,maths,Calcule : 22 * 19,418,22 * 19 = 418,,
+algebre_validation_0020,algebre,Résous l'équation : x/15 + 16 = 24,120,"x/15 + 16 = 24
+x/15 = 24 - 16
+x/15 = 8
+x = 8 * 15
+x = 120",,
+algebre_validation_0007,algebre,Résous l'équation : x/8 + 2 = 19,136,"x/8 + 2 - 2 = 19 - 2
+x/8 = 17
+x = 17 * 8
+x = 136",,
+code_validation_0024,code,"Quel est le résultat de ce programme Python ?
+print(3**2 + 18)",27,RESULTAT: 69,,
+maths_validation_0028,maths,Calcule : 141 + 70,211,RESULTAT: 211,,
+maths_validation_0009,maths,Calcule : 119 - 37,82,119 - 37 = 82,,
+algebre_validation_0016,algebre,Résous l'équation : 7x + 14 = 42,4,"7x = 42 - 14
+7x = 28
+x = 28 / 7
+x = 4",,
+algebre_validation_0029,algebre,Résous l'équation : x/6 + 2 = 12,60,x/6 = 10,,
+algebre_validation_0018,algebre,Résous l'équation : 10(x + 17) = 470,30,10x + 170 = 470,,
+algebre_validation_0006,algebre,Résous l'équation : x/3 + 16 = 30,42,"x/3 + 16 - 16 = 30 - 16 
+x/3 = 14
+x = 14 * 3
+x = 42",,
+code_validation_0006,code,"Quel est le résultat de ce programme Python ?
+print(7**2 + 15)",64,RESULTAT: 64,,
+maths_validation_0012,maths,Calcule : 203 + 22,225,RESULTAT: 225,,
+algebre_validation_0019,algebre,Résous l'équation : x/4 + 8 = 22,56,"x/4 + 8 - 8 = 22 - 8 
+x/4 = 14 
+x = 14 * 4 
+x = 56",,
+algebre_validation_0024,algebre,Résous l'équation : 6(x + 11) = 90,4,6x + 66 = 90,,
+code_validation_0003,code,"Quel est le résultat de ce programme Python ?
+print(7**4 + 14)",2415,RESULTAT: 205,,

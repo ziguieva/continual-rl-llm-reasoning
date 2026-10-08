@@ -1,0 +1,834 @@
+{
+  "benchmark": "V2",
+  "partition": "validation",
+  "domain": "programmation",
+  "dataset": "MBPP",
+  "docker": {
+    "docker_server": "29.1.5",
+    "image": "python:3.11-slim",
+    "image_id": "sha256:bab1b7ef4b450c81002278d035eff85ebe394ae94df904f7a3ba14f7e16e487b"
+  },
+  "protocol_hash": "8bc0572737743647fd72fd66ad01e40a443d9922d834aa6eab1e4e12150e351b",
+  "reference_solutions_only": true,
+  "model_inference_performed": false,
+  "cases": {
+    "v2_mbpp_full_validation_00000": {
+      "case_hash": "7e0d6e623cfc2155bc36fe798d3b149d4ad985cd8ac0b2bb72a839de18813948",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00001": {
+      "case_hash": "188c12e54184ab92deb4075f4a42bb62b0395a243ad5c26eb65fd2dcc8a75965",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00002": {
+      "case_hash": "b32820be6928d68d2d68aaea2d8ceddc16b51727097480d137a95add807e4459",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00003": {
+      "case_hash": "ac36a454ed93133d06383e60bd6bac3b1b1535df7e37fcc813c0d0d7d4f61d3f",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00004": {
+      "case_hash": "e7219c7767c5f245f2a5721f9af98feab960160d2a0361e6139a8c0a9787af12",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00005": {
+      "case_hash": "29f9c5af73d0c300e2c2967a043e840e2b1f771c2d7e6e41d0967f1f74d3eee2",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00006": {
+      "case_hash": "e877b002e85347cbe12421edf9f7deee01f11e7f30f74a36a31b61ecff7e30ba",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00007": {
+      "case_hash": "dd77ef9401d536af60ea120b654516616778ee3c3acae62e567a109a8adcf3ee",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00008": {
+      "case_hash": "559c02eac895f3d41dc64b301d2a75c44706b8de9c51701c5069b19ad664b096",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00009": {
+      "case_hash": "b896ae93d0bac942d719ce98863e37e0787635653563dcba752450068f09ed48",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00010": {
+      "case_hash": "2ec7bb6b9127b4c15b00cefef021cb0ef115c1d6f8ba09a7ffc16634ff337023",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00011": {
+      "case_hash": "0152db08f77857639f4211924deb3ca350f86890605b2105970fef1609e9b7c3",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00012": {
+      "case_hash": "0badea5aaacaf87dea920c5618b365814f063009b56e7d93d18ee72bdd1e92b9",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00013": {
+      "case_hash": "cc10acb1ab9daa1288f0b43b54ae06b6231153a08c4ffc39e2991affcc317934",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00014": {
+      "case_hash": "6f4252107615200d0ffb7af8aad7a445eddd609f9307d2bd7588fa1b7571aab3",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00015": {
+      "case_hash": "c14defa3c4181b9f46a8796ea5da789e7246ec5762cf4f6c7ea7613ceec18b5b",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00016": {
+      "case_hash": "b2f24f7e3f2a980d84b4ede6c1897ab4a5e16a06593371cc74d69fa12a515cb2",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00017": {
+      "case_hash": "c3ea2d234ddcd36b5cfad263aca1e0add5c102de2518a36d316498d9c95065f9",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00018": {
+      "case_hash": "db1433c190d37290e6fe0c0d34fc2b944d9575cc0bb1a1270f89349b45acf649",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00019": {
+      "case_hash": "05c601915c605dafd9148142859c71455163899f4c2241986cc2b0f4e13fc3d6",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00020": {
+      "case_hash": "ca571dccbe17fb4f9e7b050c02652f4c002da1f676bb03f4f11e3c964eeb5b23",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00021": {
+      "case_hash": "b2f0033311e6d07b98869f9ce6a98a30f1045a14e07abbfb62c39fb93687fe6c",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00022": {
+      "case_hash": "90505ad775ab059e20f9cf5d1d05a1083e453147749dc207ed644130e3d1626e",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00023": {
+      "case_hash": "fae481e1fb57349364a5e8ddaae373ec92e2833456975230884fd1197bff689e",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00024": {
+      "case_hash": "9c897e2c5f28064b554861d8bf0c839da3a0e35fb9bb9a2560029eb97ce2fb16",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00025": {
+      "case_hash": "94130dc3ac07d3dd5de20f31c159a8f8ec44e172b958dfa1098ebfb1316160ad",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00026": {
+      "case_hash": "47505f3152452e8a148323f3aedbccade73851dcba6e3667086c3ad964830fa3",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00027": {
+      "case_hash": "4c896a67b3e5ca7ac3a47f0586042dd2c9e43bc06bb48e9171e24a6ded02aefc",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00028": {
+      "case_hash": "05d366f89d523caeaeb4d57fa43c54f9a964f97c5f55b5d4ad99545ce0c5205c",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00029": {
+      "case_hash": "4dbb1698fe026778f1719d5be957d2d71b15f268a87a18872c103dfc9828974c",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00030": {
+      "case_hash": "c373f3d55e9ab242f96408f6385383b47a831ca8325239248c9031dc2acba435",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00031": {
+      "case_hash": "6839c17ed2429d3443fee61238207a76c66a84acf7d744bb449df140879c38e6",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00032": {
+      "case_hash": "84b4e603bdf05d00224c25d6396443504e159c172051ad13ddd4521a69fdd768",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00033": {
+      "case_hash": "10b10b62a681adc0097deb24d047e5f8f04d0c9bed9cd0f68e6bd6fd7712d354",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00034": {
+      "case_hash": "666da92f8605bd2b8a04a7624d46bbe6368e8ef87266e8d951a035978a4d1f01",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00035": {
+      "case_hash": "8d7b7c53f7181a81585f91a7c1b4703552578300cc0bf2dfc218d19831d6f1af",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00036": {
+      "case_hash": "c346004a78986912fd774ca183045c9bcfadde5beefcf6541fe39ba6cd450c90",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00037": {
+      "case_hash": "252e635413e0d26fe59f1ce5189be49cd7649837748a71bae83f7c0a95e424b9",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00038": {
+      "case_hash": "4afd1a09101bf511511402b3a1de0e34a69d82d132cf3f0362ae6b12109af3e8",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00039": {
+      "case_hash": "0e5bf17d2d59580ccd6e5fdb2cfc8411532016fcc41ed3a3c71cc86fa9459660",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00040": {
+      "case_hash": "59e10da6b6e4a9b22324d2d4064c99dc93380bf528698cb1169c40d995ea9bc8",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00041": {
+      "case_hash": "ed6c50aa094d4737bb5c0bdbef1a1e506bc5d2b81ca74c57a31ef4456bf43c6b",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00042": {
+      "case_hash": "16be0748c491935b73d56ac2f2338f66ab03ba8713ab44c779f632759076feba",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00043": {
+      "case_hash": "2d47a3b95871a8bd6b7693b1f6cba6bb8e327aaf11e080bc042fdb32cd25596f",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00044": {
+      "case_hash": "fe7e7e50576f40b01a02d2e2f96944f6c8647dfd055ec3afc9f79be3afb216c4",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00045": {
+      "case_hash": "6b70868e1a05654692a4a0816c6716c0cb55c57a21986a98eb18ab6cc883b39e",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00046": {
+      "case_hash": "9458c91805f5934169cc36ce76ba8464c9fa96b0fa8835e61277526aba56c57c",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00047": {
+      "case_hash": "b9c2aa8663e0ac2dcae94eca666a6d0df1873e2dea7d71c03512285a4c4dadaa",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00048": {
+      "case_hash": "6b0732bd9a3022f386fe825693ba602daec46be58b44880db560248495c0a972",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00049": {
+      "case_hash": "97c201c011c66c84f11e8825051e0fb7ae710cd7e76dd0b82367a75a37c9d79c",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00050": {
+      "case_hash": "e7d2ee58d9f53c7e21d68a19679b3f7160f18cb86e8f6dfdb11c2c5c7dd58e9d",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00051": {
+      "case_hash": "110f6024a97c8c350ba995165fa76c1bc8ec6e762bac2980bd2996d5bd26d170",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00052": {
+      "case_hash": "0e0c149115bc2216dd1001ac9012e782e099772f190286c1ea5235c4b55411e3",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00053": {
+      "case_hash": "a13c3ea8f162c1f393c06fdf3f7b90ab061f548e3d15d722080203cedcf5ce00",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00054": {
+      "case_hash": "8d537156a16b553af3bdce13c0431c6034308a2105ffbccfe61a02469b1f9978",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00055": {
+      "case_hash": "8120df2dfc824e85e81f37a439acd32631a2454f70cbfae2e827418caa6b9c3a",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00056": {
+      "case_hash": "73aa0a9e47a171c105700fb7c2ea8a802b0212b4857e51f2dfcfda8d29ca5ef7",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00057": {
+      "case_hash": "c5054a17a4668c3387411fd33fd8595ed74ae216398d1c4adf58e6712f687377",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00058": {
+      "case_hash": "4bc4f428a869ae8a2f55c77d7aa6079698e204a694f4ce5a2fe79ed6dc145e49",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00059": {
+      "case_hash": "dece75a44bca95ba032231545173b41cc58f87a6b56d5e6b0e413ddbd0780b20",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00060": {
+      "case_hash": "f7089d9cb49dee0de5f9965bef1c72ab7685501b142f76c7074fe59c49c26b0a",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00061": {
+      "case_hash": "df3056c7a975fac8f8924cd6776461ef8f25639c41c69e89243014e087ccb584",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00062": {
+      "case_hash": "49e8ec7106a72a2ab7dbf72771fb9ad7c2d75a626a9159a076e42a9a8c5ef6fa",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00063": {
+      "case_hash": "f7fdd18993a64e091b3c4c7a2b8e597f703af8b020f64781c6171bae67c0d27d",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00064": {
+      "case_hash": "697d5d7ec9250f74375ff64894350a63316674e1754ad75b3627a892d3cdcd9a",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00065": {
+      "case_hash": "eebcd1b9228b6df1a201b8164a5744eec4f02d9e86af4cb82ac22f80317f051b",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00066": {
+      "case_hash": "65a5f055ad36c216fba2f6115cb3343dbf1889770c1f4ace53f9211727950b4c",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00067": {
+      "case_hash": "2d8033d344a80471b3848f88feb4cd74aad6f8ff752dd80c8cdf3274fb1c0aed",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00068": {
+      "case_hash": "21fa24e797465046d079d10bd4d53f6d5d528d0c10963aa50a5b799d10faa4b9",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00069": {
+      "case_hash": "ec2c835c93ba18b7ba4d4c6c00609dde883bc10487eda72e661ca47c9b316825",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00070": {
+      "case_hash": "bc75fe40df0a05d9640cabdeca628989ef7fa1624bb548f439c6a24acdbb20b7",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00071": {
+      "case_hash": "7cb99a252e94b269065a8a87ef5843fe788dff8b1b1dbd5e621468cae12e0eb8",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00072": {
+      "case_hash": "c08bb61a40f218bf64bdebab05582cc6aa2741e1e44c59d64f6f54f032ace9ff",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00073": {
+      "case_hash": "3da3d97d1294c3a9cc4ba904732f72b44c1c4474719942f55c5f276c466a80b6",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00074": {
+      "case_hash": "1bc7455744a6530283fcd29ad8bdbc11317af11931f4a890093179b674e044a2",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00075": {
+      "case_hash": "b8b181c20bd05186e2a11459782935d8ed01da7f5b3462f4792287c4d0319abd",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00076": {
+      "case_hash": "3fa57bfbbf9f3ce7f0e15e6c006721f7d6d996a8c0291a6769f5f4d2c9817943",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00077": {
+      "case_hash": "e0ca1c598b8231c94692eb8740b68cec30c69788870c9b3c99de80c1c1e2704f",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00078": {
+      "case_hash": "c51b530436c2762348e342727a2fde8651ba7eca6ec292b60643fe3b4ef83f92",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00079": {
+      "case_hash": "e4b14f3af2c445d16f282f11f93b4e2f412e8918783790d0a31af10940904808",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00080": {
+      "case_hash": "fe58b7ce875d9b83e17479cc369c65375283f6e17278fde01f763c65cb3c7091",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00081": {
+      "case_hash": "5ebb9e27615f0383228e40eb2e7127af7ce7007d4f084b21b7dd5c02a79f56c5",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00082": {
+      "case_hash": "2fb7b6072e14fd9630e25a279950fbcd663e9b6c2e841993c791d6a6495f5d74",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00083": {
+      "case_hash": "feb873a754b3ccb54581e211b504d5464dd9109ccfd16532160403d272e853c8",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00084": {
+      "case_hash": "c6f4052766f09b53c8561dbdc5445c6b0e9142c8f40bdf96b4092d749d900a00",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00085": {
+      "case_hash": "03f749cee8bb09db6fd09458fbf3e41e02a19c69bbeab9d81bf0f671e067cb05",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00086": {
+      "case_hash": "b63d757a4ebcf23a98c70faf838bf16f6fe3f0bca99287a0f77a20297ac95762",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00087": {
+      "case_hash": "0a4bd229e60132e804257865f12c1d37bb52c2d28442e75d5a056430c95942f4",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00088": {
+      "case_hash": "e6a65f34178f77d2a06df46eb6708cb4bfada44b671570910c3751477fb9991c",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    },
+    "v2_mbpp_full_validation_00089": {
+      "case_hash": "a0863cf7c0b8812cb671cc0cf63cd8679e3a222056d6fdc5654f6faf07e9111d",
+      "result": {
+        "status": "passed",
+        "tests_passed": 3,
+        "tests_total": 3,
+        "error": ""
+      }
+    }
+  },
+  "last_run": {
+    "selected_cases": 90,
+    "status_counts": {
+      "passed": 90
+    },
+    "tests_passed": 270,
+    "tests_total": 270
+  }
+}

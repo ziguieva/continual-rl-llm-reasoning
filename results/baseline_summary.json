@@ -1,0 +1,14 @@
+{
+    "maths": {
+        "correct": 3,
+        "total": 4
+    },
+    "algebre": {
+        "correct": 0,
+        "total": 4
+    },
+    "code": {
+        "correct": 1,
+        "total": 4
+    }
+}

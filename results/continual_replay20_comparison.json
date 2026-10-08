@@ -1,0 +1,206 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "dataset": "validation",
+    "replay_ratio": 0.2,
+    "adapter_replay": "/Users/evanszigui/Desktop/continual-rl-llm/models/grpo_maths_v2_then_algebra_sft_then_code_replay20",
+    "max_new_tokens": 256,
+    "system_prompt": "Tu es un assistant spécialisé en mathématiques, en algèbre et en programmation Python. Résous le problème avec précision. Tu peux expliquer brièvement ton raisonnement. Termine par une ligne au format REPONSE: nombre. N'ajoute aucun texte après cette ligne.",
+    "domains": {
+        "maths": {
+            "questions": 30,
+            "models": {
+                "m2": {
+                    "correct": 23,
+                    "accuracy": 76.67,
+                    "contradictions": 0,
+                    "missing": 1,
+                    "end_to_end": 20,
+                    "tokens": 1013
+                },
+                "m3": {
+                    "correct": 26,
+                    "accuracy": 86.67,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "end_to_end": 21,
+                    "tokens": 899
+                },
+                "m3r": {
+                    "correct": 25,
+                    "accuracy": 83.33,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "end_to_end": 25,
+                    "tokens": 954
+                }
+            },
+            "transitions": {
+                "m2_to_m3": {
+                    "improved": 4,
+                    "regressed": 1,
+                    "accuracy_delta": 10.0
+                },
+                "m2_to_m3r": {
+                    "improved": 4,
+                    "regressed": 2,
+                    "accuracy_delta": 6.66
+                },
+                "m3_to_m3r": {
+                    "improved": 2,
+                    "regressed": 3,
+                    "accuracy_delta": -3.34
+                }
+            }
+        },
+        "algebre": {
+            "questions": 30,
+            "models": {
+                "m2": {
+                    "correct": 27,
+                    "accuracy": 90.0,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "end_to_end": 27,
+                    "tokens": 1402
+                },
+                "m3": {
+                    "correct": 22,
+                    "accuracy": 73.33,
+                    "contradictions": 0,
+                    "missing": 4,
+                    "end_to_end": 17,
+                    "tokens": 1508
+                },
+                "m3r": {
+                    "correct": 27,
+                    "accuracy": 90.0,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "end_to_end": 27,
+                    "tokens": 1440
+                }
+            },
+            "transitions": {
+                "m2_to_m3": {
+                    "improved": 0,
+                    "regressed": 5,
+                    "accuracy_delta": -16.67
+                },
+                "m2_to_m3r": {
+                    "improved": 0,
+                    "regressed": 0,
+                    "accuracy_delta": 0.0
+                },
+                "m3_to_m3r": {
+                    "improved": 5,
+                    "regressed": 0,
+                    "accuracy_delta": 16.67
+                }
+            }
+        },
+        "code": {
+            "questions": 30,
+            "models": {
+                "m2": {
+                    "correct": 6,
+                    "accuracy": 20.0,
+                    "contradictions": 0,
+                    "missing": 8,
+                    "end_to_end": 5,
+                    "tokens": 926
+                },
+                "m3": {
+                    "correct": 17,
+                    "accuracy": 56.67,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "end_to_end": 17,
+                    "tokens": 1096
+                },
+                "m3r": {
+                    "correct": 14,
+                    "accuracy": 46.67,
+                    "contradictions": 0,
+                    "missing": 0,
+                    "end_to_end": 14,
+                    "tokens": 989
+                }
+            },
+            "transitions": {
+                "m2_to_m3": {
+                    "improved": 11,
+                    "regressed": 0,
+                    "accuracy_delta": 36.67
+                },
+                "m2_to_m3r": {
+                    "improved": 8,
+                    "regressed": 0,
+                    "accuracy_delta": 26.67
+                },
+                "m3_to_m3r": {
+                    "improved": 1,
+                    "regressed": 4,
+                    "accuracy_delta": -10.0
+                }
+            }
+        }
+    },
+    "global": {
+        "questions": 90,
+        "models": {
+            "m2": {
+                "correct": 56,
+                "accuracy": 62.22,
+                "contradictions": 0,
+                "missing": 9,
+                "end_to_end": 52,
+                "tokens": 3341
+            },
+            "m3": {
+                "correct": 65,
+                "accuracy": 72.22,
+                "contradictions": 0,
+                "missing": 4,
+                "end_to_end": 55,
+                "tokens": 3503
+            },
+            "m3r": {
+                "correct": 66,
+                "accuracy": 73.33,
+                "contradictions": 0,
+                "missing": 0,
+                "end_to_end": 66,
+                "tokens": 3383
+            }
+        },
+        "transitions": {
+            "m2_to_m3": {
+                "improved": 15,
+                "regressed": 6,
+                "accuracy_delta": 10.0
+            },
+            "m2_to_m3r": {
+                "improved": 12,
+                "regressed": 2,
+                "accuracy_delta": 11.11
+            },
+            "m3_to_m3r": {
+                "improved": 8,
+                "regressed": 7,
+                "accuracy_delta": 1.11
+            }
+        }
+    },
+    "continual_learning": {
+        "m3": {
+            "maths_forgetting_points": 0.0,
+            "algebra_forgetting_points": 16.67,
+            "code_gain_points": 36.67
+        },
+        "m3r": {
+            "maths_forgetting_points": 0.0,
+            "algebra_forgetting_points": 0.0,
+            "code_gain_points": 26.67
+        }
+    }
+}

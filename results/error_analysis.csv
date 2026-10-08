@@ -1,0 +1,15 @@
+domain,exercise_type,total,correct,incorrect,accuracy,manual_reviewed
+algebre,equation_soustraction,5,1,4,20.0,1
+algebre,distributivite,4,1,3,25.0,2
+algebre,equation_addition,11,3,8,27.27,1
+algebre,equation_fraction,10,9,1,90.0,10
+code,modulo,7,0,7,0.0,0
+code,somme_liste,3,0,3,0.0,0
+code,puissance,10,1,9,10.0,3
+code,longueur_liste,6,3,3,50.0,0
+code,division_entiere,4,3,1,75.0,0
+maths,operations_combinees,9,0,9,0.0,0
+maths,division,2,1,1,50.0,0
+maths,multiplication,4,3,1,75.0,1
+maths,soustraction,7,6,1,85.71,1
+maths,addition,8,7,1,87.5,3

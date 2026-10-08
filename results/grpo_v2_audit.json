@@ -1,0 +1,56 @@
+{
+    "domains": {
+        "maths": {
+            "total": 30,
+            "base_correct": 14,
+            "grpo_correct": 18,
+            "base_accuracy": 46.67,
+            "grpo_accuracy": 60.0,
+            "base_tokens": 201,
+            "grpo_tokens": 225,
+            "base_missing": 1,
+            "grpo_missing": 0,
+            "base_empty": 0,
+            "grpo_empty": 0
+        },
+        "algebre": {
+            "total": 30,
+            "base_correct": 0,
+            "grpo_correct": 0,
+            "base_accuracy": 0.0,
+            "grpo_accuracy": 0.0,
+            "base_tokens": 207,
+            "grpo_tokens": 279,
+            "base_missing": 9,
+            "grpo_missing": 10,
+            "base_empty": 0,
+            "grpo_empty": 0
+        },
+        "code": {
+            "total": 30,
+            "base_correct": 4,
+            "grpo_correct": 8,
+            "base_accuracy": 13.33,
+            "grpo_accuracy": 26.67,
+            "base_tokens": 128,
+            "grpo_tokens": 204,
+            "base_missing": 0,
+            "grpo_missing": 0,
+            "base_empty": 0,
+            "grpo_empty": 0
+        }
+    },
+    "global": {
+        "total": 90,
+        "base_correct": 18,
+        "grpo_correct": 26,
+        "base_accuracy": 20.0,
+        "grpo_accuracy": 28.89,
+        "base_tokens": 536,
+        "grpo_tokens": 708,
+        "base_missing": 10,
+        "grpo_missing": 10,
+        "base_empty": 0,
+        "grpo_empty": 0
+    }
+}

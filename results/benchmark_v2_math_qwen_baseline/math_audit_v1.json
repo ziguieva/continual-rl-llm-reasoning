@@ -1,0 +1,49 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "partition": "validation",
+  "evaluated": 350,
+  "status_counts": {
+    "incorrect": 164,
+    "correct": 107,
+    "no_final_answer": 79
+  },
+  "truncated_total": 47,
+  "truncation_by_status": {
+    "no_final_answer": 47
+  },
+  "boxed_by_status": {
+    "incorrect": 164,
+    "correct": 106,
+    "no_final_answer": 1
+  },
+  "no_final_categories": {
+    "no_final_not_truncated": 32,
+    "no_final_with_answer_phrase": 1,
+    "no_final_truncated": 47,
+    "no_final_with_boxed": 1
+  },
+  "domains": {
+    "maths_appliques": {
+      "total": 150,
+      "correct": 68,
+      "no_final_answer": 29,
+      "truncated": 0,
+      "format_ok": 0
+    },
+    "algebre_avancee": {
+      "total": 100,
+      "correct": 21,
+      "no_final_answer": 32,
+      "truncated": 30,
+      "format_ok": 0
+    },
+    "maths_competition": {
+      "total": 100,
+      "correct": 18,
+      "no_final_answer": 18,
+      "truncated": 17,
+      "format_ok": 0
+    }
+  },
+  "note": "Audit diagnostique uniquement. Les scores initiaux ne sont pas modifiés."
+}

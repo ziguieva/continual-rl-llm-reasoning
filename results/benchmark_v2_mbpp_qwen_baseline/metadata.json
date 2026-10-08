@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_type": "base",
+  "partition": "validation",
+  "domain": "programmation",
+  "seed": 42,
+  "device": "mps",
+  "system_prompt": "Tu es un ingénieur logiciel Python. Résous le problème de programmation donné. Écris uniquement le code Python complet, avec les fonctions nécessaires. Ne fournis ni explication, ni exemple d'utilisation, ni bloc Markdown. Le code doit pouvoir être exécuté directement et réussir les tests.",
+  "max_new_tokens": 512,
+  "do_sample": false,
+  "questions_hash": "4887fe19b320a4a6ea8d52422974a81461aeda4fe0ba4b7ae256938915499c89",
+  "grading_hash": "9d5cbb03399a363d02e69a901325d21be7f26e57f2b73826a31cb341a7ac0156",
+  "sandbox_hash": "03865422fc249b3a5f2e5c492667a4002a2d428b455b9f6d42b65e8523f4259b",
+  "docker_image": "sha256:bab1b7ef4b450c81002278d035eff85ebe394ae94df904f7a3ba14f7e16e487b",
+  "docker_timeout_seconds": 20
+}

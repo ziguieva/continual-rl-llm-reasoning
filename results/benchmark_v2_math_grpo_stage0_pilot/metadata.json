@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct + SFT-stage0 + GRPO-stage0-pilot",
+  "partition": "validation",
+  "domains": [
+    "maths_appliques",
+    "algebre_avancee",
+    "maths_competition"
+  ],
+  "seed": 42,
+  "device": "mps",
+  "dtype": "float32",
+  "max_new_tokens": 768,
+  "do_sample": false,
+  "system_prompt": "You are solving a mathematical reasoning problem. Work through the problem carefully and show the essential reasoning steps. End your response with exactly one final line in this format: REPONSE: \\boxed{your final mathematical answer}. Put only the final answer inside the box. Do not write anything after the final line.",
+  "questions_hash": "4887fe19b320a4a6ea8d52422974a81461aeda4fe0ba4b7ae256938915499c89",
+  "grading_hash": "9d5cbb03399a363d02e69a901325d21be7f26e57f2b73826a31cb341a7ac0156",
+  "evaluator_hash": "df22eac4ecf7bea7f6e41a31c05960b8325e16411ffddb6d7e00d2becd80bd97",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter_path": "/Users/evanszigui/Desktop/continual-rl-llm/models/benchmark_v2_grpo_stage0_pilot/final_adapter",
+  "adapter_config_sha256": "f77bd0b5496c673885be2b0bb5456e6fb571111bcf845299b9f6b2ab32bc8b7a",
+  "adapter_weights_sha256": "ce6f95d1ee47a5be0ec66b213a5a9028eb966c6b8f7567f7d290ef72f8284c45",
+  "training_completion_sha256": "d1ed6d9ab774cbf36f86147ee09db5bf4cec792dea840dd869abdde52fda96e8"
+}

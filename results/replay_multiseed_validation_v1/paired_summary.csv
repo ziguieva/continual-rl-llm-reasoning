@@ -1,0 +1,9 @@
+ratio_before,ratio_after,domain,seeds,accuracy_delta_mean,accuracy_delta_std,format_delta_mean,format_delta_std
+0,10,global,3,0.0,6.94,17.04,10.79
+0,10,maths,3,0.0,6.67,26.67,18.56
+0,10,algebre,3,6.67,8.82,31.11,15.75
+0,10,code,3,-6.67,11.55,-6.67,11.55
+0,20,global,3,4.81,3.9,22.59,8.49
+0,20,maths,3,6.67,6.67,34.45,13.47
+0,20,algebre,3,7.78,7.7,33.33,17.32
+0,20,code,3,0.0,3.33,0.0,3.33

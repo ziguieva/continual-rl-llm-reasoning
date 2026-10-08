@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "partition": "validation",
+  "evaluated": 90,
+  "passed_exercises": 18,
+  "pass_at_1": 20.0,
+  "tests_passed": 56,
+  "tests_total": 270,
+  "status_counts": {
+    "failed_assertion": 49,
+    "execution_error": 22,
+    "passed": 18,
+    "syntax_error": 1
+  },
+  "generated_file": "/Users/evanszigui/Desktop/continual-rl-llm/results/benchmark_v2_mbpp_qwen_baseline/generations.jsonl",
+  "grades_file": "/Users/evanszigui/Desktop/continual-rl-llm/results/benchmark_v2_mbpp_qwen_baseline/grades.jsonl"
+}

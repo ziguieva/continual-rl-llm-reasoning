@@ -1,0 +1,651 @@
+id,label,seed,ratio,domain,subtype,question,expected,prediction,status,strict_correct,format_ok,end_to_end,conclusion_correct,tokens,truncated,response
+code_test_0008,replay_0_seed_42,42,0,code,puissance,"Quel est le résultat de ce programme Python ?
+print(9**2 + 20)",101,101,correct,True,True,True,True,50,False,"L'opérateur ** (moule exponentielle) exécute la fonction pow().
+9**2 = 81
+81 + 20 = 101
+REPONSE: 101"
+code_test_0050,replay_0_seed_42,42,0,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([26, 82, 71]))",179,179,correct,True,True,True,True,36,False,"La fonction sum() additionne les éléments de la liste.
+26 + 82 + 71 = 179
+REPONSE: 179"
+code_test_0020,replay_0_seed_42,42,0,code,puissance,"Quel est le résultat de ce programme Python ?
+print(5**3 + 20)",145,145,correct,True,True,True,True,52,False,"L'opérateur ** (moule exponentielle) exécute la fonction pow().
+5**3 = 125
+125 + 20 = 145
+REPONSE: 145"
+algebre_test_0037,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 8(x + 20) = 296,17,17,correct,True,True,True,True,50,False,"On divise les deux côtés par 8.
+x + 20 = 37
+On soustrait 20.
+x = 37 - 20 = 17
+REPONSE: 17"
+algebre_test_0038,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/3 + 3 = 6,9,9,correct,True,True,True,True,43,False,"On soustrait 3 des deux côtés.
+x/3 = 3
+On multiplie par 3.
+x = 3 * 3 = 9
+REPONSE: 9"
+algebre_test_0015,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/12 + 14 = 34,240,120,incorrect,False,True,False,False,53,False,"On soustrait 14 des deux côtés.
+x/12 = 10
+On multiplie par 12.
+x = 10 * 12 = 120
+REPONSE: 120"
+code_test_0001,replay_0_seed_42,42,0,code,puissance,"Quel est le résultat de ce programme Python ?
+print(2**4 + 14)",30,30,correct,True,True,True,True,50,False,"L'opérateur ** (moule exponentielle) exécute la fonction pow de Python.
+2**4 = 16
+16 + 14 = 30
+REPONSE: 30"
+code_test_0025,replay_0_seed_42,42,0,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([92, 24, 2]))",118,118,correct,True,True,True,True,35,False,"La fonction sum() additionne les éléments de la liste.
+92 + 24 + 2 = 118
+REPONSE: 118"
+code_test_0047,replay_0_seed_42,42,0,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(53 // 12)",4,4,correct,True,True,True,True,30,False,"L'opérateur // réalise une division entière.
+53 // 12 = 4
+REPONSE: 4"
+maths_test_0042,replay_0_seed_42,42,0,maths,operations_combinees,Calcule : (46 - 22) * 5,120,120,correct,True,True,True,True,42,False,"On calcule des opérations prises en mains.
+46 - 22 = 24
+24 * 5 = 120
+REPONSE: 120"
+maths_test_0005,replay_0_seed_42,42,0,maths,operations_combinees,Calcule : (82 - 81) * 5,5,35,incorrect,False,True,False,False,24,False,"On soustrait les chiffres.
+7 * 5 = 35
+REPONSE: 35"
+maths_test_0001,replay_0_seed_42,42,0,maths,operations_combinees,Calcule : (75 - 45) * 7,210,210,correct,True,True,True,True,42,False,"On calcule des opérations de base.
+(75 - 45) = 30
+30 * 7 = 210
+REPONSE: 210"
+algebre_test_0013,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/10 + 4 = 7,30,30,correct,True,True,True,True,48,False,"On soustrait 4 des deux côtés.
+x/10 = 3
+On multiplie par 10.
+x = 3 * 10 = 30
+REPONSE: 30"
+algebre_test_0019,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 7(x + 4) = 203,25,24,incorrect,False,True,False,False,47,False,"On divise les deux côtés par 7.
+x + 4 = 28
+On soustrait 4.
+x = 28 - 4 = 24
+REPONSE: 24"
+algebre_test_0032,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/14 + 2 = 11,126,126,correct,True,True,True,True,50,False,"On soustrait 2 des deux côtés.
+x/14 = 9
+On multiplie par 14.
+x = 9 * 14 = 126
+REPONSE: 126"
+code_test_0048,replay_0_seed_42,42,0,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(126 // 13)",9,9,correct,True,True,True,True,31,False,"L'opérateur // réalise une division entière.
+126 // 13 = 9
+REPONSE: 9"
+code_test_0007,replay_0_seed_42,42,0,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(114 // 17)",6,6,correct,True,True,True,True,31,False,"L'opérateur // réalise une division entière.
+114 // 17 = 6
+REPONSE: 6"
+maths_test_0024,replay_0_seed_42,42,0,maths,division,Calcule : 272 / 8,34,34,correct,True,True,True,True,30,False,"On divise 272 by 8.
+272 ÷ 8 = 34
+REPONSE: 34"
+maths_test_0029,replay_0_seed_42,42,0,maths,operations_combinees,Calcule : (47 - 33) * 6,84,84,correct,True,True,True,True,38,False,"On calcule des opérations de base.
+47 - 33 = 14
+14 * 6 = 84
+REPONSE: 84"
+code_test_0043,replay_0_seed_42,42,0,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([74, 77, 99]))",250,240,incorrect,False,True,False,False,36,False,"La fonction sum() additionne les éléments de la liste.
+74 + 77 + 99 = 240
+REPONSE: 240"
+maths_test_0008,replay_0_seed_42,42,0,maths,operations_combinees,Calcule : (54 - 50) * 7,28,28,correct,True,True,True,True,46,False,"On soustrait 50 des 54.
+54 - 50 = 4
+On multiplie par 7.
+4 * 7 = 28
+REPONSE: 28"
+code_test_0034,replay_0_seed_42,42,0,code,puissance,"Quel est le résultat de ce programme Python ?
+print(2**2 + 5)",9,9,correct,True,True,True,True,45,False,"L'opérateur ** (moule exponentielle) exécute la fonction pow de Python.
+2**2 = 4
+4 + 5 = 9
+REPONSE: 9"
+maths_test_0034,replay_0_seed_42,42,0,maths,division,Calcule : 162 / 18,9,9,correct,True,True,True,True,29,False,"On divise 162 by 18.
+162 / 18 = 9
+REPONSE: 9"
+code_test_0003,replay_0_seed_42,42,0,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(54 // 14)",3,3,correct,True,True,True,True,30,False,"L'opérateur // réalise une division entière.
+54 // 14 = 3
+REPONSE: 3"
+maths_test_0049,replay_0_seed_42,42,0,maths,division,Calcule : 264 / 6,44,44,correct,True,True,True,True,30,False,"On divise 264 by 6.
+264 ÷ 6 = 44.
+REPONSE: 44"
+maths_test_0022,replay_0_seed_42,42,0,maths,division,Calcule : 104 / 4,26,26,correct,True,True,True,True,30,False,"On divise 104 by 4.
+104 ÷ 4 = 26
+REPONSE: 26"
+maths_test_0030,replay_0_seed_42,42,0,maths,addition,Calcule : 68 + 27,95,95,correct,True,False,False,True,28,False,"On ajoute les nombres.
+68 + 27 = 95
+REPONSE
+La réponse est 95."
+algebre_test_0008,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/7 + 16 = 34,126,126,correct,True,True,True,True,50,False,"On soustrait 16 des deux côtés.
+x/7 = 18
+On multiplie par 7.
+x = 18 * 7 = 126
+REPONSE: 126"
+algebre_test_0041,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 14(x + 6) = 140,4,4,correct,True,True,True,True,46,False,"On divise les deux côtés par 14.
+x + 6 = 10
+On soustrait 6.
+x = 10 - 6 = 4
+REPONSE: 4"
+code_test_0010,replay_0_seed_42,42,0,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([57, 84, 33]))",174,174,correct,True,True,True,True,36,False,"La fonction sum() additionne les éléments de la liste.
+57 + 84 + 33 = 174
+REPONSE: 174"
+code_test_0024,replay_0_seed_42,42,0,code,modulo,"Quel est le résultat de ce programme Python ?
+print(102 % 4 + 9)",11,11,correct,True,True,True,True,43,False,"L'opérateur % calcule le reste de la division entière.
+102 % 4 = 2
+2 + 9 = 11
+REPONSE: 11"
+code_test_0029,replay_0_seed_42,42,0,code,puissance,"Quel est le résultat de ce programme Python ?
+print(7**4 + 19)",2420,2420,correct,True,True,True,True,46,False,"On calcule first.
+7**4 = 2401
+Ou +19 = 2401 + 19 = 2420
+REPONSE: 2420"
+maths_test_0021,replay_0_seed_42,42,0,maths,soustraction,Calcule : 117 - 15,102,102,correct,True,False,False,True,32,False,"On soustrait des nombres.
+117 - 15 = 102
+REPONSE
+The result is 102."
+maths_test_0048,replay_0_seed_42,42,0,maths,division,Calcule : 630 / 18,35,35,correct,True,True,True,True,32,False,"On divise 630 by 18.
+630 ÷ 18 = 35.
+REPONSE: 35"
+algebre_test_0012,replay_0_seed_42,42,0,algebre,equation_soustraction,Résous l'équation : 4x - 16 = 16,8,8,correct,True,False,False,True,42,False,"On ajoute 16 des deux côtés.
+4x = 32
+On divise par 4.
+x = 8
+REPONSE
+La solution est x = 8."
+algebre_test_0002,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 12(x + 18) = 288,6,6,correct,True,True,True,True,49,False,"On divise les deux côtés par 12.
+x + 18 = 24
+On soustrait 18.
+x = 24 - 18 = 6
+REPONSE: 6"
+algebre_test_0046,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/6 + 19 = 21,12,12,correct,True,True,True,True,46,False,"On soustrait 19 des deux côtés.
+x/6 = 2
+On multiplie par 6.
+x = 2 * 6 = 12
+REPONSE: 12"
+maths_test_0020,replay_0_seed_42,42,0,maths,soustraction,Calcule : 283 - 162,121,121,correct,True,True,True,True,29,False,"On soustrait des nombres.
+283 - 162 = 121
+REPONSE: 121"
+algebre_test_0003,replay_0_seed_42,42,0,algebre,equation_addition,Résous l'équation : 8x + 16 = 40,3,3,correct,True,False,False,True,43,False,"On soustrait 16 des deux côtés.
+8x = 24
+On divise par 8.
+x = 3
+REPONSE
+La solution est x = 3."
+code_test_0012,replay_0_seed_42,42,0,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(87 // 7)",12,12,correct,True,True,True,True,31,False,"L'opérateur // réalise une division entière.
+87 // 7 = 12
+REPONSE: 12"
+code_test_0018,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([41, 90, 54, 53, 20, 39, 49, 24, 97, 69]))",10,11,incorrect,False,True,False,False,29,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 11 éléments.
+REPONSE: 11"
+maths_test_0040,replay_0_seed_42,42,0,maths,division,Calcule : 255 / 17,15,16,incorrect,False,True,False,False,25,False,"On divise 255 by 17.
+16 remainder 3.
+REPONSE: 16"
+maths_test_0044,replay_0_seed_42,42,0,maths,multiplication,Calcule : 6 * 10,60,60,correct,True,False,False,True,33,False,"On multiplie 6 et 10.
+On obtient 60.
+REPONSE: 60
+La réponse est 60."
+code_test_0038,replay_0_seed_42,42,0,code,puissance,"Quel est le résultat de ce programme Python ?
+print(4**4 + 13)",269,269,correct,True,True,True,True,52,False,"L'opérateur ** (moule exponentielle) exécute la fonction pow().
+4**4 = 256
+256 + 13 = 269
+REPONSE: 269"
+algebre_test_0022,replay_0_seed_42,42,0,algebre,equation_soustraction,Résous l'équation : 6x - 3 = 33,6,6,correct,True,True,True,True,42,False,"On ajoute 3 des deux côtés.
+6x = 33 + 3 = 36
+On divise par 6.
+x = 6
+REPONSE: 6"
+maths_test_0006,replay_0_seed_42,42,0,maths,addition,Calcule : 160 + 151,311,211,incorrect,False,True,False,False,23,False,"On ajoute les chiffres.
+On obtient 211.
+REPONSE: 211"
+algebre_test_0007,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/4 + 7 = 25,72,72,correct,True,True,True,True,47,False,"On soustrait 7 des deux côtés.
+x/4 = 18
+On multiplie par 4.
+x = 18 * 4 = 72
+REPONSE: 72"
+code_test_0016,replay_0_seed_42,42,0,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([17, 81, 39]))",137,137,correct,True,True,True,True,36,False,"La fonction sum() additionne les éléments de la liste.
+17 + 81 + 39 = 137
+REPONSE: 137"
+code_test_0026,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([18, 9, 92, 100]))",4,4,correct,True,True,True,True,27,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 4 éléments.
+REPONSE: 4"
+code_test_0042,replay_0_seed_42,42,0,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([10, 50, 65]))",125,125,correct,True,True,True,True,36,False,"La fonction sum() additionne les éléments de la liste.
+10 + 50 + 65 = 125
+REPONSE: 125"
+algebre_test_0023,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 12(x + 14) = 444,23,,missing,False,False,False,False,65,False,"On divise les deux côtés par 12.
+x + 14 = 36.5
+On soustrait 14.
+x = 36.5 - 14 = 22.5
+REPONSE
+La solution est x = 22.5."
+algebre_test_0006,replay_0_seed_42,42,0,algebre,equation_soustraction,Résous l'équation : 15x - 13 = 407,28,28,correct,True,True,True,True,50,False,"On ajoute 13 des deux côtés.
+15x = 407 + 13 = 420
+On divise par 15.
+x = 28
+REPONSE: 28"
+maths_test_0046,replay_0_seed_42,42,0,maths,addition,Calcule : 126 + 116,242,242,correct,True,True,True,True,23,False,"On additionne les chiffres.
+On obtient 242.
+REPONSE: 242"
+algebre_test_0025,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 4(x + 20) = 140,15,15,correct,True,True,True,True,50,False,"On divise les deux côtés par 4.
+x + 20 = 35
+On soustrait 20.
+x = 35 - 20 = 15
+REPONSE: 15"
+code_test_0049,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([48, 43]))",2,21,incorrect,False,True,False,False,51,False,"L'opérateur [] suggère l'exécution d'une liste.
+La fonction len() calcule le nombre des éléments de la liste.
+La liste contient 48 et 43.
+REPONSE: 21"
+maths_test_0033,replay_0_seed_42,42,0,maths,addition,Calcule : 71 + 234,305,305,correct,True,False,False,True,27,False,"On ajoute les chiffres.
+71 + 234 = 305
+REPONSE
+305"
+maths_test_0026,replay_0_seed_42,42,0,maths,operations_combinees,Calcule : (91 - 77) * 7,98,168,incorrect,False,True,False,False,34,False,"On s'adresse à la loi des products.
+On calcule : 24 * 7 = 168.
+REPONSE: 168"
+code_test_0032,replay_0_seed_42,42,0,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([57, 98, 10]))",165,165,correct,True,True,True,True,36,False,"La fonction sum() additionne les éléments de la liste.
+57 + 98 + 10 = 165
+REPONSE: 165"
+code_test_0039,replay_0_seed_42,42,0,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([27, 43, 83]))",153,153,correct,True,True,True,True,36,False,"La fonction sum() additionne les éléments de la liste.
+27 + 43 + 83 = 153
+REPONSE: 153"
+algebre_test_0010,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/15 + 10 = 18,120,120,correct,True,True,True,True,51,False,"On soustrait 10 des deux côtés.
+x/15 = 8
+On multiplie par 15.
+x = 8 * 15 = 120
+REPONSE: 120"
+algebre_test_0042,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 12(x + 4) = 216,14,14,correct,True,True,True,True,48,False,"On divise les deux côtés par 12.
+x + 4 = 18
+On soustrait 4.
+x = 18 - 4 = 14
+REPONSE: 14"
+maths_test_0014,replay_0_seed_42,42,0,maths,soustraction,Calcule : 101 - 59,42,42,correct,True,False,False,True,25,False,"On soustrait des nombres.
+101 - 59 = 42
+REPONSE
+42"
+algebre_test_0024,replay_0_seed_42,42,0,algebre,equation_soustraction,Résous l'équation : 6x - 19 = 113,22,22,correct,True,True,True,True,47,False,"On ajoute 19 des deux sides.
+6x = 113 + 19 = 132
+On divise par 6.
+x = 22
+REPONSE: 22"
+algebre_test_0030,replay_0_seed_42,42,0,algebre,equation_addition,Résous l'équation : 6x + 20 = 80,10,10,correct,True,True,True,True,47,False,"On soustrait 20 des deux côtés.
+6x = 80 - 20 = 60
+On divise par 6.
+x = 10
+REPONSE: 10"
+maths_test_0009,replay_0_seed_42,42,0,maths,operations_combinees,Calcule : (58 - 43) * 3,45,45,correct,True,True,True,True,50,False,"On calcule des opérations de parenthese premier.
+(58 - 43) = 15
+On multiplie par 3.
+15 * 3 = 45
+REPONSE: 45"
+code_test_0035,replay_0_seed_42,42,0,code,puissance,"Quel est le résultat de ce programme Python ?
+print(6**3 + 6)",222,304,incorrect,False,True,False,False,32,False,"On calcule first 6**3 = 216.
+On ajoute 6 = 12.
+REPONSE: 304"
+algebre_test_0029,replay_0_seed_42,42,0,algebre,equation_soustraction,Résous l'équation : 3x - 15 = -6,3,3,correct,True,True,True,True,42,False,"On ajoute 15 des deux côtés.
+3x = -6 + 15 = 9
+On divise par 3.
+x = 3
+REPONSE: 3"
+algebre_test_0011,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 7(x + 4) = 224,28,28,correct,True,True,True,True,47,False,"On divise les deux côtés par 7.
+x + 4 = 32
+On soustrait 4.
+x = 32 - 4 = 28
+REPONSE: 28"
+code_test_0046,replay_0_seed_42,42,0,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(116 // 7)",16,16,correct,True,True,True,True,32,False,"L'opérateur // réalise une division entière.
+116 // 7 = 16
+REPONSE: 16"
+algebre_test_0020,replay_0_seed_42,42,0,algebre,equation_addition,Résous l'équation : 4x + 16 = 76,15,15,correct,True,True,True,True,47,False,"On soustrait 16 des deux côtés.
+4x = 76 - 16 = 60
+On divise par 4.
+x = 15
+REPONSE: 15"
+code_test_0019,replay_0_seed_42,42,0,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(115 // 18)",6,6,correct,True,True,True,True,31,False,"L'opérateur // réalise une division entière.
+115 // 18 = 6
+REPONSE: 6"
+algebre_test_0004,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 15(x + 14) = 630,28,28,correct,True,True,True,True,51,False,"On divise les deux côtés par 15.
+x + 14 = 42
+On soustrait 14.
+x = 42 - 14 = 28
+REPONSE: 28"
+algebre_test_0034,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 8(x + 11) = 264,22,22,correct,True,True,True,True,50,False,"On divise les deux côtés par 8.
+x + 11 = 33
+On soustrait 11.
+x = 33 - 11 = 22
+REPONSE: 22"
+maths_test_0017,replay_0_seed_42,42,0,maths,operations_combinees,Calcule : (23 - 18) * 5,25,25,correct,True,True,True,True,40,False,"On calcule des opérations de parenthese.
+(23 - 18) * 5 = 5 * 5 = 25
+REPONSE: 25"
+code_test_0028,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([43, 39, 75, 93, 74, 2]))",6,7,incorrect,False,True,False,False,27,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 7 éléments.
+REPONSE: 7"
+maths_test_0047,replay_0_seed_42,42,0,maths,division,Calcule : 437 / 19,23,23,correct,True,True,True,True,32,False,"On divise 437 by 19.
+437 ÷ 19 = 23.
+REPONSE: 23"
+maths_test_0002,replay_0_seed_42,42,0,maths,multiplication,Calcule : 41 * 18,738,7980,incorrect,False,True,False,False,35,False,"On multiplie 41 by 10.
+410 * 18 = 7980
+REPONSE: 7980"
+algebre_test_0018,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 3(x + 14) = 126,28,28,correct,True,True,True,True,50,False,"On divise les deux côtés par 3.
+x + 14 = 42
+On soustrait 14.
+x = 42 - 14 = 28
+REPONSE: 28"
+maths_test_0010,replay_0_seed_42,42,0,maths,division,Calcule : 176 / 16,11,11,correct,True,True,True,True,32,False,"On divise 176 by 16.
+176 ÷ 16 = 11
+REPONSE: 11"
+code_test_0004,replay_0_seed_42,42,0,code,modulo,"Quel est le résultat de ce programme Python ?
+print(14 % 9 + 4)",9,11,incorrect,False,True,False,False,42,False,"L'opérateur % calcule le reste de la division entière.
+14 % 9 = 7
+7 + 4 = 11
+REPONSE: 11"
+code_test_0021,replay_0_seed_42,42,0,code,puissance,"Quel est le résultat de ce programme Python ?
+print(7**2 + 2)",51,51,correct,True,True,True,True,47,False,"L'opérateur ** (moule exponentielle) exécute la fonction pow().
+7**2 = 49
+49 + 2 = 51
+REPONSE: 51"
+algebre_test_0036,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/3 + 1 = 11,30,30,correct,True,True,True,True,47,False,"On soustrait 1 des deux côtés.
+x/3 = 10
+On multiplie par 3.
+x = 10 * 3 = 30
+REPONSE: 30"
+maths_test_0015,replay_0_seed_42,42,0,maths,multiplication,Calcule : 13 * 20,260,260,correct,True,False,False,True,37,False,"On multiplie 13 et 20.
+On obtient 260.
+REPONSE: 260
+La réponse est 260."
+code_test_0017,replay_0_seed_42,42,0,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([49, 58, 49]))",156,156,correct,True,True,True,True,36,False,"La fonction sum() additionne les éléments de la liste.
+49 + 58 + 49 = 156
+REPONSE: 156"
+algebre_test_0014,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/9 + 12 = 31,171,171,correct,True,True,True,True,50,False,"On soustrait 12 des deux côtés.
+x/9 = 19
+On multiplie par 9.
+x = 19 * 9 = 171
+REPONSE: 171"
+maths_test_0031,replay_0_seed_42,42,0,maths,addition,Calcule : 209 + 118,327,327,correct,True,False,False,True,33,False,"On additionne les chiffres.
+209 + 118 = 327
+REPONSE
+La réponse est 327."
+maths_test_0007,replay_0_seed_42,42,0,maths,addition,Calcule : 33 + 107,140,140,correct,True,False,False,True,27,False,"On ajoute les chiffres.
+33 + 107 = 140
+REPONSE
+140"
+code_test_0009,replay_0_seed_42,42,0,code,modulo,"Quel est le résultat de ce programme Python ?
+print(96 % 18 + 9)",15,33,incorrect,False,True,False,False,45,False,"L'opérateur % calcule le reste de la division entière.
+96 % 18 = 24
+24 + 9 = 33
+REPONSE: 33"
+maths_test_0038,replay_0_seed_42,42,0,maths,soustraction,Calcule : 66 - 54,12,12,correct,True,True,True,True,25,False,"On soustrait des nombres.
+66 - 54 = 12
+REPONSE: 12"
+algebre_test_0001,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/11 + 20 = 40,220,220,correct,True,True,True,True,53,False,"On soustrait 20 des deux côtés.
+x/11 = 20
+On multiplie par 11.
+x = 20 * 11 = 220
+REPONSE: 220"
+maths_test_0025,replay_0_seed_42,42,0,maths,division,Calcule : 152 / 19,8,8,correct,True,True,True,True,30,False,"On divise 152 by 19.
+152 ÷ 19 = 8.
+REPONSE: 8"
+algebre_test_0016,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 12(x + 14) = 216,4,4,correct,True,True,True,True,49,False,"On divise les deux côtés par 12.
+x + 14 = 18
+On soustrait 14.
+x = 18 - 14 = 4
+REPONSE: 4"
+code_test_0033,replay_0_seed_42,42,0,code,modulo,"Quel est le résultat de ce programme Python ?
+print(44 % 14 + 4)",6,12,incorrect,False,True,False,False,43,False,"L'opérateur % calcule le reste de la division entière.
+44 % 14 = 8
+8 + 4 = 12
+REPONSE: 12"
+algebre_test_0017,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/9 + 11 = 18,63,63,correct,True,True,True,True,46,False,"On soustrait 11 des deux côtés.
+x/9 = 7
+On multiplie par 9.
+x = 7 * 9 = 63
+REPONSE: 63"
+code_test_0044,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([49, 30, 32, 59, 45, 20, 36, 25, 93, 98]))",10,10,correct,True,True,True,True,29,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10"
+code_test_0030,replay_0_seed_42,42,0,code,puissance,"Quel est le résultat de ce programme Python ?
+print(9**3 + 3)",732,731,incorrect,False,True,False,False,56,False,"L'opérateur ** (moule exponentielle) exécute la fonction pow().
+9**3 = 9**3 = 729
+729 + 3 = 731
+REPONSE: 731"
+algebre_test_0035,replay_0_seed_42,42,0,algebre,equation_soustraction,Résous l'équation : 8x - 15 = 81,12,12,correct,True,True,True,True,46,False,"On ajoute 15 des deux côtés.
+8x = 81 + 15 = 96
+On divise par 8.
+x = 12
+REPONSE: 12"
+maths_test_0004,replay_0_seed_42,42,0,maths,division,Calcule : 174 / 6,29,29,correct,True,True,True,True,30,False,"On divise 174 by 6.
+174 ÷ 6 = 29
+REPONSE: 29"
+algebre_test_0039,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/6 + 2 = 14,72,72,correct,True,True,True,True,47,False,"On soustrait 2 des deux côtés.
+x/6 = 12
+On multiplie par 6.
+x = 12 * 6 = 72
+REPONSE: 72"
+algebre_test_0050,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 13(x + 5) = 338,21,21,correct,True,True,True,True,48,False,"On divise les deux côtés par 13.
+x + 5 = 26
+On soustrait 5.
+x = 26 - 5 = 21
+REPONSE: 21"
+code_test_0037,replay_0_seed_42,42,0,code,modulo,"Quel est le résultat de ce programme Python ?
+print(20 % 4 + 4)",4,4,correct,True,True,True,True,40,False,"L'opérateur % calcule le reste de la division entière.
+20 % 4 = 0
+0 + 4 = 4
+REPONSE: 4"
+algebre_test_0028,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 15(x + 5) = 150,5,5,correct,True,True,True,True,46,False,"On divise les deux côtés par 15.
+x + 5 = 10
+On soustrait 5.
+x = 10 - 5 = 5
+REPONSE: 5"
+algebre_test_0043,replay_0_seed_42,42,0,algebre,equation_addition,Résous l'équation : 7x + 18 = 102,12,12,correct,True,True,True,True,48,False,"On soustrait 18 des deux côtés.
+7x = 102 - 18 = 84
+On divise par 7.
+x = 12
+REPONSE: 12"
+code_test_0005,replay_0_seed_42,42,0,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(193 // 6)",32,32,correct,True,True,True,True,32,False,"L'opérateur // réalise une division entière.
+193 // 6 = 32
+REPONSE: 32"
+code_test_0041,replay_0_seed_42,42,0,code,modulo,"Quel est le résultat de ce programme Python ?
+print(116 % 2 + 8)",8,8,correct,True,True,True,True,41,False,"L'opérateur % calcule le reste de la division entière.
+116 % 2 = 0
+0 + 8 = 8
+REPONSE: 8"
+algebre_test_0021,replay_0_seed_42,42,0,algebre,equation_addition,Résous l'équation : 10x + 17 = 87,7,7,correct,True,True,True,True,47,False,"On soustrait 17 des deux côtés.
+10x = 87 - 17 = 70
+On divise par 10.
+x = 7
+REPONSE: 7"
+code_test_0027,replay_0_seed_42,42,0,code,modulo,"Quel est le résultat de ce programme Python ?
+print(195 % 8 + 1)",4,8,incorrect,False,True,False,False,41,False,"L'opérateur % calcule le reste de la division entière.
+195 % 8 = 7
+7 + 1 = 8
+REPONSE: 8"
+maths_test_0011,replay_0_seed_42,42,0,maths,addition,Calcule : 12 + 127,139,139,correct,True,True,True,True,23,False,"On ajoute les chiffres.
+On obtient 139.
+REPONSE: 139"
+algebre_test_0033,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 14(x + 19) = 546,20,20,correct,True,True,True,True,51,False,"On divise les deux côtés par 14.
+x + 19 = 39
+On soustrait 19.
+x = 39 - 19 = 20
+REPONSE: 20"
+code_test_0040,replay_0_seed_42,42,0,code,puissance,"Quel est le résultat de ce programme Python ?
+print(3**4 + 19)",100,100,correct,True,True,True,True,52,False,"L'opérateur ** (moule exponentielle) exécute la fonction pow de Python.
+3**4 = 81
+81 + 19 = 100
+REPONSE: 100"
+maths_test_0032,replay_0_seed_42,42,0,maths,multiplication,Calcule : 5 * 4,20,20,correct,True,False,False,True,32,False,"On multiplie 5 et 4.
+On obtient 20.
+REPONSE: 20
+La réponse est 20."
+code_test_0022,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([32, 95]))",2,2,correct,True,True,True,True,50,False,"L'opérateur * à droite a été utilisée.
+La fonction len() retourne la longueur des listes.
+Le liste [32, 95] contient 2 éléments.
+REPONSE: 2"
+code_test_0002,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([21, 52, 88, 65, 91, 99]))",6,6,correct,True,True,True,True,27,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 6 éléments.
+REPONSE: 6"
+maths_test_0041,replay_0_seed_42,42,0,maths,multiplication,Calcule : 17 * 9,153,153,correct,True,True,True,True,27,False,"L'operation est croissante.
+17 * 9 = 153
+REPONSE: 153"
+code_test_0031,replay_0_seed_42,42,0,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([84, 47, 89]))",220,210,incorrect,False,True,False,False,36,False,"La fonction sum() additionne les éléments de la liste.
+84 + 47 + 89 = 210
+REPONSE: 210"
+maths_test_0045,replay_0_seed_42,42,0,maths,soustraction,Calcule : 109 - 65,44,44,correct,True,False,False,True,25,False,"On soustrait des nombres.
+109 - 65 = 44
+REPONSE
+44"
+maths_test_0050,replay_0_seed_42,42,0,maths,soustraction,Calcule : 188 - 136,52,52,correct,True,True,True,True,27,False,"On soustrait des nombres.
+188 - 136 = 52
+REPONSE: 52"
+algebre_test_0044,replay_0_seed_42,42,0,algebre,equation_soustraction,Résous l'équation : 2x - 14 = 16,15,15,correct,True,True,True,True,46,False,"On ajoute 14 des deux côtés.
+2x = 16 + 14 = 30
+On divise par 2.
+x = 15
+REPONSE: 15"
+algebre_test_0026,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 3(x + 8) = 36,4,4,correct,True,True,True,True,45,False,"On divise les deux côtés par 3.
+x + 8 = 12
+On soustrait 8.
+x = 12 - 8 = 4
+REPONSE: 4"
+maths_test_0016,replay_0_seed_42,42,0,maths,soustraction,Calcule : 64 - 11,53,53,correct,True,True,True,True,25,False,"On soustrait des nombres.
+64 - 11 = 53
+REPONSE: 53"
+algebre_test_0047,replay_0_seed_42,42,0,algebre,equation_addition,Résous l'équation : 11x + 3 = 91,8,8,correct,True,True,True,True,45,False,"On soustrait 3 des deux côtés.
+11x = 91 - 3 = 88
+On divise par 11.
+x = 8
+REPONSE: 8"
+code_test_0036,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([26, 69, 35, 72, 90]))",5,5,correct,True,True,True,True,27,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 5 éléments.
+REPONSE: 5"
+maths_test_0013,replay_0_seed_42,42,0,maths,soustraction,Calcule : 207 - 146,61,61,correct,True,False,False,True,31,False,"On soustrait des nombres.
+207 - 146 = 61
+REPONSE
+La réponse est 61."
+code_test_0015,replay_0_seed_42,42,0,code,puissance,"Quel est le résultat de ce programme Python ?
+print(5**2 + 11)",36,36,correct,True,True,True,True,48,False,"L'opérateur ** (métode exponentielle) multiplie les deux arguments.
+5**2 = 25
+25 + 11 = 36
+REPONSE: 36"
+maths_test_0012,replay_0_seed_42,42,0,maths,addition,Calcule : 107 + 81,188,188,correct,True,False,False,True,32,False,"On ajoute les chiffres.
+107 + 81 = 188
+REPONSE
+La réponse est 188."
+maths_test_0028,replay_0_seed_42,42,0,maths,addition,Calcule : 238 + 202,440,440,correct,True,False,False,True,33,False,"On ajoute les chiffres.
+238 + 202 = 440
+REPONSE
+La réponse est 440."
+code_test_0011,replay_0_seed_42,42,0,code,somme_liste,"Quel est le résultat de ce programme Python ?
+print(sum([5, 2, 39]))",46,46,correct,True,True,True,True,35,False,"L'opérateur + additionne les éléments de la liste.
+5 + 2 + 39 = 46
+REPONSE: 46"
+code_test_0014,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([50, 72, 16, 34, 100, 34, 91, 58, 28, 79]))",10,12,incorrect,False,True,False,False,29,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 12 éléments.
+REPONSE: 12"
+code_test_0006,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([97, 37, 42, 37, 83]))",5,5,correct,True,True,True,True,27,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 5 éléments.
+REPONSE: 5"
+maths_test_0039,replay_0_seed_42,42,0,maths,addition,Calcule : 34 + 178,212,212,correct,True,False,False,True,32,False,"On ajoute les chiffres.
+34 + 178 = 212
+REPONSE
+La réponse est 212."
+algebre_test_0005,replay_0_seed_42,42,0,algebre,equation_addition,Résous l'équation : 9x + 12 = 183,19,19,correct,True,True,True,True,49,False,"On soustrait 12 des deux côtés.
+9x = 183 - 12 = 171
+On divise par 9.
+x = 19
+REPONSE: 19"
+algebre_test_0040,replay_0_seed_42,42,0,algebre,equation_addition,Résous l'équation : 6x + 11 = 155,24,24,correct,True,True,True,True,49,False,"On soustrait 11 des deux côtés.
+6x = 155 - 11 = 144
+On divise par 6.
+x = 24
+REPONSE: 24"
+code_test_0013,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([15, 64, 77]))",3,3,correct,True,True,True,True,27,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 3 éléments.
+REPONSE: 3"
+maths_test_0043,replay_0_seed_42,42,0,maths,operations_combinees,Calcule : (89 - 8) * 7,567,567,correct,True,False,False,True,37,False,"On calcule de droite à gauche.
+89 - 8 = 81
+81 * 7 = 567
+REPONSE
+567"
+maths_test_0003,replay_0_seed_42,42,0,maths,division,Calcule : 18 / 2,9,9,correct,True,True,True,True,24,False,"L'opérateur divise.
+18 / 2 = 9
+REPONSE: 9"
+maths_test_0018,replay_0_seed_42,42,0,maths,soustraction,Calcule : 224 - 64,160,160,correct,True,False,False,True,27,False,"On soustrait des nombres.
+224 - 64 = 160
+REPONSE
+160"
+maths_test_0037,replay_0_seed_42,42,0,maths,division,Calcule : 432 / 12,36,36,correct,True,True,True,True,32,False,"On divise 432 by 12.
+432 ÷ 12 = 36.
+REPONSE: 36"
+maths_test_0035,replay_0_seed_42,42,0,maths,soustraction,Calcule : 299 - 91,208,208,correct,True,True,True,True,19,False,"On soustrait des nombres.
+208
+REPONSE: 208"
+algebre_test_0048,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 5(x + 7) = 135,20,20,correct,True,True,True,True,47,False,"On divise les deux côtés par 5.
+x + 7 = 27
+On soustrait 7.
+x = 27 - 7 = 20
+REPONSE: 20"
+maths_test_0036,replay_0_seed_42,42,0,maths,addition,Calcule : 100 + 209,309,309,correct,True,True,True,True,23,False,"On ajoute les chiffres.
+On obtient 309.
+REPONSE: 309"
+algebre_test_0027,replay_0_seed_42,42,0,algebre,equation_fraction,Résous l'équation : x/6 + 6 = 20,84,84,correct,True,True,True,True,47,False,"On soustrait 6 des deux côtés.
+x/6 = 14
+On multiplie par 6.
+x = 14 * 6 = 84
+REPONSE: 84"
+algebre_test_0045,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 4(x + 12) = 88,10,10,correct,True,True,True,True,50,False,"On divise les deux côtés par 4.
+x + 12 = 22
+On soustrait 12.
+x = 22 - 12 = 10
+REPONSE: 10"
+algebre_test_0031,replay_0_seed_42,42,0,algebre,equation_soustraction,Résous l'équation : 5x - 15 = 90,21,21,correct,True,True,True,True,47,False,"On ajoute 15 des deux côtés.
+5x = 90 + 15 = 105
+On divise par 5.
+x = 21
+REPONSE: 21"
+code_test_0045,replay_0_seed_42,42,0,code,division_entiere,"Quel est le résultat de ce programme Python ?
+print(25 // 5)",5,5,correct,True,True,True,True,29,False,"L'opérateur // réalise une division entière.
+25 // 5 = 5
+REPONSE: 5"
+maths_test_0027,replay_0_seed_42,42,0,maths,operations_combinees,Calcule : (73 - 29) * 9,396,396,correct,True,True,True,True,41,False,"On soustrait first.
+73 - 29 = 44
+On multiplie.
+44 * 9 = 396
+REPONSE: 396"
+maths_test_0023,replay_0_seed_42,42,0,maths,operations_combinees,Calcule : (51 - 38) * 2,26,26,correct,True,True,True,True,50,False,"On soustrait 38 des 51.
+51 - 38 = 13
+On multiplie le résultat par 2.
+13 * 2 = 26
+REPONSE: 26"
+algebre_test_0049,replay_0_seed_42,42,0,algebre,equation_addition,Résous l'équation : 4x + 5 = 109,26,26,correct,True,True,True,True,47,False,"On soustrait 5 des deux côtés.
+4x = 109 - 5 = 104
+On divise par 4.
+x = 26
+REPONSE: 26"
+algebre_test_0009,replay_0_seed_42,42,0,algebre,distributivite,Résous l'équation : 12(x + 5) = 312,21,21,correct,True,True,True,True,48,False,"On divise les deux côtés par 12.
+x + 5 = 26
+On soustrait 5.
+x = 26 - 5 = 21
+REPONSE: 21"
+maths_test_0019,replay_0_seed_42,42,0,maths,addition,Calcule : 180 + 245,425,425,correct,True,True,True,True,23,False,"On additionne les chiffres.
+On obtient 425.
+REPONSE: 425"
+code_test_0023,replay_0_seed_42,42,0,code,longueur_liste,"Quel est le résultat de ce programme Python ?
+print(len([5, 97, 83, 25, 37, 46]))",6,6,correct,True,True,True,True,27,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 6 éléments.
+REPONSE: 6"

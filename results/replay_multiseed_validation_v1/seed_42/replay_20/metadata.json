@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "ratio": 20,
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter": "/Users/evanszigui/Desktop/continual-rl-llm/models/replay_multiseed_v1/seed_42/replay_20",
+  "adapter_signature": {
+    "config_hash": "a6e3f616be454677dda840e06e422bff17498dc13db33628d2d5c861d9c2bcf5",
+    "weights_name": "adapter_model.safetensors",
+    "weights_size": 2175168,
+    "weights_mtime_ns": 1790953977927141473
+  },
+  "dataset_hash": "bbc87dded4a9292840975cc658abb9b82fa9ac2844781a15d60757928fbe8382",
+  "evaluator_hash": "d1455e89aac114def8a87b19e0a5dd5d5a6540068cf34df5f769ec8493eb36e7",
+  "system_prompt": "Tu es un assistant spécialisé en mathématiques, en algèbre et en programmation Python. Résous le problème avec précision. Tu peux expliquer brièvement ton raisonnement. Termine par une ligne au format REPONSE: nombre. N'ajoute aucun texte après cette ligne.",
+  "max_new_tokens": 256,
+  "do_sample": false,
+  "dtype": "float32",
+  "device": "mps"
+}

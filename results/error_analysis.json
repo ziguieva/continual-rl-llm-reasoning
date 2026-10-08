@@ -1,0 +1,524 @@
+{
+    "source": "/Users/evanszigui/Desktop/continual-rl-llm/results/baseline_validation_audited.csv",
+    "questions": 90,
+    "analysis": [
+        {
+            "domain": "algebre",
+            "exercise_type": "equation_soustraction",
+            "total": 5,
+            "correct": 1,
+            "incorrect": 4,
+            "accuracy": 20.0,
+            "manual_reviewed": 1,
+            "errors": [
+                {
+                    "id": "algebre_validation_0003",
+                    "question": "Résous l'équation : 8x - 4 = 140",
+                    "expected": "18",
+                    "predicted": "136",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "algebre_validation_0027",
+                    "question": "Résous l'équation : 3x - 17 = 46",
+                    "expected": "21",
+                    "predicted": "",
+                    "review_status": "manual_incorrect"
+                },
+                {
+                    "id": "algebre_validation_0011",
+                    "question": "Résous l'équation : 11x - 5 = 270",
+                    "expected": "25",
+                    "predicted": "163",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "algebre_validation_0025",
+                    "question": "Résous l'équation : 11x - 13 = 75",
+                    "expected": "8",
+                    "predicted": "12",
+                    "review_status": "auto_incorrect"
+                }
+            ]
+        },
+        {
+            "domain": "algebre",
+            "exercise_type": "distributivite",
+            "total": 4,
+            "correct": 1,
+            "incorrect": 3,
+            "accuracy": 25.0,
+            "manual_reviewed": 2,
+            "errors": [
+                {
+                    "id": "algebre_validation_0012",
+                    "question": "Résous l'équation : 13(x + 13) = 286",
+                    "expected": "9",
+                    "predicted": "104",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "algebre_validation_0018",
+                    "question": "Résous l'équation : 10(x + 17) = 470",
+                    "expected": "30",
+                    "predicted": "",
+                    "review_status": "manual_incomplete"
+                },
+                {
+                    "id": "algebre_validation_0024",
+                    "question": "Résous l'équation : 6(x + 11) = 90",
+                    "expected": "4",
+                    "predicted": "",
+                    "review_status": "manual_incomplete"
+                }
+            ]
+        },
+        {
+            "domain": "algebre",
+            "exercise_type": "equation_addition",
+            "total": 11,
+            "correct": 3,
+            "incorrect": 8,
+            "accuracy": 27.27,
+            "manual_reviewed": 1,
+            "errors": [
+                {
+                    "id": "algebre_validation_0030",
+                    "question": "Résous l'équation : 14x + 15 = 421",
+                    "expected": "29",
+                    "predicted": "139",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "algebre_validation_0023",
+                    "question": "Résous l'équation : 11x + 18 = 216",
+                    "expected": "18",
+                    "predicted": "105",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "algebre_validation_0013",
+                    "question": "Résous l'équation : 8x + 4 = 196",
+                    "expected": "24",
+                    "predicted": "23",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "algebre_validation_0009",
+                    "question": "Résous l'équation : 11x + 2 = 332",
+                    "expected": "30",
+                    "predicted": "109",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "algebre_validation_0014",
+                    "question": "Résous l'équation : 12x + 2 = 122",
+                    "expected": "10",
+                    "predicted": "100",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "algebre_validation_0026",
+                    "question": "Résous l'équation : 4x + 9 = 37",
+                    "expected": "7",
+                    "predicted": "18",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "algebre_validation_0021",
+                    "question": "Résous l'équation : 14x + 9 = 275",
+                    "expected": "19",
+                    "predicted": "16",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "algebre_validation_0022",
+                    "question": "Résous l'équation : 14x + 7 = 301",
+                    "expected": "21",
+                    "predicted": "16",
+                    "review_status": "auto_incorrect"
+                }
+            ]
+        },
+        {
+            "domain": "algebre",
+            "exercise_type": "equation_fraction",
+            "total": 10,
+            "correct": 9,
+            "incorrect": 1,
+            "accuracy": 90.0,
+            "manual_reviewed": 10,
+            "errors": [
+                {
+                    "id": "algebre_validation_0029",
+                    "question": "Résous l'équation : x/6 + 2 = 12",
+                    "expected": "60",
+                    "predicted": "",
+                    "review_status": "manual_incomplete"
+                }
+            ]
+        },
+        {
+            "domain": "code",
+            "exercise_type": "modulo",
+            "total": 7,
+            "correct": 0,
+            "incorrect": 7,
+            "accuracy": 0.0,
+            "manual_reviewed": 0,
+            "errors": [
+                {
+                    "id": "code_validation_0019",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(56 % 19 + 5)",
+                    "expected": "23",
+                    "predicted": "2",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0002",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(135 % 4 + 9)",
+                    "expected": "12",
+                    "predicted": "2",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0004",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(140 % 14 + 9)",
+                    "expected": "9",
+                    "predicted": "2",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0029",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(116 % 16 + 10)",
+                    "expected": "14",
+                    "predicted": "2",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0018",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(84 % 9 + 10)",
+                    "expected": "13",
+                    "predicted": "2",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0015",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(32 % 4 + 5)",
+                    "expected": "5",
+                    "predicted": "1",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0030",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(14 % 18 + 10)",
+                    "expected": "24",
+                    "predicted": "2",
+                    "review_status": "auto_incorrect"
+                }
+            ]
+        },
+        {
+            "domain": "code",
+            "exercise_type": "somme_liste",
+            "total": 3,
+            "correct": 0,
+            "incorrect": 3,
+            "accuracy": 0.0,
+            "manual_reviewed": 0,
+            "errors": [
+                {
+                    "id": "code_validation_0012",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(sum([59, 10, 89]))",
+                    "expected": "158",
+                    "predicted": "247",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0007",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(sum([20, 26, 43]))",
+                    "expected": "89",
+                    "predicted": "109",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0028",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(sum([38, 73, 87]))",
+                    "expected": "198",
+                    "predicted": "108",
+                    "review_status": "auto_incorrect"
+                }
+            ]
+        },
+        {
+            "domain": "code",
+            "exercise_type": "puissance",
+            "total": 10,
+            "correct": 1,
+            "incorrect": 9,
+            "accuracy": 10.0,
+            "manual_reviewed": 3,
+            "errors": [
+                {
+                    "id": "code_validation_0009",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(8**3 + 3)",
+                    "expected": "515",
+                    "predicted": "159",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0010",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(7**3 + 4)",
+                    "expected": "347",
+                    "predicted": "127",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0013",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(8**3 + 18)",
+                    "expected": "530",
+                    "predicted": "190",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0025",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(6**3 + 8)",
+                    "expected": "224",
+                    "predicted": "104",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0023",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(8**3 + 6)",
+                    "expected": "518",
+                    "predicted": "190",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0008",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(5**2 + 15)",
+                    "expected": "40",
+                    "predicted": "80",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0024",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(3**2 + 18)",
+                    "expected": "27",
+                    "predicted": "69",
+                    "review_status": "manual_incorrect"
+                },
+                {
+                    "id": "code_validation_0014",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(6**4 + 7)",
+                    "expected": "1303",
+                    "predicted": "1230",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0003",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(7**4 + 14)",
+                    "expected": "2415",
+                    "predicted": "205",
+                    "review_status": "manual_incorrect"
+                }
+            ]
+        },
+        {
+            "domain": "code",
+            "exercise_type": "longueur_liste",
+            "total": 6,
+            "correct": 3,
+            "incorrect": 3,
+            "accuracy": 50.0,
+            "manual_reviewed": 0,
+            "errors": [
+                {
+                    "id": "code_validation_0026",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(len([42, 12, 52, 86, 13, 24, 18, 62, 42, 32]))",
+                    "expected": "10",
+                    "predicted": "9",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0001",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(len([36, 80, 88, 79, 16, 17, 13, 51, 48, 44]))",
+                    "expected": "10",
+                    "predicted": "12",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "code_validation_0027",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(len([27, 44, 78, 19, 41, 92, 41, 94, 45]))",
+                    "expected": "9",
+                    "predicted": "6",
+                    "review_status": "auto_incorrect"
+                }
+            ]
+        },
+        {
+            "domain": "code",
+            "exercise_type": "division_entiere",
+            "total": 4,
+            "correct": 3,
+            "incorrect": 1,
+            "accuracy": 75.0,
+            "manual_reviewed": 0,
+            "errors": [
+                {
+                    "id": "code_validation_0017",
+                    "question": "Quel est le résultat de ce programme Python ?\nprint(177 // 13)",
+                    "expected": "13",
+                    "predicted": "14",
+                    "review_status": "auto_incorrect"
+                }
+            ]
+        },
+        {
+            "domain": "maths",
+            "exercise_type": "operations_combinees",
+            "total": 9,
+            "correct": 0,
+            "incorrect": 9,
+            "accuracy": 0.0,
+            "manual_reviewed": 0,
+            "errors": [
+                {
+                    "id": "maths_validation_0026",
+                    "question": "Calcule : (77 - 16) * 5",
+                    "expected": "305",
+                    "predicted": "430",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "maths_validation_0014",
+                    "question": "Calcule : (45 - 10) * 7",
+                    "expected": "245",
+                    "predicted": "310",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "maths_validation_0011",
+                    "question": "Calcule : (74 - 28) * 10",
+                    "expected": "460",
+                    "predicted": "560",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "maths_validation_0002",
+                    "question": "Calcule : (74 - 72) * 2",
+                    "expected": "4",
+                    "predicted": "2",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "maths_validation_0030",
+                    "question": "Calcule : (62 - 6) * 5",
+                    "expected": "280",
+                    "predicted": "30",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "maths_validation_0003",
+                    "question": "Calcule : (79 - 7) * 10",
+                    "expected": "720",
+                    "predicted": "630",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "maths_validation_0022",
+                    "question": "Calcule : (72 - 20) * 5",
+                    "expected": "260",
+                    "predicted": "340",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "maths_validation_0018",
+                    "question": "Calcule : (57 - 54) * 7",
+                    "expected": "21",
+                    "predicted": "12",
+                    "review_status": "auto_incorrect"
+                },
+                {
+                    "id": "maths_validation_0019",
+                    "question": "Calcule : (30 - 3) * 9",
+                    "expected": "243",
+                    "predicted": "27",
+                    "review_status": "auto_incorrect"
+                }
+            ]
+        },
+        {
+            "domain": "maths",
+            "exercise_type": "division",
+            "total": 2,
+            "correct": 1,
+            "incorrect": 1,
+            "accuracy": 50.0,
+            "manual_reviewed": 0,
+            "errors": [
+                {
+                    "id": "maths_validation_0027",
+                    "question": "Calcule : 186 / 6",
+                    "expected": "31",
+                    "predicted": "30",
+                    "review_status": "auto_incorrect"
+                }
+            ]
+        },
+        {
+            "domain": "maths",
+            "exercise_type": "multiplication",
+            "total": 4,
+            "correct": 3,
+            "incorrect": 1,
+            "accuracy": 75.0,
+            "manual_reviewed": 1,
+            "errors": [
+                {
+                    "id": "maths_validation_0005",
+                    "question": "Calcule : 42 * 19",
+                    "expected": "798",
+                    "predicted": "838",
+                    "review_status": "auto_incorrect"
+                }
+            ]
+        },
+        {
+            "domain": "maths",
+            "exercise_type": "soustraction",
+            "total": 7,
+            "correct": 6,
+            "incorrect": 1,
+            "accuracy": 85.71,
+            "manual_reviewed": 1,
+            "errors": [
+                {
+                    "id": "maths_validation_0006",
+                    "question": "Calcule : 239 - 114",
+                    "expected": "125",
+                    "predicted": "225",
+                    "review_status": "auto_incorrect"
+                }
+            ]
+        },
+        {
+            "domain": "maths",
+            "exercise_type": "addition",
+            "total": 8,
+            "correct": 7,
+            "incorrect": 1,
+            "accuracy": 87.5,
+            "manual_reviewed": 3,
+            "errors": [
+                {
+                    "id": "maths_validation_0023",
+                    "question": "Calcule : 17 + 33",
+                    "expected": "50",
+                    "predicted": "40",
+                    "review_status": "manual_incorrect"
+                }
+            ]
+        }
+    ]
+}

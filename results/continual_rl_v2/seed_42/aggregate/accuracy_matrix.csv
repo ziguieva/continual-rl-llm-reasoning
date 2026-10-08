@@ -1,0 +1,13 @@
+strategy,stage,maths_appliques,algebre_avancee,maths_competition,programmation
+no_replay,0,46.000000,,,
+no_replay,1,47.333333,18.000000,,
+no_replay,2,46.666667,18.000000,12.000000,
+no_replay,3,47.333333,15.000000,8.000000,24.444444
+fixed_replay,0,46.000000,,,
+fixed_replay,1,45.333333,17.000000,,
+fixed_replay,2,45.333333,17.000000,13.000000,
+fixed_replay,3,48.000000,17.000000,17.000000,22.222222
+adaptive_replay,0,46.000000,,,
+adaptive_replay,1,46.666667,17.000000,,
+adaptive_replay,2,45.333333,18.000000,14.000000,
+adaptive_replay,3,46.666667,17.000000,12.000000,0.000000

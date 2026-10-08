@@ -1,0 +1,1164 @@
+id,domain,question,expected,m2_prediction,m2_status,m2_correct,m2_format_ok,m2_end_to_end,m2_conclusion_correct,m2_response,m3_prediction,m3_status,m3_correct,m3_format_ok,m3_end_to_end,m3_conclusion_correct,m3_response,m3c_prediction,m3c_status,m3c_correct,m3c_format_ok,m3c_end_to_end,m3c_conclusion_correct,m3c_response,m3r_prediction,m3r_status,m3r_correct,m3r_format_ok,m3r_end_to_end,m3r_conclusion_correct,m3r_response,m2_tokens,m3_tokens,m3c_tokens,m3r_tokens,m3c_truncated
+maths_validation_0005,maths,Calcule : 42 * 19,798,804,incorrect,False,False,False,False,"On multiplie 42 par 19.
+ON REJAUNE.
+REPONSE: 804.",748,incorrect,False,True,False,False,"On multiplie les deux nombres.
+On obtient 748.
+REPONSE: 748",798,correct,True,True,True,True,"L'entier du produit est 798.
+REPONSE: 798",806,incorrect,False,True,False,False,"On calcule : 42 * 19 = 806.
+REPONSE: 806",26,24,20,25,False
+algebre_validation_0030,algebre,Résous l'équation : 14x + 15 = 421,29,31,incorrect,False,True,False,False,"On soustrait 15 des deux côtés.
+14x = 421 - 15 = 406
+On divise par 14.
+x = 31
+REPONSE: 31",31,incorrect,False,False,False,False,"On soustrait 15 des deux côtés.
+14x = 421 - 15 = 406
+On divise par 14.
+x = 31
+REPONSE
+La solution est x = 31.",31,incorrect,False,False,False,False,"On soustrait 15 des deux côtés.
+14x = 421 - 15 = 406
+On divise par 14.
+x = 31
+REPONSE
+La solution est x = 31.",31,incorrect,False,True,False,False,"On soustrait 15 des deux côtés.
+14x = 421 - 15 = 406
+On divise par 14.
+x = 31
+REPONSE: 31",51,57,57,51,False
+maths_validation_0026,maths,Calcule : (77 - 16) * 5,305,305,correct,True,True,True,True,"On soustrait 16 des 77, on reste 61.
+On multiplie 61 par 5, on obtient 305.
+REPONSE: 305",305,correct,True,True,True,True,"On soustrait 16 des 77.
+= 61 * 5
+On multiplie 61 par 5.
+= 305
+REPONSE: 305",490,incorrect,False,True,False,False,"L'opérateur est un opérat.
+REPONSE: 490",305,correct,True,True,True,True,"On calcule comme suit: (77 - 16) = 61 et 61 * 5 = 305.
+REPONSE: 305",45,45,20,39,False
+maths_validation_0023,maths,Calcule : 17 + 33,50,50,correct,True,False,False,False,"On ajoute les nombres.
+ON obtient 50.
+REPONSE: 50
+L'instruction a été respectée avec précision.",40,incorrect,False,True,False,False,"On ajoute les nombres.
+On obtient 40.
+REPONSE: 40",50,correct,True,True,True,True,"L'addition est classique.
+REPONSE: 50",50,correct,True,True,True,True,"On calcule de la gauche à droite.
+17 + 33 = 50
+REPONSE: 50",32,20,15,28,False
+algebre_validation_0003,algebre,Résous l'équation : 8x - 4 = 140,18,18,correct,True,True,True,True,"On ajoute 4 des deux côtés.
+8x = 140 + 4 = 144
+On divise par 8.
+x = 18
+REPONSE: 18",18,correct,True,True,True,True,"On ajoute 4 des deux côtés.
+8x = 140 + 4 = 144
+On divise par 8.
+x = 18
+REPONSE: 18",18,correct,True,False,False,True,"On ajoute 4 des deux sides.
+8x = 140 + 4 = 144
+On divise par 8.
+x = 18
+REPONSE
+La solution est x = 18.",18,correct,True,True,True,True,"On ajoute 4 des deux côtés.
+8x = 140 + 4 = 144
+On divise par 8.
+x = 18
+REPONSE: 18",46,46,51,46,False
+code_validation_0009,code,"Quel est le résultat de ce programme Python ?
+print(8**3 + 3)",515,27,incorrect,False,True,False,False,"On multiplie 8 par 3, on ajoute 3 et on divise par 10.
+RESULTAT: 27
+REPONSE: 27",71,incorrect,False,True,False,False,"L'exécution du programme s'affiche.
+La valeur de print(8**3 + 3) est 71.
+REPONSE: 71",515,correct,True,True,True,True,"On calcule first.
+8**3 = 512
+Où on ajoute 3.
+512 + 3 = 515
+REPONSE: 515",57,incorrect,False,True,False,False,"On calcule la puissance et la somme.
+La réponse est 57.
+REPONSE: 57",38,34,42,25,False
+maths_validation_0015,maths,Calcule : 390 / 13,30,30,correct,True,True,True,True,"On divise 390 par 13.
+On trouve 30.
+REPONSE: 30",30,correct,True,True,True,True,"On divise 390 by 13.
+390 ÷ 13 = 30.
+REPONSE: 30",30,correct,True,True,True,True,"L'opérateur /= signifie division entière.
+390 / 13 = 30.
+REPONSE: 30",30,correct,True,True,True,True,"On multiplie/dividon 390 par 13.
+ON REJOUVE.
+390 / 13 = 30.
+REPONSE: 30",25,32,32,42,False
+maths_validation_0024,maths,Calcule : 200 + 151,351,351,correct,True,True,True,True,"On ajoute les nombres.
+ON obtient 351.
+REPONSE: 351",351,correct,True,True,True,True,"On ajoute les chiffres.
+On obtient 351.
+REPONSE: 351",351,correct,True,True,True,True,"On additionne les chiffres.
+On obtient 351.
+REPONSE: 351",351,correct,True,True,True,True,"On calcule comme suit: 200 + 151 = 351.
+REPONSE: 351",22,23,23,29,False
+algebre_validation_0023,algebre,Résous l'équation : 11x + 18 = 216,18,18,correct,True,True,True,True,"On soustrait 18 des deux côtés.
+11x = 216 - 18 = 198
+On divise par 11.
+x = 18
+REPONSE: 18",18,correct,True,True,True,True,"On soustrait 18 des deux côtés.
+11x = 216 - 18 = 198
+On divise par 11.
+x = 18
+REPONSE: 18",18,correct,True,True,True,True,"On soustrait 18 des deux côtés.
+11x = 216 - 18 = 198
+On divise par 11.
+x = 18
+REPONSE: 18",18,correct,True,True,True,True,"On soustrait 18 des deux côtés.
+11x = 216 - 18 = 198
+On divise par 11.
+x = 18
+REPONSE: 18",51,51,51,51,False
+algebre_validation_0004,algebre,Résous l'équation : 8x - 18 = 166,23,23,correct,True,True,True,True,"On ajoute 18 des deux côtés.
+8x = 166 + 18 = 184
+On divise par 8.
+x = 23
+REPONSE: 23",,missing,False,False,False,False,"On ajoute 18 des deux côtés.
+8x = 166 + 18 = 184
+On divise par 8.
+x = 23
+REPONSE
+La solution est x = 23.
+L'opposition a été corrige.",23,correct,True,False,False,True,"On ajoute 18 des deux sides.
+8x = 166 + 18 = 184
+On divise par 8.
+x = 23
+REPONSE
+La solution est x = 23.",23,correct,True,True,True,True,"On ajoute 18 des deux côtés.
+8x = 166 + 18 = 184
+On divise par 8.
+x = 23
+REPONSE: 23",48,63,53,48,False
+maths_validation_0017,maths,Calcule : 19 * 6,114,114,correct,True,True,True,True,"On multiplie 19 par 6.
+ON REJAUNE.
+REPONSE: 114",114,correct,True,True,True,True,"L'expression est simple.
+19 * 6 = 114
+REPONSE: 114",114,correct,True,True,True,True,"L'expression est rak.
+REPONSE: 114",114,correct,True,True,True,True,"On multiplie 19 by 6.
+ON calcule.
+REPONSE: 114",24,25,14,23,False
+maths_validation_0025,maths,Calcule : 228 + 69,297,307,incorrect,False,True,False,False,"On ajoute les nombres.
+228 + 69 = 307
+REPONSE: 307",297,correct,True,False,False,True,"On ajoute les chiffres.
+228 + 69 = 297
+REPONSE
+297",297,correct,True,False,False,True,"On additionne.
+228 + 69 = 297
+REPONSE
+297",297,correct,True,True,True,True,"On calcule de la gauche à droite:
+228 + 69 = 297
+REPONSE: 297",27,27,24,31,False
+code_validation_0010,code,"Quel est le résultat de ce programme Python ?
+print(7**3 + 4)",347,,missing,False,False,False,False,"On multiplie 7 par 3 et on ajoute 4.
+ONREPSONSE: 59",251,incorrect,False,True,False,False,"L'exécution du programme s'affiche.
+Resultat: 251
+REPONSE: 251",347,correct,True,True,True,True,"On calcule first.
+7**3 = 343
+= 343 + 4 = 347
+REPONSE: 347",251,incorrect,False,True,False,False,"On calcule la puissance et la somme.
+La réponse est 251.
+REPONSE: 251",25,26,36,27,False
+maths_validation_0016,maths,Calcule : 56 - 3,53,53,correct,True,False,False,True,"On soustrait 3 des 56.
+ON trouve 53.
+REPONSE: 53
+La réponse est 53.",53,correct,True,True,True,True,"On soustrait les deux nombres.
+56 - 3 = 53
+REPONSE: 53",53,correct,True,False,False,True,"On subtrait des nombres.
+56 - 3 = 53
+REPONSE: 53
+La réponse est 53.",53,correct,True,True,True,True,"On calcule de la gauche à droite.
+56 - 3 = 53.
+REPONSE: 53",32,25,32,27,False
+algebre_validation_0008,algebre,Résous l'équation : x/6 + 19 = 36,102,102,correct,True,True,True,True,"On soustrait 19 des deux côtés.
+x/6 = 17
+On multiplie par 6.
+x = 17 * 6 = 102
+REPONSE: 102",102,correct,True,True,True,True,"On soustrait 19 des deux côtés.
+x/6 = 17
+On multiplie par 6.
+x = 17 * 6 = 102
+REPONSE: 102",102,correct,True,True,True,True,"On soustrait 19 des deux côtés.
+x/6 = 17
+On multiplie par 6.
+x = 17 * 6 = 102
+REPONSE: 102",102,correct,True,True,True,True,"On soustrait 19 des deux côtés.
+x/6 = 36 - 19 = 17
+On multiplie par 6.
+x = 17 * 6 = 102
+REPONSE: 102",50,50,50,58,False
+code_validation_0016,code,"Quel est le résultat de ce programme Python ?
+print(161 // 20)",8,8,correct,True,True,True,True,"On divise 161 par 20.
+REPONSE: 8",8,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+161 // 20 = 8
+REPONSE: 8",8,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+161 // 20 = 8
+REPONSE: 8",8,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+161 // 20 = 8
+REPONSE: 8",18,31,31,31,False
+maths_validation_0027,maths,Calcule : 186 / 6,31,31,correct,True,True,True,True,"On divise 186 par 6.
+On trouve 31.
+REPONSE: 31",31,correct,True,True,True,True,"On divise 186 by 6.
+186 ÷ 6 = 31
+REPONSE: 31",31,correct,True,True,True,True,"L'opérateur est/divide.
+186 / 6 = 31
+REPONSE: 31",31,correct,True,True,True,True,"On multiplie/dividon 186 par 6.
+ON REJOUVE.
+186 / 6 = 31.
+REPONSE: 31",24,30,28,40,False
+maths_validation_0014,maths,Calcule : (45 - 10) * 7,245,245,correct,True,True,True,True,"On soustrait 10 des 45.
+On obtient 35.
+On multiplie 35 par 7.
+On obtient 245.
+REPONSE: 245",245,correct,True,True,True,True,"On soustrait first.
+45 - 10 = 35
+On multiplie.
+35 * 7 = 245
+REPONSE: 245",245,correct,True,True,True,True,"L'opérateur est *.
+45 - 10 = 35
+35 * 7 = 245
+REPONSE: 245",245,correct,True,True,True,True,"On calcule comme suit: (45 - 10) = 35 et 35 * 7 = 245.
+REPONSE: 245",46,41,39,39,False
+code_validation_0013,code,"Quel est le résultat de ce programme Python ?
+print(8**3 + 18)",530,42,incorrect,False,True,False,False,"On multiplie 8 par 3, on ajoute 18.
+print(24 + 18 = 42)
+REPONSE: 42",520,incorrect,False,True,False,False,"On calcule d'abord la puissance.
+8**3 = 512
+On ajoute 18.
+512 + 18 = 520
+REPONSE: 520",572,incorrect,False,True,False,False,"On calcule first.
+8**3 = 512
+Ou +18 = 60
+REPONSE: 572",210,incorrect,False,True,False,False,"On calcule la puissance et l'addition.
+La réponse est 210.
+REPONSE: 210",37,48,32,28,False
+code_validation_0025,code,"Quel est le résultat de ce programme Python ?
+print(6**3 + 8)",224,32,incorrect,False,True,False,False,"On multiplie 6 par 3 et on ajoute 8.
+print(6*3 + 8) = 24 + 8 = 32
+REPONSE: 32",16,incorrect,False,True,False,False,"L'opérateur ** (exponentiel) exécute la fonction pow().
+6**3 = 216
+8 + 8 = 16
+REPONSE: 16",224,correct,True,True,True,True,"On calcule first.
+6**3 = 216
+Où 6 est l'base et 3 la puissance.
+216 + 8 = 224
+REPONSE: 224",210,incorrect,False,True,False,False,"On calcule la puissance et l'addition.
+Resultat = 210.
+REPONSE: 210",44,44,49,28,False
+algebre_validation_0027,algebre,Résous l'équation : 3x - 17 = 46,21,21,correct,True,True,True,True,"On ajoute 17 des deux côtés.
+3x = 46 + 17 = 63
+On divise par 3.
+x = 21
+REPONSE: 21",21,correct,True,True,True,True,"On ajoute 17 des deux côtés.
+3x = 46 + 17 = 63
+On divise par 3.
+x = 21
+REPONSE: 21",21,correct,True,True,True,True,"On ajoute 17 des deux côtés.
+3x = 46 + 17 = 63
+On divise par 3.
+x = 21
+REPONSE: 21",21,correct,True,True,True,True,"On ajoute 17 des deux côtés.
+3x = 46 + 17 = 63
+On divise par 3.
+x = 21
+REPONSE: 21",46,46,46,46,False
+algebre_validation_0013,algebre,Résous l'équation : 8x + 4 = 196,24,24,correct,True,True,True,True,"On soustrait 4 des deux côtés.
+8x = 196 - 4 = 192
+On divise par 8.
+x = 24
+REPONSE: 24",24,correct,True,True,True,True,"On soustrait 4 des deux côtés.
+8x = 196 - 4 = 192
+On divise par 8.
+x = 24
+REPONSE: 24",24,correct,True,True,True,True,"On soustrait 4 des deux côtés.
+8x = 196 - 4 = 192
+On divise par 8.
+x = 24
+REPONSE: 24",24,correct,True,True,True,True,"On soustrait 4 des deux côtés.
+8x = 196 - 4 = 192
+On divise par 8.
+x = 24
+REPONSE: 24",47,47,47,47,False
+maths_validation_0006,maths,Calcule : 239 - 114,125,34,incorrect,False,True,False,False,"On soustrait des nombres. On divise les deux nombres par 10 pour simplifier la division.
+239 / 10 = 23,9
+114 / 10 = 11,4
+On ajoute ces quotients.
+23 + 11 = 34
+ON a donc 34.
+REPONSE: 34",125,correct,True,True,True,True,"On soustrait des nombres.
+239 - 114 = 125
+REPONSE: 125",125,correct,True,True,True,True,"On subtrait des nombres.
+239 - 114 = 125
+REPONSE: 125",125,correct,True,True,True,True,"On calcule de la droite.
+On ajoute 114 des 239.
+On obtient 125.
+REPONSE: 125",83,29,29,37,False
+algebre_validation_0009,algebre,Résous l'équation : 11x + 2 = 332,30,30,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+11x = 330
+On divise par 11.
+x = 30
+REPONSE: 30",,missing,False,False,False,False,"On soustrait 2 des deux côtés.
+11x = 330
+On divise par 11.
+x = 30
+REPONSE
+La solution est x = 30.
+L'opposition n'est pas nécessaire.",30,correct,True,False,False,True,"On soustrait 2 des deux côtés.
+11x = 330
+On divise par 11.
+x = 30
+REPONSE
+La solution est x = 30.",30,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+11x = 332 - 2 = 330
+On divise par 11.
+x = 30
+REPONSE: 30",41,56,47,49,False
+code_validation_0019,code,"Quel est le résultat de ce programme Python ?
+print(56 % 19 + 5)",23,3,incorrect,False,True,False,False,"On divise 56 par 19 et on reste 7.
+On ajoute alors 5.
+Il y a donc 2 parties entières.
+La somme des parties entières est 2 + 1 = 3.
+REPONSE: 3",12,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+56 % 19 = 7
+7 + 5 = 12
+REPONSE: 12",12,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+56 % 19 = 7
+7 + 5 = 12
+REPONSE: 12",12,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+56 % 19 = 7
+7 + 5 = 12
+REPONSE: 12",56,43,43,43,False
+algebre_validation_0010,algebre,Résous l'équation : x/15 + 12 = 20,120,120,correct,True,True,True,True,"On soustrait 12 des deux côtés.
+x/15 = 8
+On multiplie par 15.
+x = 8 * 15 = 120
+REPONSE: 120",120,correct,True,True,True,True,"On soustrait 12 des deux côtés.
+x/15 = 8
+On multiplie par 15.
+x = 8 * 15 = 120
+REPONSE: 120",120,correct,True,True,True,True,"On soustrait 12 des deux côtés.
+x/15 = 8
+On multiplie par 15.
+x = 8 * 15 = 120
+REPONSE: 120",120,correct,True,True,True,True,"On soustrait 12 des deux côtés.
+x/15 = 8
+On multiplie par 15.
+x = 8 * 15 = 120
+REPONSE: 120",51,51,51,51,False
+algebre_validation_0001,algebre,Résous l'équation : x/11 + 13 = 27,154,44,incorrect,False,True,False,False,"On soustrait 13 des deux côtés.
+x/11 = 4
+On multiplie par 11.
+x = 4 * 11 = 44
+REPONSE: 44",44,incorrect,False,True,False,False,"On soustrait 13 des deux côtés.
+x/11 = 4
+On multiplie par 11.
+x = 4 * 11 = 44
+REPONSE: 44",44,incorrect,False,True,False,False,"On soustrait 13 des deux côtés.
+x/11 = 4
+On multiplie par 11.
+x = 4 * 11 = 44
+REPONSE: 44",44,incorrect,False,True,False,False,"On soustrait 13 des deux côtés.
+x/11 = 4
+On multiplie par 11.
+x = 4 * 11 = 44
+REPONSE: 44",49,49,49,49,False
+code_validation_0026,code,"Quel est le résultat de ce programme Python ?
+print(len([42, 12, 52, 86, 13, 24, 18, 62, 42, 32]))",10,,missing,False,False,False,False,"Le programme calcule la longueur des listes, qui sont 9 dans cet exemple.",10,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10",10,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10",10,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10",20,29,29,29,False
+code_validation_0011,code,"Quel est le résultat de ce programme Python ?
+print(len([68, 81, 93, 80]))",4,4,correct,True,False,False,False,"Le programme calcule la longueur (nombre d'éléments) d'un tableau.
+print() met l'objet (tableau) dans la console.
+len() retourne la longueur du tableau.
+Réponse : 4
+L'objectif a été atteint.",4,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 4 éléments.
+REPONSE: 4",4,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 4 éléments.
+REPONSE: 4",4,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 4 éléments.
+REPONSE: 4",58,27,27,27,False
+code_validation_0001,code,"Quel est le résultat de ce programme Python ?
+print(len([36, 80, 88, 79, 16, 17, 13, 51, 48, 44]))",10,,missing,False,False,False,False,"Le programme calcule la longueur des éléments inclus dans la liste [36, 80, 88, 79, 16, 17, 13, 51, 48, 44]. Il y a 11 éléments, donc le résultat est 11. REPONSE: 11",10,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10",11,incorrect,False,True,False,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 11 éléments.
+REPONSE: 11",11,incorrect,False,True,False,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 11 éléments.
+REPONSE: 11",76,29,29,29,False
+algebre_validation_0017,algebre,Résous l'équation : x/9 + 3 = 5,18,18,correct,True,True,True,True,"On soustrait 3 des deux côtés.
+x/9 = 2
+On multiplie par 9.
+x = 2 * 9 = 18
+REPONSE: 18",18,correct,True,True,True,True,"On soustrait 3 des deux côtés.
+x/9 = 2
+On multiplie par 9.
+x = 2 * 9 = 18
+REPONSE: 18",18,correct,True,True,True,True,"On soustrait 3 des deux côtés.
+x/9 = 2
+On multiplie par 9.
+x = 2 * 9 = 18
+REPONSE: 18",18,correct,True,True,True,True,"On soustrait 3 des deux côtés.
+x/9 = 2
+On multiplie par 9.
+x = 2 * 9 = 18
+REPONSE: 18",45,45,45,45,False
+code_validation_0002,code,"Quel est le résultat de ce programme Python ?
+print(135 % 4 + 9)",12,42,incorrect,False,True,False,False,"On divise 135 par 4, reste 3.
+On ajoute 9, résultat 42.
+REPONSE: 42",10,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+135 % 4 = 1
+1 + 9 = 10
+REPONSE: 10",12,correct,True,True,True,True,"L'opérateur % calcule le reste de la division entière.
+135 % 4 = 3
+3 + 9 = 12
+REPONSE: 12",10,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+135 % 4 = 1
+1 + 9 = 10
+REPONSE: 10",33,43,43,43,False
+algebre_validation_0015,algebre,Résous l'équation : x/8 + 4 = 19,120,120,correct,True,True,True,True,"On soustrait 4 des deux côtés.
+x/8 = 15
+On multiplie par 8.
+x = 15 * 8 = 120
+REPONSE: 120",120,correct,True,True,True,True,"On soustrait 4 des deux côtés.
+x/8 = 15
+On multiplie par 8.
+x = 15 * 8 = 120
+REPONSE: 120",120,correct,True,True,True,True,"On soustrait 4 des deux côtés.
+x/8 = 15
+On multiplie par 8.
+x = 15 * 8 = 120
+REPONSE: 120",120,correct,True,True,True,True,"On soustrait 4 des deux côtés.
+x/8 = 15
+On multiplie par 8.
+x = 15 * 8 = 120
+REPONSE: 120",49,49,49,49,False
+maths_validation_0020,maths,Calcule : 92 - 53,39,39,correct,True,True,True,True,"On soustrait des nombres positifs, on reste avec un nombre.
+REPONSE: 39",39,correct,True,True,True,True,"On soustrait des nombres.
+92 - 53 = 39
+REPONSE: 39",39,correct,True,False,False,True,"On soustrait des nombres.
+92 - 53 = 39
+REPONSE
+39",49,incorrect,False,True,False,False,"On calcule de la droite.
+On ajoute 53 des 92 = 49.
+REPONSE: 49",22,25,24,30,False
+code_validation_0005,code,"Quel est le résultat de ce programme Python ?
+print(len([17, 9]))",2,8,incorrect,False,True,False,False,"On divise la liste [17, 9] par seuil de 2.
+La division est effectuée sans égalité.
+Le résultat est 8.
+REPONSE: 8",2,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 2 éléments.
+REPONSE: 2",2,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 2 éléments.
+REPONSE: 2",2,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 2 éléments.
+REPONSE: 2",42,27,27,27,False
+maths_validation_0013,maths,Calcule : 22 * 19,418,418,correct,True,True,True,True,"On multiplie 22 et 19.
+On obtient 418.
+REPONSE: 418",418,correct,True,True,True,True,"On multiplie les deux nombres.
+On obtient 418.
+REPONSE: 418",418,correct,True,True,True,True,"L'entier du produit est 418.
+REPONSE: 418",418,correct,True,True,True,True,"On calcule de la droite.
+22 * 19 = 418.
+REPONSE: 418",28,24,20,28,False
+code_validation_0004,code,"Quel est le résultat de ce programme Python ?
+print(140 % 14 + 9)",9,8,incorrect,False,False,False,False,Le résultat est 8.,17,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+140 % 14 = 8
+8 + 9 = 17
+REPONSE: 17",17,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+140 % 14 = 8
+8 + 9 = 17
+REPONSE: 17",17,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+140 % 14 = 8
+8 + 9 = 17
+REPONSE: 17",7,44,44,44,False
+code_validation_0012,code,"Quel est le résultat de ce programme Python ?
+print(sum([59, 10, 89]))",158,267,incorrect,False,True,False,False,"267
+REPONSE: 267",158,correct,True,True,True,True,"La fonction sum() additionne les éléments de la liste.
+59 + 10 + 89 = 158
+REPONSE: 158",158,correct,True,True,True,True,"La fonction sum() additionne les éléments de la liste.
+59 + 10 + 89 = 158
+REPONSE: 158",158,correct,True,True,True,True,"La fonction sum() additionne les éléments de la liste.
+59 + 10 + 89 = 158
+REPONSE: 158",12,36,36,36,False
+algebre_validation_0020,algebre,Résous l'équation : x/15 + 16 = 24,120,120,correct,True,True,True,True,"On soustrait 16 des deux côtés.
+x/15 = 8
+On multiplie par 15.
+x = 8 * 15 = 120
+REPONSE: 120",120,correct,True,True,True,True,"On soustrait 16 des deux côtés.
+x/15 = 8
+On multiplie par 15.
+x = 8 * 15 = 120
+REPONSE: 120",120,correct,True,True,True,True,"On soustrait 16 des deux côtés.
+x/15 = 8
+On multiplie par 15.
+x = 8 * 15 = 120
+REPONSE: 120",120,correct,True,True,True,True,"On soustrait 16 des deux côtés.
+x/15 = 8
+On multiplie par 15.
+x = 8 * 15 = 120
+REPONSE: 120",51,51,51,51,False
+maths_validation_0029,maths,Calcule : 95 - 90,5,5,correct,True,True,True,True,"On soustrait des nombres, on ajoute donc 5.
+REPONSE: 5",5,correct,True,True,True,True,"On soustrait des nombres.
+95 - 90 = 5
+REPONSE: 5",-10,incorrect,False,True,False,False,"On soustrait des nombres.
+90 - 90 = -10
+REPONSE: -10",5,correct,True,True,True,True,"On calcule de la droite.
+REPONSE: 5",20,23,25,14,False
+maths_validation_0011,maths,Calcule : (74 - 28) * 10,460,460,correct,True,True,True,True,"On soustrait 28 des 74, on obtient 46.
+On multiplie 46 par 10, on obtient 460.
+REPONSE: 460",460,correct,True,True,True,True,"On soustrait first.
+74 - 28 = 46
+On multiplie.
+46 * 10 = 460
+REPONSE: 460",460,correct,True,True,True,True,"L'opérateur est *.
+On s'addit avant la opération.
+74 - 28 = 46
+46 * 10 = 460
+REPONSE: 460",460,correct,True,True,True,True,"On calcule comme suit: (74 - 28) = 46 et 46 * 10 = 460.
+REPONSE: 460",47,42,50,40,False
+maths_validation_0008,maths,Calcule : 68 + 220,288,288,correct,True,True,True,True,"On ajoute les nombres.
+68 + 220 = 288
+REPONSE: 288",288,correct,True,False,False,True,"On ajoute les chiffres.
+68 + 220 = 288
+REPONSE
+288",288,correct,True,False,False,True,"On additionne.
+68 + 220 = 288
+REPONSE
+288",288,correct,True,True,True,True,"On calcule de la gauche à droite.
+68 + 220 = 288.
+REPONSE: 288",27,27,24,31,False
+maths_validation_0002,maths,Calcule : (74 - 72) * 2,4,-4,incorrect,False,True,False,False,"On soustrait les deux nombres : 72 - 74 = -2.
+On multiplie par 2 : -2 * 2 = -4.
+REPONSE: -4",10,incorrect,False,True,False,False,"On soustrait les chiffres.
+5 * 2 = 10
+REPONSE: 10",2,incorrect,False,True,False,False,"L'instruction est une multiplication.
+REPONSE: 2",144,incorrect,False,True,False,False,"On calcule comme suit: (72) * 2 = 144.
+REPONSE: 144",42,24,13,27,False
+maths_validation_0030,maths,Calcule : (62 - 6) * 5,280,30,incorrect,False,True,False,False,"On soustrait 62 des 6 = 6.
+On multiplie le résultat par 5 = 30.
+REPONSE: 30",280,correct,True,False,False,True,"On soustrait les chiffres.
+62 - 6 = 56
+On multiplie par 5.
+56 * 5 = 280
+REPONSE
+280",20,incorrect,False,True,False,False,"L'instruction est une application.
+REPONSE: 20",280,correct,True,True,True,True,"On calcule comme suit:
+62 - 6 = 56
+56 * 5 = 280
+REPONSE: 280",35,44,14,35,False
+algebre_validation_0011,algebre,Résous l'équation : 11x - 5 = 270,25,25,correct,True,True,True,True,"On ajoute 5 des deux côtés.
+11x = 270 + 5 = 275
+On divise par 11.
+x = 25
+REPONSE: 25",25,correct,True,True,True,True,"On ajoute 5 des deux côtés.
+11x = 270 + 5 = 275
+On divise par 11.
+x = 25
+REPONSE: 25",30,incorrect,False,False,False,False,"On ajoute 5 des deux sides.
+11x = 315
+On divise par 11.
+x = 30
+REPONSE
+30",25,correct,True,True,True,True,"On ajoute 5 des deux côtés.
+11x = 270 + 5 = 275
+On divise par 11.
+x = 25
+REPONSE: 25",48,48,38,48,False
+maths_validation_0007,maths,Calcule : 44 * 17,748,748,correct,True,False,False,True,"On multiplie 44 par 17.
+ON REJAUNE.
+REPONSE: 748.",748,correct,True,True,True,True,"On multiplie les deux entiers.
+On obtient 748.
+REPONSE: 748",748,correct,True,True,True,True,"L'expression est rak.
+REPONSE: 748",768,incorrect,False,True,False,False,"On calcule : 768.
+REPONSE: 768",26,25,14,17,False
+maths_validation_0003,maths,Calcule : (79 - 7) * 10,720,100,incorrect,False,True,False,False,"On soustrait 79 des 80 = 1.
+On multiplie par 10 = 100.
+REPONSE: 100",62,incorrect,False,True,False,False,"On soustrait 79 et 7.
+(62) * 10 = 620
+REPONSE: 62",63,incorrect,False,True,False,False,"L'instruction est une application.
+REPONSE: 63",720,correct,True,True,True,True,"On calcule comme suit: (79 - 7) = 72 et 72 * 10 = 720.
+REPONSE: 720",37,32,14,39,False
+maths_validation_0004,maths,Calcule : 82 - 61,21,21,correct,True,True,True,True,"On soustrait des nombres, on ajoute les negatives.
+82 - 61 = 21
+REPONSE: 21",21,correct,True,True,True,True,"On soustrait des nombres.
+82 - 61 = 21
+REPONSE: 21",21,correct,True,True,True,True,"On subtrait des nombres.
+82 - 61 = 21
+REPONSE: 21",21,correct,True,True,True,True,"On calcule de la droite.
+On ajoute 61 des 82.
+On obtient 21.
+REPONSE: 21",31,25,25,33,False
+code_validation_0023,code,"Quel est le résultat de ce programme Python ?
+print(8**3 + 6)",518,30,incorrect,False,True,False,False,"On multiplie 8 par 3, on ajoute 6.
+print(24 + 6) = print(30)
+REPONSE: 30",72,incorrect,False,True,False,False,"L'exécution du programme s'affiche.
+La valeur de print(8**3 + 6) est 72.
+REPONSE: 72",518,correct,True,True,True,True,"On calcule first.
+8**3 = 512
+Ou + 6 = 512 + 6 = 518
+REPONSE: 518",72,incorrect,False,True,False,False,"On calcule la puissance et la somme.
+La réponse est 72.
+REPONSE: 72",37,34,41,25,False
+algebre_validation_0014,algebre,Résous l'équation : 12x + 2 = 122,10,10,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+12x = 120
+On divise par 12.
+x = 10
+REPONSE: 10",,missing,False,False,False,False,"On soustrait 2 des deux côtés.
+12x = 120
+On divise par 12.
+x = 10
+REPONSE
+La solution est x = 10.
+L'opposition n'est pas nécessaire.",10,correct,True,False,False,True,"On soustrait 2 des deux côtés.
+12x = 120
+On divise par 12.
+x = 10
+REPONSE
+La solution est x = 10.",10,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+12x = 120
+On divise par 12.
+x = 10
+REPONSE: 10",41,56,47,41,False
+code_validation_0022,code,"Quel est le résultat de ce programme Python ?
+print(81 // 19)",4,4,correct,True,True,True,True,"On divise 81 par 19.
+REPONSE: 4",4,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+81 // 19 = 4
+REPONSE: 4",4,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+81 // 19 = 4
+REPONSE: 4",4,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+81 // 19 = 4
+REPONSE: 4",17,30,30,30,False
+code_validation_0007,code,"Quel est le résultat de ce programme Python ?
+print(sum([20, 26, 43]))",89,89,correct,True,True,True,True,"Le programme calcule la somme des nombres [20, 26, 43], qui est 89.
+REPONSE: 89",89,correct,True,True,True,True,"La fonction sum() additionne les éléments de la liste.
+20 + 26 + 43 = 89
+REPONSE: 89",89,correct,True,True,True,True,"La fonction sum() additionne les éléments de la liste.
+20 + 26 + 43 = 89
+REPONSE: 89",89,correct,True,True,True,True,"La fonction sum() additionne les éléments de la liste.
+20 + 26 + 43 = 89
+REPONSE: 89",34,34,34,34,False
+code_validation_0028,code,"Quel est le résultat de ce programme Python ?
+print(sum([38, 73, 87]))",198,200,incorrect,False,True,False,False,"200
+REPONSE: 200",208,incorrect,False,True,False,False,"La fonction sum() additionne les éléments de la liste.
+38 + 73 + 87 = 208
+REPONSE: 208",198,correct,True,True,True,True,"La fonction sum() additionne les éléments de la liste.
+38 + 73 + 87 = 198
+REPONSE: 198",198,correct,True,True,True,True,"La fonction sum() additionne les éléments de la liste.
+38 + 73 + 87 = 198
+REPONSE: 198",12,36,36,36,False
+algebre_validation_0026,algebre,Résous l'équation : 4x + 9 = 37,7,7,correct,True,True,True,True,"On soustrait 9 des deux côtés.
+4x = 28
+On divise par 4.
+x = 7
+REPONSE: 7",7,correct,True,False,False,True,"On soustrait 9 des deux côtés.
+4x = 37 - 9 = 28
+On divise par 4.
+x = 7
+REPONSE
+La solution est x = 7.",7,correct,True,False,False,True,"On soustrait 9 des deux côtés.
+4x = 28
+On divise par 4.
+x = 7
+REPONSE
+La solution est x = 7.",7,correct,True,True,True,True,"On soustrait 9 des deux côtés.
+4x = 37 - 9 = 28
+On divise par 4.
+x = 7
+REPONSE: 7",36,49,42,43,False
+code_validation_0008,code,"Quel est le résultat de ce programme Python ?
+print(5**2 + 15)",40,30,incorrect,False,True,False,False,"On multiplie 5 par 2 et on ajoute 15.
+Le résultat est 30.
+REPONSE: 30",40,correct,True,True,True,True,"L'exécution des opérations est :
+5**2 = 25
+25 + 15 = 40
+REPONSE: 40",40,correct,True,True,True,True,"On calcule first.
+5**2 = 25
+25 + 15 = 40
+REPONSE: 40",40,correct,True,True,True,True,"On calcule la soustraction.
+5**2 = 25
+25 + 15 = 40
+REPONSE: 40",31,36,31,33,False
+algebre_validation_0007,algebre,Résous l'équation : x/8 + 2 = 19,136,136,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+x/8 = 17
+On multiplie par 8.
+x = 17 * 8 = 136
+REPONSE: 136",136,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+x/8 = 17
+On multiplie par 8.
+x = 17 * 8 = 136
+REPONSE: 136",136,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+x/8 = 17
+On multiplie par 8.
+x = 17 * 8 = 136
+REPONSE: 136",136,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+x/8 = 17
+On multiplie par 8.
+x = 17 * 8 = 136
+REPONSE: 136",49,49,49,49,False
+code_validation_0017,code,"Quel est le résultat de ce programme Python ?
+print(177 // 13)",13,13,correct,True,True,True,True,"On divise 177 par 13.
+177 / 13 = 13.
+REPONSE: 13",13,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+177 // 13 = 13
+REPONSE: 13",13,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+177 // 13 = 13
+REPONSE: 13",13,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+177 // 13 = 13
+REPONSE: 13",31,33,33,33,False
+maths_validation_0022,maths,Calcule : (72 - 20) * 5,260,260,correct,True,True,True,True,"On soustrait 20 des 72.
+72 - 20 = 52
+On multiplie le résultat par 5.
+52 * 5 = 260
+REPONSE: 260",260,correct,True,True,True,True,"On soustrait first.
+72 - 20 = 52
+On multiplie.
+52 * 5 = 260
+REPONSE: 260",260,correct,True,True,True,True,"L'opérateur est *.
+On s'addit avant la opération.
+(72 - 20) * 5 = 52 * 5 = 260
+REPONSE: 260",260,correct,True,True,True,True,"On calcule comme suit: (72 - 20) = 52 et 52 * 5 = 260.
+REPONSE: 260",52,41,51,39,False
+code_validation_0029,code,"Quel est le résultat de ce programme Python ?
+print(116 % 16 + 10)",14,22,incorrect,False,True,False,False,"On divise 116 par 16 et on ajoute 10.
+REPONSE: 22",18,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+116 % 16 = 8
+8 + 10 = 18
+REPONSE: 18",18,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+116 % 16 = 8
+8 + 10 = 18
+REPONSE: 18",18,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+116 % 16 = 8
+8 + 10 = 18
+REPONSE: 18",26,45,45,45,False
+code_validation_0024,code,"Quel est le résultat de ce programme Python ?
+print(3**2 + 18)",27,27,correct,True,True,True,True,"On multiplie 3 par 2 puis on ajoute 18.
+REPONSE: 27",27,correct,True,True,True,True,"On calcule d'abord la puissance.
+3**2 = 9
+On ajoute 18.
+9 + 18 = 27
+REPONSE: 27",27,correct,True,True,True,True,"On calcule first.
+3**2 = 9
+Si on ajoute 18.
+9 + 18 = 27
+REPONSE: 27",27,correct,True,True,True,True,"On calcule la soustraction.
+3**2 = 9
+9 + 18 = 27
+REPONSE: 27",24,42,37,31,False
+maths_validation_0021,maths,Calcule : 101 + 226,327,327,correct,True,True,True,True,"On ajoute les nombres.
+101 + 226 = 327
+REPONSE: 327",327,correct,True,True,True,True,"On ajoute les chiffres.
+On obtient 327.
+REPONSE: 327",327,correct,True,True,True,True,"On additionne les chiffres.
+On obtient 327.
+REPONSE: 327",327,correct,True,True,True,True,"On calcule de la gauche à droite.
+101 + 226 = 327.
+REPONSE: 327",28,23,23,32,False
+maths_validation_0018,maths,Calcule : (57 - 54) * 7,21,21,correct,True,True,True,True,"On soustrait les deux nombres :
+57 - 54 = 3
+On multiplie l'écart par 7 :
+3 * 7 = 21
+REPONSE: 21",21,correct,True,True,True,True,"On soustrait 54 des 57.
+57 - 54 = 3
+On multiplie par 7.
+3 * 7 = 21
+REPONSE: 21",,contradictory,False,False,False,True,"L'instruction est une application.
+REPONSE: 3
+La fonction subtraitante (-) calcule 3 * 7 = 21, mais on a perdu les 54.
+On remplace 54 par 54 + 54 = 108.
+La nouvelle application calcule 57 - 54 = 3, puis 3 * 7 = 21.
+La réponse est 21.",21,correct,True,True,True,True,"On calcule comme suit: (57 - 54) = 3 et 3 * 7 = 21.
+REPONSE: 21",45,46,98,35,False
+algebre_validation_0002,algebre,Résous l'équation : 9x + 3 = 102,11,11,correct,True,True,True,True,"On soustrait 3 des deux côtés.
+9x = 102 - 3 = 99
+On divise par 9.
+x = 11
+REPONSE: 11",2,incorrect,False,False,False,False,"On soustrait 3 des deux côtés.
+9x = 102 - 3 = 99
+On divise par 9.
+REPONSE
+2",11,correct,True,True,True,True,"On soustrait 3 des deux côtés.
+9x = 102 - 3 = 99
+On divise par 9.
+x = 11
+REPONSE: 11",11,correct,True,True,True,True,"On soustrait 3 des deux côtés.
+9x = 102 - 3 = 99
+On divise par 9.
+x = 11
+REPONSE: 11",46,38,46,46,False
+code_validation_0018,code,"Quel est le résultat de ce programme Python ?
+print(84 % 9 + 10)",13,12,incorrect,False,True,False,False,"Le résultat est 12.
+REPONSE: 12",17,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+84 % 9 = 7
+7 + 10 = 17
+REPONSE: 17",17,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+84 % 9 = 7
+7 + 10 = 17
+REPONSE: 17",17,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+84 % 9 = 7
+7 + 10 = 17
+REPONSE: 17",14,43,43,43,False
+algebre_validation_0025,algebre,Résous l'équation : 11x - 13 = 75,8,8,correct,True,True,True,True,"On ajoute 13 des deux côtés.
+11x = 75 + 13 = 88
+On divise par 11.
+x = 8
+REPONSE: 8",8,correct,True,True,True,True,"On ajoute 13 des deux côtés.
+11x = 75 + 13 = 88
+On divise par 11.
+x = 8
+REPONSE: 8",8,correct,True,True,True,True,"On ajoute 13 des deux côtés.
+11x = 75 + 13 = 88
+On divise par 11.
+x = 8
+REPONSE: 8",8,correct,True,True,True,True,"On ajoute 13 des deux côtés.
+11x = 75 + 13 = 88
+On divise par 11.
+x = 8
+REPONSE: 8",46,46,46,46,False
+maths_validation_0028,maths,Calcule : 141 + 70,211,211,correct,True,True,True,True,"On ajoute les nombres.
+141 + 70 = 211
+REPONSE: 211",211,correct,True,True,True,True,"On ajoute les chiffres de gauche à gauche.
+On obtient 211.
+REPONSE: 211",211,correct,True,True,True,True,"On additionne les chiffres.
+On obtient 211.
+REPONSE: 211",211,correct,True,True,True,True,"On calcule de la gauche à droite:
+141 + 70 = 211
+REPONSE: 211",27,27,23,31,False
+algebre_validation_0021,algebre,Résous l'équation : 14x + 9 = 275,19,19,correct,True,True,True,True,"On soustrait 9 des deux côtés.
+14x = 275 - 9 = 266
+On divise par 14.
+x = 19
+REPONSE: 19",19,correct,True,False,False,True,"On soustrait 9 des deux côtés.
+14x = 275 - 9 = 266
+On divise par 14.
+x = 19
+REPONSE
+La solution est x = 19.",19,correct,True,False,False,True,"On soustrait 9 des deux côtés.
+14x = 275 - 9 = 266
+On divise par 14.
+x = 19
+REPONSE
+La solution est x = 19.",19,correct,True,True,True,True,"On soustrait 9 des deux côtés.
+14x = 275 - 9 = 266
+On divise par 14.
+x = 19
+REPONSE: 19",49,55,55,49,False
+maths_validation_0009,maths,Calcule : 119 - 37,82,82,correct,True,True,True,True,"On soustrait des nombres, on ajoute les negatives.
+119 - 37 = 82
+REPONSE: 82",82,correct,True,False,False,True,"On soustrait des nombres.
+119 - 37 = 82
+REPONSE
+The result is 82.",82,correct,True,False,False,True,"On subtrait des nombres.
+119 - 37 = 82
+REPONSE
+82",82,correct,True,True,True,True,"On calcule de la droite.
+On ajoute 37 des 119.
+On obtient 82.
+REPONSE: 82",32,30,25,34,False
+algebre_validation_0016,algebre,Résous l'équation : 7x + 14 = 42,4,4,correct,True,True,True,True,"On soustrait 14 des deux côtés.
+7x = 42 - 14 = 30
+On divise par 7.
+x = 4
+REPONSE: 4",4,correct,True,True,True,True,"On soustrait 14 des deux côtés.
+7x = 42 - 14 = 30
+On divise par 7.
+x = 4
+REPONSE: 4",4,correct,True,True,True,True,"On soustrait 14 des deux côtés.
+7x = 42 - 14 = 30
+On divise par 7.
+x = 4
+REPONSE: 4",4,correct,True,True,True,True,"On soustrait 14 des deux côtés.
+7x = 42 - 14 = 30
+On divise par 7.
+x = 4
+REPONSE: 4",45,45,45,45,False
+code_validation_0015,code,"Quel est le résultat de ce programme Python ?
+print(32 % 4 + 5)",5,,missing,False,False,False,False,"On divise 32 par 4, reste 0. On ajoute 5. Resultat : 5.",5,correct,True,True,True,True,"L'opérateur % calcule le reste de la division entière.
+32 % 4 = 0
+0 + 5 = 5
+REPONSE: 5",5,correct,True,True,True,True,"L'opérateur % calcule le reste de la division entière.
+32 % 4 = 0
+0 + 5 = 5
+REPONSE: 5",5,correct,True,True,True,True,"L'opérateur % calcule le reste de la division entière.
+32 % 4 = 0
+0 + 5 = 5
+REPONSE: 5",27,40,40,40,False
+code_validation_0020,code,"Quel est le résultat de ce programme Python ?
+print(len([89, 57, 45, 58]))",4,,missing,False,False,False,False,"Le programme calcule la longueur des listes, qui est 4. REPONSE: 4",4,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 4 éléments.
+REPONSE: 4",4,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 4 éléments.
+REPONSE: 4",4,correct,True,True,True,True,"La fonction len() retourne le nombre d'éléments.
+La liste contient 4 éléments.
+REPONSE: 4",22,27,27,27,False
+maths_validation_0001,maths,Calcule : 22 + 159,181,181,correct,True,True,True,True,"On ajoute les nombres.
+22 + 159 = 181
+REPONSE: 181",181,correct,True,True,True,True,"On ajoute les chiffres.
+On obtient 181.
+La réponse est 181.
+REPONSE: 181",181,correct,True,False,False,True,"On additionne.
+22 + 159 = 181
+REPONSE
+181",181,correct,True,True,True,True,"On calcule de la gauche à droite.
+22 + 159 = 181.
+REPONSE: 181",27,31,24,31,False
+algebre_validation_0012,algebre,Résous l'équation : 13(x + 13) = 286,9,9,correct,True,True,True,True,"On divise les deux côtés par 13.
+x + 13 = 22
+On soustrait 13.
+x = 22 - 13 = 9
+REPONSE: 9",9,correct,True,False,False,True,"On divise les deux côtés par 13.
+x + 13 = 22
+On soustrait 13.
+x = 22 - 13 = 9
+REPONSE
+La solution est x = 9.",9,correct,True,True,True,True,"On divise les deux côtés par 13.
+x + 13 = 22
+On soustrait 13.
+x = 22 - 13 = 9
+REPONSE: 9",9,correct,True,True,True,True,"On divise les deux côtés par 13.
+x + 13 = 22
+On soustrait 13.
+x = 22 - 13 = 9
+REPONSE: 9",49,55,49,49,False
+code_validation_0030,code,"Quel est le résultat de ce programme Python ?
+print(14 % 18 + 10)",24,2,incorrect,False,False,False,False,Le résultat est 2.,12,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+14 % 18 = 2
+2 + 10 = 12
+REPONSE: 12",12,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+14 % 18 = 2
+2 + 10 = 12
+REPONSE: 12",12,incorrect,False,True,False,False,"L'opérateur % calcule le reste de la division entière.
+14 % 18 = 2
+2 + 10 = 12
+REPONSE: 12",7,44,44,44,False
+algebre_validation_0029,algebre,Résous l'équation : x/6 + 2 = 12,60,60,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+x/6 = 10
+On multiplie par 6.
+x = 10 * 6 = 60
+REPONSE: 60",60,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+x/6 = 10
+On multiplie par 6.
+x = 10 * 6 = 60
+REPONSE: 60",60,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+x/6 = 10
+On multiplie par 6.
+x = 10 * 6 = 60
+REPONSE: 60",60,correct,True,True,True,True,"On soustrait 2 des deux côtés.
+x/6 = 10
+On multiplie par 6.
+x = 10 * 6 = 60
+REPONSE: 60",47,47,47,47,False
+algebre_validation_0018,algebre,Résous l'équation : 10(x + 17) = 470,30,30,correct,True,True,True,True,"On divise les deux côtés par 10.
+x + 17 = 47
+On soustrait 17.
+x = 47 - 17 = 30
+REPONSE: 30",30,correct,True,True,True,True,"On divise les deux côtés par 10.
+x + 17 = 47
+On soustrait 17.
+x = 47 - 17 = 30
+REPONSE: 30",30,correct,True,True,True,True,"On divise les deux côtés par 10.
+x + 17 = 47
+On soustrait 17.
+x = 47 - 17 = 30
+REPONSE: 30",30,correct,True,True,True,True,"On divise les deux côtés par 10.
+x + 17 = 47
+On soustrait 17.
+x = 47 - 17 = 30
+REPONSE: 30",51,51,51,51,False
+algebre_validation_0006,algebre,Résous l'équation : x/3 + 16 = 30,42,12,incorrect,False,True,False,False,"On soustrait 16 des deux côtés.
+x/3 = 4
+On multiplie par 3.
+x = 4 * 3 = 12
+REPONSE: 12",12,incorrect,False,True,False,False,"On soustrait 16 des deux côtés.
+x/3 = 4
+On multiplie par 3.
+x = 4 * 3 = 12
+REPONSE: 12",12,incorrect,False,True,False,False,"On soustrait 16 des deux côtés.
+x/3 = 4
+On multiplie par 3.
+x = 4 * 3 = 12
+REPONSE: 12",12,incorrect,False,True,False,False,"On soustrait 16 des deux côtés.
+x/3 = 4
+On multiplie par 3.
+x = 4 * 3 = 12
+REPONSE: 12",46,46,46,46,False
+code_validation_0006,code,"Quel est le résultat de ce programme Python ?
+print(7**2 + 15)",64,29,incorrect,False,True,False,False,"On multiplie 7 par 2 et on ajoute 15.
+print(7*2 + 15) = print(14 + 15) = print(29)
+REPONSE: 29",64,correct,True,True,True,True,"On calcule first.
+7**2 = 49
+49 + 15 = 64
+REPONSE: 64",64,correct,True,True,True,True,"On calcule first.
+7**2 = 49
+49 + 15 = 64
+REPONSE: 64",97,incorrect,False,True,False,False,"On calcule la puissance et la somme.
+Resultat = 97
+REPONSE: 97",50,31,31,25,False
+algebre_validation_0022,algebre,Résous l'équation : 14x + 7 = 301,21,21,correct,True,True,True,True,"On soustrait 7 des deux côtés.
+14x = 294
+On divise par 14.
+x = 21
+REPONSE: 21",,missing,False,False,False,False,"On soustrait 7 des deux côtés.
+14x = 294
+On divise par 14.
+x = 21
+REPONSE
+La solution est x = 21.
+L'erreur était dans la soustraction des termes positives.",21,correct,True,False,False,True,"On soustrait 7 des deux côtés.
+14x = 294
+On divise par 14.
+x = 21
+REPONSE
+La solution est x = 21.",21,correct,True,True,True,True,"On soustrait 7 des deux côtés.
+14x = 301 - 7 = 294
+On divise par 14.
+x = 21
+REPONSE: 21",41,60,47,49,False
+maths_validation_0012,maths,Calcule : 203 + 22,225,225,correct,True,True,True,True,"On ajoute les chiffres de droite à gauche.
+203 + 22 = 225
+REPONSE: 225",225,correct,True,False,False,True,"On ajoute les chiffres.
+203 + 22 = 225
+REPONSE
+La réponse est 225.",225,correct,True,True,True,True,"On additionne des chiffres.
+On obtient 225.
+REPONSE: 225",225,correct,True,True,True,True,"On calcule de la gauche à droite:
+203 + 22 = 225
+REPONSE: 225",33,32,23,31,False
+maths_validation_0010,maths,Calcule : 160 - 149,11,,missing,False,False,False,False,"On soustrait des nombres, on retire l'un de l'autre. REPONSE: 11",11,correct,True,True,True,True,"On soustrait des nombres.
+160 - 149 = 11
+REPONSE: 11",11,correct,True,False,False,True,"On soustrait des nombres.
+160 - 149 = 11
+REPONSE
+11",1,incorrect,False,False,False,False,"On calcule de la droite.
+On ajoute 149.
+REPONSE: 1
+La réponse est 1.",23,27,26,29,False
+algebre_validation_0028,algebre,Résous l'équation : 9(x + 17) = 333,20,20,correct,True,True,True,True,"On divise les deux côtés par 9.
+x + 17 = 37
+On soustrait 17.
+x = 37 - 17 = 20
+REPONSE: 20",20,correct,True,True,True,True,"On divise les deux côtés par 9.
+x + 17 = 37
+On soustrait 17.
+x = 37 - 17 = 20
+REPONSE: 20",20,correct,True,True,True,True,"On divise les deux côtés par 9.
+x + 17 = 37
+On soustrait 17.
+x = 37 - 17 = 20
+REPONSE: 20",20,correct,True,True,True,True,"On divise les deux côtés par 9.
+x + 17 = 37
+On soustrait 17.
+x = 37 - 17 = 20
+REPONSE: 20",50,50,50,50,False
+algebre_validation_0019,algebre,Résous l'équation : x/4 + 8 = 22,56,56,correct,True,True,True,True,"On soustrait 8 des deux côtés.
+x/4 = 14
+On multiplie par 4.
+x = 14 * 4 = 56
+REPONSE: 56",56,correct,True,True,True,True,"On soustrait 8 des deux côtés.
+x/4 = 14
+On multiplie par 4.
+x = 14 * 4 = 56
+REPONSE: 56",56,correct,True,True,True,True,"On soustrait 8 des deux côtés.
+x/4 = 14
+On multiplie par 4.
+x = 14 * 4 = 56
+REPONSE: 56",56,correct,True,True,True,True,"On soustrait 8 des deux côtés.
+x/4 = 14
+On multiplie par 4.
+x = 14 * 4 = 56
+REPONSE: 56",47,47,47,47,False
+algebre_validation_0024,algebre,Résous l'équation : 6(x + 11) = 90,4,4,correct,True,True,True,True,"On divise les deux côtés par 6.
+x + 11 = 15
+On soustrait 11.
+x = 15 - 11 = 4
+REPONSE: 4",4,correct,True,False,False,True,"On divise les deux côtés par 6.
+x + 11 = 15
+On soustrait 11.
+x = 15 - 11 = 4
+REPONSE
+La solution est x = 4.",4,correct,True,True,True,True,"On divise les deux côtés par 6.
+x + 11 = 15
+On soustrait 11.
+x = 15 - 11 = 4
+REPONSE: 4",4,correct,True,True,True,True,"On divise les deux côtés par 6.
+x + 11 = 15
+On soustrait 11.
+x = 15 - 11 = 4
+REPONSE: 4",48,54,48,48,False
+code_validation_0027,code,"Quel est le résultat de ce programme Python ?
+print(len([27, 44, 78, 19, 41, 92, 41, 94, 45]))",9,,missing,False,False,False,False,"Le programme calcule la longueur des listes, qui sont 9+3=12.",10,incorrect,False,True,False,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10",10,incorrect,False,True,False,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10",10,incorrect,False,True,False,False,"La fonction len() retourne le nombre d'éléments.
+La liste contient 10 éléments.
+REPONSE: 10",22,29,29,29,False
+algebre_validation_0005,algebre,Résous l'équation : 4x + 1 = 49,12,12,correct,True,True,True,True,"On soustrait 1 des deux côtés.
+4x = 48
+On divise par 4.
+x = 12
+REPONSE: 12",12,correct,True,False,False,True,"On soustrait 1 des deux côtés.
+4x = 49 - 1 = 48
+On divise par 4.
+x = 12
+REPONSE
+La solution est x = 12.",12,correct,True,False,False,True,"On soustrait 1 des deux côtés.
+4x = 49 - 1 = 48
+On divise par 4.
+x = 12
+REPONSE
+La solution est x = 12.",12,correct,True,True,True,True,"On soustrait 1 des deux côtés.
+4x = 49 - 1 = 48
+On divise par 4.
+x = 12
+REPONSE: 12",38,51,51,45,False
+code_validation_0021,code,"Quel est le résultat de ce programme Python ?
+print(41 // 8)",5,,missing,False,False,False,False,"On divise 41 par 8.
+REPMENLOU: 5
+La division est égale à 5.
+RESPONDE: 5",5,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+41 // 8 = 5
+REPONSE: 5",5,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+41 // 8 = 5
+REPONSE: 5",5,correct,True,True,True,True,"L'opérateur // réalise une division entière.
+41 // 8 = 5
+REPONSE: 5",36,29,29,29,False
+code_validation_0014,code,"Quel est le résultat de ce programme Python ?
+print(6**4 + 7)",1303,35,incorrect,False,True,False,False,"On multiplie 6 par 4 et on ajoute 7.
+print(6*4 + 7) = 28 + 7 = 35
+REPONSE: 35",1303,correct,True,True,True,True,"On calcule d'abord la puissance.
+6**4 = 1296
+On ajoute 7.
+1296 + 7 = 1303
+REPONSE: 1303",1303,correct,True,True,True,True,"On calcule first.
+6**4 = 1296
+Où on ajoute 7.
+1296 + 7 = 1303
+REPONSE: 1303",10007,incorrect,False,True,False,False,"On calcule la puissance et la somme.
+Resultat = 10000 + 7 = 10007
+REPONSE: 10007",44,50,46,41,False
+maths_validation_0019,maths,Calcule : (30 - 3) * 9,243,243,correct,True,True,True,True,"On soustrait 30 des 3.
+On obtient 27.
+On multiplie 27 par 9.
+On obtient 243.
+REPONSE: 243",243,correct,True,True,True,True,"On calcule de droite à gauche.
+(27 * 9) = 243
+REPONSE: 243",243,correct,True,True,True,True,"Lorsde soustraction, on soustrait les degrés.
+30 - 3 = 27
+27 * 9 = 243
+REPONSE: 243",243,correct,True,True,True,True,"On calcule comme suit: (30 - 3) = 27 et 27 * 9 = 243.
+REPONSE: 243",45,30,44,38,False
+code_validation_0003,code,"Quel est le résultat de ce programme Python ?
+print(7**4 + 14)",2415,,missing,False,False,False,False,"On multiplie 7 par 4 et on ajoute 14.
+ONREPSONSE: 56",2415,correct,True,True,True,True,"On calcule d'abord la puissance.
+7**4 = 2401
+On ajoute 14.
+2401 + 14 = 2415
+REPONSE: 2415",2415,correct,True,True,True,True,"On calcule first.
+7**4 = 2401
+Ou +14 = 2401 + 14 = 2415
+REPONSE: 2415",205,incorrect,False,True,False,False,"On calcule la puissance et la somme.
+La réponse est 205.
+REPONSE: 205",26,52,46,27,False

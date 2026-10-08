@@ -1,0 +1,125 @@
+{
+  "no_replay": {
+    "acquisition_accuracy": {
+      "maths_appliques": 0.46,
+      "algebre_avancee": 0.18,
+      "maths_competition": 0.12,
+      "programmation": 0.24444444444444444
+    },
+    "final_accuracy": {
+      "maths_appliques": 0.47333333333333333,
+      "algebre_avancee": 0.15,
+      "maths_competition": 0.08,
+      "programmation": 0.24444444444444444
+    },
+    "forgetting_final": {
+      "maths_appliques": 0.0,
+      "algebre_avancee": 0.03,
+      "maths_competition": 0.039999999999999994,
+      "programmation": 0.0
+    },
+    "retention_ratio": {
+      "maths_appliques": 1.0289855072463767,
+      "algebre_avancee": 0.8333333333333334,
+      "maths_competition": 0.6666666666666667,
+      "programmation": 1.0
+    },
+    "backward_transfer": {
+      "maths_appliques": 0.013333333333333308,
+      "algebre_avancee": -0.03,
+      "maths_competition": -0.039999999999999994,
+      "programmation": 0.0
+    },
+    "average_accuracy_by_stage": {
+      "0": 0.46,
+      "1": 0.32666666666666666,
+      "2": 0.2555555555555556,
+      "3": 0.23694444444444443
+    },
+    "final_average_accuracy": 0.23694444444444443,
+    "average_forgetting_final_old_domains": 0.02333333333333333,
+    "average_backward_transfer_old_domains": -0.018888888888888896
+  },
+  "fixed_replay": {
+    "acquisition_accuracy": {
+      "maths_appliques": 0.46,
+      "algebre_avancee": 0.17,
+      "maths_competition": 0.13,
+      "programmation": 0.2222222222222222
+    },
+    "final_accuracy": {
+      "maths_appliques": 0.48,
+      "algebre_avancee": 0.17,
+      "maths_competition": 0.17,
+      "programmation": 0.2222222222222222
+    },
+    "forgetting_final": {
+      "maths_appliques": 0.0,
+      "algebre_avancee": 0.0,
+      "maths_competition": 0.0,
+      "programmation": 0.0
+    },
+    "retention_ratio": {
+      "maths_appliques": 1.0434782608695652,
+      "algebre_avancee": 1.0,
+      "maths_competition": 1.3076923076923077,
+      "programmation": 1.0
+    },
+    "backward_transfer": {
+      "maths_appliques": 0.019999999999999962,
+      "algebre_avancee": 0.0,
+      "maths_competition": 0.04000000000000001,
+      "programmation": 0.0
+    },
+    "average_accuracy_by_stage": {
+      "0": 0.46,
+      "1": 0.31166666666666665,
+      "2": 0.2511111111111111,
+      "3": 0.26055555555555554
+    },
+    "final_average_accuracy": 0.26055555555555554,
+    "average_forgetting_final_old_domains": 0.0,
+    "average_backward_transfer_old_domains": 0.01999999999999999
+  },
+  "adaptive_replay": {
+    "acquisition_accuracy": {
+      "maths_appliques": 0.46,
+      "algebre_avancee": 0.17,
+      "maths_competition": 0.14,
+      "programmation": 0.0
+    },
+    "final_accuracy": {
+      "maths_appliques": 0.4666666666666667,
+      "algebre_avancee": 0.17,
+      "maths_competition": 0.12,
+      "programmation": 0.0
+    },
+    "forgetting_final": {
+      "maths_appliques": 0.0,
+      "algebre_avancee": 0.009999999999999981,
+      "maths_competition": 0.020000000000000018,
+      "programmation": 0.0
+    },
+    "retention_ratio": {
+      "maths_appliques": 1.0144927536231885,
+      "algebre_avancee": 1.0,
+      "maths_competition": 0.857142857142857,
+      "programmation": null
+    },
+    "backward_transfer": {
+      "maths_appliques": 0.006666666666666654,
+      "algebre_avancee": 0.0,
+      "maths_competition": -0.020000000000000018,
+      "programmation": 0.0
+    },
+    "average_accuracy_by_stage": {
+      "0": 0.46,
+      "1": 0.31833333333333336,
+      "2": 0.2577777777777778,
+      "3": 0.18916666666666668
+    },
+    "final_average_accuracy": 0.18916666666666668,
+    "average_forgetting_final_old_domains": 0.01,
+    "average_backward_transfer_old_domains": -0.004444444444444455
+  }
+}

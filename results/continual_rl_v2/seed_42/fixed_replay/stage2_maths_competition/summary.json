@@ -1,0 +1,41 @@
+{
+  "total": 350,
+  "correct": 98,
+  "micro_accuracy": 0.28,
+  "average_domain_accuracy": 0.2511111111111111,
+  "domains": {
+    "maths_appliques": {
+      "total": 150,
+      "correct": 68,
+      "accuracy": 0.4533333333333333,
+      "truncated": 0,
+      "statuses": {
+        "correct": 68,
+        "incorrect": 75,
+        "no_final_answer": 7
+      }
+    },
+    "algebre_avancee": {
+      "total": 100,
+      "correct": 17,
+      "accuracy": 0.17,
+      "truncated": 22,
+      "statuses": {
+        "incorrect": 59,
+        "no_final_answer": 24,
+        "correct": 17
+      }
+    },
+    "maths_competition": {
+      "total": 100,
+      "correct": 13,
+      "accuracy": 0.13,
+      "truncated": 13,
+      "statuses": {
+        "no_final_answer": 14,
+        "incorrect": 73,
+        "correct": 13
+      }
+    }
+  }
+}

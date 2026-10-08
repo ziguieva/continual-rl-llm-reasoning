@@ -1,0 +1,51 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "adapter": "/Users/evanszigui/Desktop/continual-rl-llm/models/grpo_maths_v2",
+    "domain": "all",
+    "domains": {
+        "maths": {
+            "questions": 30,
+            "base_accuracy": 46.67,
+            "grpo_accuracy": 60.0,
+            "accuracy_delta": 13.33,
+            "improved": 5,
+            "regressed": 1,
+            "changed_responses": 13,
+            "base_tokens": 201,
+            "grpo_tokens": 225
+        },
+        "algebre": {
+            "questions": 30,
+            "base_accuracy": 0.0,
+            "grpo_accuracy": 0.0,
+            "accuracy_delta": 0.0,
+            "improved": 0,
+            "regressed": 0,
+            "changed_responses": 15,
+            "base_tokens": 207,
+            "grpo_tokens": 279
+        },
+        "code": {
+            "questions": 30,
+            "base_accuracy": 13.33,
+            "grpo_accuracy": 26.67,
+            "accuracy_delta": 13.33,
+            "improved": 4,
+            "regressed": 0,
+            "changed_responses": 20,
+            "base_tokens": 128,
+            "grpo_tokens": 204
+        }
+    },
+    "global": {
+        "questions": 90,
+        "base_accuracy": 20.0,
+        "grpo_accuracy": 28.89,
+        "accuracy_delta": 8.89,
+        "improved": 9,
+        "regressed": 1,
+        "changed_responses": 48,
+        "base_tokens": 536,
+        "grpo_tokens": 708
+    }
+}

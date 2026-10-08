@@ -1,0 +1,73 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "m1": "/Users/evanszigui/Desktop/continual-rl-llm/models/grpo_maths_v2",
+    "m2": "/Users/evanszigui/Desktop/continual-rl-llm/models/grpo_maths_v2_then_algebra_sft",
+    "dataset": "validation",
+    "domains": {
+        "maths": {
+            "questions": 30,
+            "m1_correct": 17,
+            "m2_correct": 23,
+            "m1_accuracy": 56.67,
+            "m2_accuracy": 76.67,
+            "accuracy_delta": 20.0,
+            "improved": 9,
+            "regressed": 3,
+            "m1_contradictions": 0,
+            "m2_contradictions": 0,
+            "m1_end_to_end": 16,
+            "m2_end_to_end": 20,
+            "m1_tokens": 229,
+            "m2_tokens": 1013
+        },
+        "algebre": {
+            "questions": 30,
+            "m1_correct": 2,
+            "m2_correct": 27,
+            "m1_accuracy": 6.67,
+            "m2_accuracy": 90.0,
+            "accuracy_delta": 83.33,
+            "improved": 25,
+            "regressed": 0,
+            "m1_contradictions": 23,
+            "m2_contradictions": 0,
+            "m1_end_to_end": 0,
+            "m2_end_to_end": 27,
+            "m1_tokens": 4075,
+            "m2_tokens": 1402
+        },
+        "code": {
+            "questions": 30,
+            "m1_correct": 6,
+            "m2_correct": 6,
+            "m1_accuracy": 20.0,
+            "m2_accuracy": 20.0,
+            "accuracy_delta": 0.0,
+            "improved": 2,
+            "regressed": 2,
+            "m1_contradictions": 1,
+            "m2_contradictions": 0,
+            "m1_end_to_end": 1,
+            "m2_end_to_end": 5,
+            "m1_tokens": 360,
+            "m2_tokens": 926
+        }
+    },
+    "global": {
+        "questions": 90,
+        "m1_correct": 25,
+        "m2_correct": 56,
+        "m1_accuracy": 27.78,
+        "m2_accuracy": 62.22,
+        "accuracy_delta": 34.44,
+        "improved": 36,
+        "regressed": 5,
+        "m1_contradictions": 24,
+        "m2_contradictions": 0,
+        "m1_end_to_end": 17,
+        "m2_end_to_end": 52,
+        "m1_tokens": 4664,
+        "m2_tokens": 3341
+    },
+    "maths_forgetting_points": 0.0
+}

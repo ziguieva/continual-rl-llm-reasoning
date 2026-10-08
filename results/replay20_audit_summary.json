@@ -1,0 +1,174 @@
+{
+    "source": "/Users/evanszigui/Desktop/continual-rl-llm/results/continual_replay20_comparison.csv",
+    "domains": {
+        "maths": {
+            "models": {
+                "m2": {
+                    "total": 30,
+                    "correct": 23,
+                    "accuracy": 76.67,
+                    "exact_and_formatted": 20,
+                    "contradictions": 0
+                },
+                "m3": {
+                    "total": 30,
+                    "correct": 26,
+                    "accuracy": 86.67,
+                    "exact_and_formatted": 21,
+                    "contradictions": 0
+                },
+                "m3r": {
+                    "total": 30,
+                    "correct": 25,
+                    "accuracy": 83.33,
+                    "exact_and_formatted": 25,
+                    "contradictions": 0
+                }
+            },
+            "m2_to_m3r": {
+                "improved": 4,
+                "regressed": 2,
+                "net_gain": 2,
+                "mcnemar_exact_p": 0.6875
+            },
+            "m3_to_m3r": {
+                "improved": 2,
+                "regressed": 3,
+                "net_gain": -1,
+                "mcnemar_exact_p": 1.0
+            }
+        },
+        "algebre": {
+            "models": {
+                "m2": {
+                    "total": 30,
+                    "correct": 27,
+                    "accuracy": 90.0,
+                    "exact_and_formatted": 27,
+                    "contradictions": 0
+                },
+                "m3": {
+                    "total": 30,
+                    "correct": 22,
+                    "accuracy": 73.33,
+                    "exact_and_formatted": 17,
+                    "contradictions": 0
+                },
+                "m3r": {
+                    "total": 30,
+                    "correct": 27,
+                    "accuracy": 90.0,
+                    "exact_and_formatted": 27,
+                    "contradictions": 0
+                }
+            },
+            "m2_to_m3r": {
+                "improved": 0,
+                "regressed": 0,
+                "net_gain": 0,
+                "mcnemar_exact_p": 1.0
+            },
+            "m3_to_m3r": {
+                "improved": 5,
+                "regressed": 0,
+                "net_gain": 5,
+                "mcnemar_exact_p": 0.0625
+            }
+        },
+        "code": {
+            "models": {
+                "m2": {
+                    "total": 30,
+                    "correct": 6,
+                    "accuracy": 20.0,
+                    "exact_and_formatted": 5,
+                    "contradictions": 0
+                },
+                "m3": {
+                    "total": 30,
+                    "correct": 17,
+                    "accuracy": 56.67,
+                    "exact_and_formatted": 17,
+                    "contradictions": 0
+                },
+                "m3r": {
+                    "total": 30,
+                    "correct": 14,
+                    "accuracy": 46.67,
+                    "exact_and_formatted": 14,
+                    "contradictions": 0
+                }
+            },
+            "m2_to_m3r": {
+                "improved": 8,
+                "regressed": 0,
+                "net_gain": 8,
+                "mcnemar_exact_p": 0.0078125
+            },
+            "m3_to_m3r": {
+                "improved": 1,
+                "regressed": 4,
+                "net_gain": -3,
+                "mcnemar_exact_p": 0.375
+            }
+        }
+    },
+    "global": {
+        "models": {
+            "m2": {
+                "total": 90,
+                "correct": 56,
+                "accuracy": 62.22,
+                "exact_and_formatted": 52,
+                "contradictions": 0
+            },
+            "m3": {
+                "total": 90,
+                "correct": 65,
+                "accuracy": 72.22,
+                "exact_and_formatted": 55,
+                "contradictions": 0
+            },
+            "m3r": {
+                "total": 90,
+                "correct": 66,
+                "accuracy": 73.33,
+                "exact_and_formatted": 66,
+                "contradictions": 0
+            }
+        },
+        "m2_to_m3r": {
+            "improved": 12,
+            "regressed": 2,
+            "net_gain": 10,
+            "mcnemar_exact_p": 0.012939453125
+        },
+        "m3_to_m3r": {
+            "improved": 8,
+            "regressed": 7,
+            "net_gain": 1,
+            "mcnemar_exact_p": 1.0
+        }
+    },
+    "changed_ids": {
+        "improved": [
+            "maths_validation_0023",
+            "algebre_validation_0004",
+            "algebre_validation_0009",
+            "maths_validation_0003",
+            "algebre_validation_0014",
+            "code_validation_0028",
+            "algebre_validation_0002",
+            "algebre_validation_0022"
+        ],
+        "regressed": [
+            "code_validation_0001",
+            "maths_validation_0020",
+            "maths_validation_0007",
+            "code_validation_0006",
+            "maths_validation_0010",
+            "code_validation_0014",
+            "code_validation_0003"
+        ]
+    }
+}
